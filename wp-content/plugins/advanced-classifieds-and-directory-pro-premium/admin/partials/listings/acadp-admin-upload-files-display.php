@@ -281,7 +281,7 @@
 		document.getElementById("loading").innerHTML = '<div class="acadp-spinner"></div>';
 		
 		//Mel: 06/04/22
-		//https://liframpro.test/api/v1/json/create/?title=johndoe&content=helloworld&api_key=E7153EBFAA45C7EFE1706472039B3D21
+		//https://liframpro.test/api/v1/json/create/?title=johndoe&content=helloworld&api_key=xxxxxxxxxx
 		const fullName = document.getElementById('title').value;
 		const bio = document.getElementById('content').value;
 		const country = '<?php echo $country[0]->name; ?>';
@@ -313,7 +313,7 @@
 					"&state=" + encodeURIComponent(state) +
 					"&country=" + encodeURIComponent(country) +
 					"&imagefilename=" + encodeURIComponent(imageFilename) +
-					"&apikey=E7153EBFAA45C7EFE1706472039B3D21",
+					"&apikey=xxxxxxxxxxxxxx",
 			success: (data) => {
 				const jsonFileUrl = data.url;
 				const jsonFilename = data.url.replace(/^.*[\\\/]/, '');
@@ -344,7 +344,7 @@
 								enctype: 'multipart/form-data',
 								url: "https://api.nft.storage/upload",
 								beforeSend: function(xhr) {
-									xhr.setRequestHeader("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGM5RTM5RDM4RDA0NjI0MTIzMTA2MzgyMjUzMjE2M0EwODM1ZjA5MUIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYzNjcxNTg3OTMxOCwibmFtZSI6ImV0ZXJuaWFsc19oYWNrIn0.IxRDv78NEch7JRw49k_5Ww5wydnzKsYjDJk56iDeJG4")
+									xhr.setRequestHeader("Authorization", "Bearer xxxxxxxxxxxxxxxxxxxx")
 								},
 								data: fd,
 								processData: false,
@@ -363,7 +363,7 @@
 										url: window.location.origin + "/api/v1/json/delete/",
 										data: "jsonfile=" +
 												encodeURIComponent(jsonFilename) +
-												"&apikey=E7153EBFAA45C7EFE1706472039B3D21",
+												"&apikey=xxxxxxxxxxx",
 										success: (data) => {
 											//Mel: 04/04/22. No need to display the response for now.
 											//document.getElementById("loading").innerHTML += ". " + data;	
@@ -419,7 +419,7 @@
 			type: 'POST',
 			url: 'https://api.nft.storage/upload',
 			beforeSend: function(xhr) {
-				xhr.setRequestHeader("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGM5RTM5RDM4RDA0NjI0MTIzMTA2MzgyMjUzMjE2M0EwODM1ZjA5MUIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYzNjcxNTg3OTMxOCwibmFtZSI6ImV0ZXJuaWFsc19oYWNrIn0.IxRDv78NEch7JRw49k_5Ww5wydnzKsYjDJk56iDeJG4")
+				xhr.setRequestHeader("Authorization", "Bearer xxxxxxxxxxxxxx")
 			},
 			contentType: "application/json",
 			cache: false,
