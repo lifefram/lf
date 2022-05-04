@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.3\n"
+"Language-Team: \n"
+"Last-Translator: \n"
+"Language: ja\n"
+
+#: customize.php
+msgid "Sidebar Search Form"
+msgstr "サイドバー検索フォーム"
+
+msgid "Show Sidebar Search Form"
+msgstr "サイドバー検索フォームを表示"
+
+msgid "Show Search Form"
+msgstr "検索フォームを表示"
+
+msgid "Social Media Settings"
+msgstr "ソーシャルメディア設定"
+
+msgid "Add Your Page ( Full URL )"
+msgstr "ページを追加する ( 完全な URL )"
+
+msgid "Show Social Media"
+msgstr "ソーシャルメディアを表示する"
+
+#: template-tags.php
+msgid "in"
+msgstr "イン"
+
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: navigation.php
+msgid "Previous Post"
+msgstr "前の投稿"
+
+msgid "Next Post"
+msgstr "次の投稿"
+
+#: simple-content.php
+msgid "Read More"
+msgstr "続きを読む"
+
+#: singular-content.php
+msgid "Tags"
+msgstr "タグ"
+
+#: 404.php
+msgid "Page Not Found"
+msgstr "ページが見つかりません"
+
+msgid ""
+"The page you were looking for could not be found. It might have been "
+"removed, renamed, or did not exist in the first place."
+msgstr ""
+"お探しのページが見つかりませんでした。 削除されたか、名前が変更された"
+"か、そもそも存在しなかった可能性があります。"
+
+msgid "Search ..."
+msgstr "探す ..."
+
+#: comments.php
+msgid "1 Comment"
+msgstr "1つのコメント"
+
+msgid "Comments"
+msgstr "コメント"
+
+#: footer.php
+msgid "Powered by WordPress"
+msgstr "WordPressを搭載"
+
+msgid "Whiteboard Theme"
+msgstr "ホワイトボード"
+
+#: functions.php
+msgid "Main Sidebar"
+msgstr "メインサイドバー"
+
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: header.php
+msgid "Skip to content"
+msgstr "コンテンツにスキップ"
+
+#: header.php
+msgid "Does not match any results!"
+msgstr "どの結果とも一致しません！"
+
+msgid "Not Found"
+msgstr "見つかりません"

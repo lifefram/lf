@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.3\n"
+"Language-Team: \n"
+"Last-Translator: \n"
+"Language: pl_PL\n"
+
+#: customize.php
+msgid "Sidebar Search Form"
+msgstr "Formularz wyszukiwania paska bocznego"
+
+msgid "Show Sidebar Search Form"
+msgstr "Pokaż formularz wyszukiwania paska bocznego"
+
+msgid "Show Search Form"
+msgstr "Pokaż formularz wyszukiwania"
+
+msgid "Social Media Settings"
+msgstr "Ustawienia social media"
+
+msgid "Add Your Page ( Full URL )"
+msgstr "Dodaj swoją stronę (pełny adres URL)"
+
+msgid "Show Social Media"
+msgstr "pokaż social media"
+
+#: template-tags.php
+msgid "in"
+msgstr "w"
+
+msgid "Categories"
+msgstr "Kategorie"
+
+#: navigation.php
+msgid "Previous Post"
+msgstr "Poprzedni wpis"
+
+msgid "Next Post"
+msgstr "Następny wpis"
+
+#: simple-content.php
+msgid "Read More"
+msgstr "Czytaj więcej"
+
+#: singular-content.php
+msgid "Tags"
+msgstr "tagi"
+
+#: 404.php
+msgid "Page Not Found"
+msgstr "Strona nie znaleziona"
+
+msgid ""
+"The page you were looking for could not be found. It might have been "
+"removed, renamed, or did not exist in the first place."
+msgstr ""
+"Nie można znaleźć strony, której szukasz. Mogła zostać usunięta, "
+"zmieniona nazwa lub w ogóle nie istniała. "
+
+msgid "Search ..."
+msgstr "szukaj ..."
+
+#: comments.php
+msgid "1 Comment"
+msgstr "1 komentarz"
+
+msgid "Comments"
+msgstr "komentarze"
+
+#: footer.php
+msgid "Powered by WordPress"
+msgstr "Zasilany przez wordpress"
+
+msgid "Whiteboard Theme"
+msgstr "Biała tablica Theme"
+
+#: functions.php
+msgid "Main Sidebar"
+msgstr "Główny pasek boczny"
+
+msgid "Primary Menu"
+msgstr "Menu Główne"
+
+#: header.php
+msgid "Skip to content"
+msgstr "Pomiń treść"
+
+#: header.php
+msgid "Does not match any results!"
+msgstr "Nie pasuje do żadnych wyników!"
+
+msgid "Not Found"
+msgstr "Nie znaleziono"

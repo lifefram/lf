@@ -1,0 +1,77 @@
+/* Page navigation */
+
+.nav-links
+  position: relative
+  width: 100%
+  display: flex
+  //justify-content: center
+  padding: 1rem 0
+
+
+.post-page-numbers,
+.page-numbers
+  white-space: nowrap
+  color: $text
+  min-width: 2.5em
+  font-size: 1em
+  margin: 0.25rem
+  text-align: center
+  webkit-appearance: none
+  align-items: center
+  border: 1px solid $primary
+  border-radius: 4px
+  box-shadow: none
+  display: inline-flex
+  height: 2.5em
+  justify-content: center
+  line-height: 1.5
+  padding: calc(0.5em - 1px) calc(0.75em - 1px)
+  vertical-align: top
+
+.post-page-numbers:hover,
+.page-numbers:hover
+  border-color: $primary
+  color: #ffffff
+  background-color: $primary
+
+
+.post-page-numbers.current,
+.page-numbers.current
+  background-color: $primary
+  border-color: $primary
+  color: #ffffff
+
+
+.page-numbers.dots
+  border-color: transparent
+  color: $text
+  pointer-events: none
+
+
+.nav-links .prev
+  order: 1
+  margin-left: auto
+
+
+.nav-links .next
+  order: 2
+  margin-left: auto
+
+.nav-links .prev ~ .next
+  margin-left: 0
+
+.comments-pagination
+  margin-top: 50px
+
+
+.comments-pagination .page-numbers
+  font-size: 0.75rem
+
+@media screen and (max-width: 1024px)
+  .footer .columns
+    margin: 0
+
+@media screen and (max-width: 560px)
+  .nav-links .prev,
+  .nav-links .next
+    display: none

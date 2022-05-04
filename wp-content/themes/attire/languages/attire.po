@@ -1,0 +1,1055 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-09-27 08:34+0600\n"
+"PO-Revision-Date: 2021-09-27 08:34+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+
+#: 404.php:26
+msgid "404 - PAGE  NOT FOUND!"
+msgstr ""
+
+#: 404.php:28
+msgid ""
+"Nothing found here! Please use navigation above or search to find what you "
+"are looking for."
+msgstr ""
+
+#: admin/ThemeEngine.class.php:960
+msgid "Search results for"
+msgstr ""
+
+#: admin/customizer-config.php:14
+msgid "General Settings"
+msgstr ""
+
+#: admin/customizer-config.php:19
+msgid "Sidebar Layouts"
+msgstr ""
+
+#: admin/customizer-config.php:24
+msgid "Typography"
+msgstr ""
+
+#: admin/customizer-config.php:29
+msgid "Attire Colors"
+msgstr ""
+
+#: admin/customizer-config.php:37
+msgid "Support/Review"
+msgstr ""
+
+#: admin/customizer-config.php:42
+msgid "Header"
+msgstr ""
+
+#: admin/customizer-config.php:48
+msgid "Blog"
+msgstr ""
+
+#: admin/customizer-config.php:53
+msgid "Footer"
+msgstr ""
+
+#: admin/customizer-config.php:59
+msgid "Main Menu"
+msgstr ""
+
+#: admin/customizer-config.php:65 libs/Attire.class.php:157
+msgid "Footer Menu"
+msgstr ""
+
+#: admin/customizer-config.php:71
+msgid "Body"
+msgstr ""
+
+#: admin/customizer-config.php:77
+msgid "Sidebar Widget"
+msgstr ""
+
+#: admin/customizer-config.php:83
+msgid "Footer Widget"
+msgstr ""
+
+#: admin/customizer-config.php:89
+msgid "Header Style"
+msgstr ""
+
+#: admin/customizer-config.php:95 admin/customizer-config.php:606
+msgid "Footer Style"
+msgstr ""
+
+#: admin/customizer-config.php:101
+msgid "Logo"
+msgstr ""
+
+#: admin/customizer-config.php:107 admin/customizer-config.php:459
+msgid "Footer Widgets"
+msgstr ""
+
+#: admin/customizer-config.php:113
+msgid "Site Header"
+msgstr ""
+
+#: admin/customizer-config.php:119
+msgid "Back To Top"
+msgstr ""
+
+#: admin/customizer-config.php:125 admin/customizer-config.php:402
+msgid "Site Layout"
+msgstr ""
+
+#: admin/customizer-config.php:130
+msgid "Social Networks"
+msgstr ""
+
+#: admin/customizer-config.php:136
+msgid "Contact Info"
+msgstr ""
+
+#: admin/customizer-config.php:142 admin/customizer-config.php:1633
+msgid "Copyright Info"
+msgstr ""
+
+#: admin/customizer-config.php:148
+msgid "Blog Page Layout"
+msgstr ""
+
+#: admin/customizer-config.php:154
+msgid "Default Post Layout"
+msgstr ""
+
+#: admin/customizer-config.php:160
+msgid "Default Page Layout"
+msgstr ""
+
+#: admin/customizer-config.php:166
+msgid "Archive Page Layout"
+msgstr ""
+
+#: admin/customizer-config.php:172
+msgid "Generic Fonts"
+msgstr ""
+
+#: admin/customizer-config.php:178
+msgid "Post Fonts"
+msgstr ""
+
+#: admin/customizer-config.php:184
+msgid "Widget Fonts"
+msgstr ""
+
+#: admin/customizer-config.php:190
+msgid "Menu Fonts"
+msgstr ""
+
+#: admin/customizer-config.php:199
+msgid "Post sort by"
+msgstr ""
+
+#: admin/customizer-config.php:205
+msgid "Date, asc."
+msgstr ""
+
+#: admin/customizer-config.php:206
+msgid "Date, desc."
+msgstr ""
+
+#: admin/customizer-config.php:207
+msgid "Updated, asc."
+msgstr ""
+
+#: admin/customizer-config.php:208
+msgid "Updated, desc."
+msgstr ""
+
+#: admin/customizer-config.php:209
+msgid "Title, asc."
+msgstr ""
+
+#: admin/customizer-config.php:210
+msgid "Title, desc."
+msgstr ""
+
+#: admin/customizer-config.php:214
+msgid "Archive Page Post View"
+msgstr ""
+
+#: admin/customizer-config.php:220
+msgid "Show content"
+msgstr ""
+
+#: admin/customizer-config.php:221
+msgid "Show excerpt"
+msgstr ""
+
+#: admin/customizer-config.php:225
+msgid "Read More Text"
+msgstr ""
+
+#: admin/customizer-config.php:229
+msgid "Read more"
+msgstr ""
+
+#: admin/customizer-config.php:232
+msgid "Previous/Next Post Button"
+msgstr ""
+
+#: admin/customizer-config.php:238 admin/customizer-config.php:260
+#: admin/customizer-config.php:489 admin/customizer-config.php:513
+#: admin/customizer-config.php:1645 admin/metaboxes/attire-page-options.php:39
+msgid "Show"
+msgstr ""
+
+#: admin/customizer-config.php:239 admin/customizer-config.php:261
+#: admin/customizer-config.php:490 admin/customizer-config.php:514
+#: admin/customizer-config.php:1645 admin/metaboxes/attire-page-options.php:40
+msgid "Hide"
+msgstr ""
+
+#: admin/customizer-config.php:243
+msgid "Post Meta Bar Position"
+msgstr ""
+
+#: admin/customizer-config.php:249
+msgid "After Post Content"
+msgstr ""
+
+#: admin/customizer-config.php:250
+msgid "After Post Title"
+msgstr ""
+
+#: admin/customizer-config.php:254
+msgid "Post Author Box"
+msgstr ""
+
+#: admin/customizer-config.php:265
+msgid "Comment Button Size"
+msgstr ""
+
+#: admin/customizer-config.php:271
+msgid "Small"
+msgstr ""
+
+#: admin/customizer-config.php:272
+msgid "Medium"
+msgstr ""
+
+#: admin/customizer-config.php:273
+msgid "Large"
+msgstr ""
+
+#: admin/customizer-config.php:277
+msgid "Posts in a row"
+msgstr ""
+
+#: admin/customizer-config.php:291
+msgid "Header Background Left"
+msgstr ""
+
+#: admin/customizer-config.php:298
+msgid "Header Background Right"
+msgstr ""
+
+#: admin/customizer-config.php:305
+msgid "Header BG Gradient Angle"
+msgstr ""
+
+#: admin/customizer-config.php:317 admin/customizer-config.php:341
+msgid "Site Title"
+msgstr ""
+
+#: admin/customizer-config.php:325
+msgid "Site Description"
+msgstr ""
+
+#: admin/customizer-config.php:334
+msgid "Footer Background"
+msgstr ""
+
+#: admin/customizer-config.php:350
+msgid "Site Logo Height"
+msgstr ""
+
+#: admin/customizer-config.php:362
+msgid "Footer Logo"
+msgstr ""
+
+#: admin/customizer-config.php:369
+msgid "Footer Logo Height"
+msgstr ""
+
+#: admin/customizer-config.php:381
+msgid "Mobile Menu Logo"
+msgstr ""
+
+#: admin/customizer-config.php:388
+msgid "Mobile Menu Logo Height"
+msgstr ""
+
+#: admin/customizer-config.php:408
+msgid "Full Width"
+msgstr ""
+
+#: admin/customizer-config.php:409
+msgid "Fixed Width"
+msgstr ""
+
+#: admin/customizer-config.php:413
+msgid "Site Layout ( Fixed ) Width"
+msgstr ""
+
+#: admin/customizer-config.php:425
+msgid "Container Width"
+msgstr ""
+
+#: admin/customizer-config.php:437
+msgid "Header Content"
+msgstr ""
+
+#: admin/customizer-config.php:443 admin/customizer-config.php:454
+#: admin/customizer-config.php:465 admin/customizer-config.php:476
+#: libs/MetaBoxes.class.php:90
+msgid "Full-Width"
+msgstr ""
+
+#: admin/customizer-config.php:444 admin/customizer-config.php:455
+#: admin/customizer-config.php:466 admin/customizer-config.php:477
+#: libs/MetaBoxes.class.php:91
+msgid "Container"
+msgstr ""
+
+#: admin/customizer-config.php:448
+msgid "Body Content"
+msgstr ""
+
+#: admin/customizer-config.php:470
+msgid "Footer Content"
+msgstr ""
+
+#: admin/customizer-config.php:483
+msgid "Search Form Visibility"
+msgstr ""
+
+#: admin/customizer-config.php:494
+msgid "Navigation Menu Behavior"
+msgstr ""
+
+#: admin/customizer-config.php:500
+msgid "Sticky"
+msgstr ""
+
+#: admin/customizer-config.php:501
+msgid "Static"
+msgstr ""
+
+#: admin/customizer-config.php:507
+msgid "Back To Top Button Visibility"
+msgstr ""
+
+#: admin/customizer-config.php:518
+msgid "Back To Top Button Location"
+msgstr ""
+
+#: admin/customizer-config.php:524 admin/customizer-config.php:1704
+msgid "Right"
+msgstr ""
+
+#: admin/customizer-config.php:525 admin/customizer-config.php:1703
+msgid "Left"
+msgstr ""
+
+#: admin/customizer-config.php:532
+msgid "Number of Footer Widget Area"
+msgstr ""
+
+#: admin/customizer-config.php:549
+msgid "Navigation Style"
+msgstr ""
+
+#: admin/customizer-config.php:557
+msgid "Default Navigation Header"
+msgstr ""
+
+#: admin/customizer-config.php:562
+msgid "Compact Navigation Header"
+msgstr ""
+
+#: admin/customizer-config.php:567
+msgid "Narrow Navigation Header"
+msgstr ""
+
+#: admin/customizer-config.php:572
+msgid "Centered Navigation Header"
+msgstr ""
+
+#: admin/customizer-config.php:577
+msgid "Extended Navigation Header"
+msgstr ""
+
+#: admin/customizer-config.php:582
+msgid "Transparent Navigation Header"
+msgstr ""
+
+#: admin/customizer-config.php:588
+msgid "Dropdown Menu Animation"
+msgstr ""
+
+#: admin/customizer-config.php:594
+msgid "No Animation"
+msgstr ""
+
+#: admin/customizer-config.php:595
+msgid "Fade In"
+msgstr ""
+
+#: admin/customizer-config.php:596
+msgid "Swing In"
+msgstr ""
+
+#: admin/customizer-config.php:597
+msgid "Slide In"
+msgstr ""
+
+#: admin/customizer-config.php:598
+msgid "Scale In"
+msgstr ""
+
+#: admin/customizer-config.php:599
+msgid "Blur In"
+msgstr ""
+
+#: admin/customizer-config.php:600
+msgid "Puff In"
+msgstr ""
+
+#: admin/customizer-config.php:614 admin/metaboxes/attire-page-options.php:27
+msgid "Narrow"
+msgstr ""
+
+#: admin/customizer-config.php:619
+msgid "Large Centered"
+msgstr ""
+
+#: admin/customizer-config.php:624
+msgid "Large Left"
+msgstr ""
+
+#: admin/customizer-config.php:629
+msgid "Large Right"
+msgstr ""
+
+#: admin/customizer-config.php:637 admin/customizer-config.php:695
+msgid "Text Color"
+msgstr ""
+
+#: admin/customizer-config.php:644 admin/customizer-config.php:702
+#: admin/customizer-config.php:746 admin/customizer-config.php:811
+#: admin/customizer-config.php:834
+msgid "Background Color"
+msgstr ""
+
+#: admin/customizer-config.php:651 admin/customizer-config.php:709
+msgid "Hover/Active Background Color"
+msgstr ""
+
+#: admin/customizer-config.php:658 admin/customizer-config.php:716
+msgid "Hover/Active Text Color"
+msgstr ""
+
+#: admin/customizer-config.php:665
+msgid "Dropdown Beackground Color"
+msgstr ""
+
+#: admin/customizer-config.php:672 admin/customizer-config.php:723
+msgid "Dropdown Text Color"
+msgstr ""
+
+#: admin/customizer-config.php:679 admin/customizer-config.php:730
+msgid "Dropdown Hover Background Color"
+msgstr ""
+
+#: admin/customizer-config.php:686 admin/customizer-config.php:737
+msgid "Dropdown Hover Text Color"
+msgstr ""
+
+#: admin/customizer-config.php:753
+msgid "Link Color"
+msgstr ""
+
+#: admin/customizer-config.php:760
+msgid "Link Hover Color"
+msgstr ""
+
+#: admin/customizer-config.php:767
+msgid "Heading Text Color"
+msgstr ""
+
+#: admin/customizer-config.php:774
+msgid "Regular Text Color"
+msgstr ""
+
+#: admin/customizer-config.php:781
+msgid "Comment Button Color"
+msgstr ""
+
+#: admin/customizer-config.php:788
+msgid "Comment Button Text Color"
+msgstr ""
+
+#: admin/customizer-config.php:797 admin/customizer-config.php:820
+msgid "Title Color"
+msgstr ""
+
+#: admin/customizer-config.php:804 admin/customizer-config.php:827
+msgid "Content Color"
+msgstr ""
+
+#: admin/customizer-config.php:844 admin/customizer-config.php:892
+#: admin/customizer-config.php:939 admin/customizer-config.php:987
+#: libs/MetaBoxes.class.php:37
+msgid "Sidebar Layout"
+msgstr ""
+
+#: admin/customizer-config.php:851 admin/customizer-config.php:899
+#: admin/customizer-config.php:946 admin/customizer-config.php:994
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/customizer-config.php:858 admin/customizer-config.php:906
+#: admin/customizer-config.php:953 admin/customizer-config.php:1001
+msgid "Left Sidebar Width"
+msgstr ""
+
+#: admin/customizer-config.php:864 admin/customizer-config.php:883
+#: admin/customizer-config.php:912 admin/customizer-config.php:931
+#: admin/customizer-config.php:959 admin/customizer-config.php:978
+#: admin/customizer-config.php:1007 admin/customizer-config.php:1026
+msgid "2 Columns"
+msgstr ""
+
+#: admin/customizer-config.php:865 admin/customizer-config.php:884
+#: admin/customizer-config.php:913 admin/customizer-config.php:932
+#: admin/customizer-config.php:960 admin/customizer-config.php:979
+#: admin/customizer-config.php:1008 admin/customizer-config.php:1027
+msgid "3 Columns"
+msgstr ""
+
+#: admin/customizer-config.php:866 admin/customizer-config.php:885
+#: admin/customizer-config.php:914 admin/customizer-config.php:933
+#: admin/customizer-config.php:961 admin/customizer-config.php:980
+#: admin/customizer-config.php:1009 admin/customizer-config.php:1028
+msgid "4 Columns"
+msgstr ""
+
+#: admin/customizer-config.php:870 admin/customizer-config.php:918
+#: admin/customizer-config.php:965 admin/customizer-config.php:1013
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/customizer-config.php:877 admin/customizer-config.php:925
+#: admin/customizer-config.php:972 admin/customizer-config.php:1020
+msgid "Right Sidebar Width"
+msgstr ""
+
+#: admin/customizer-config.php:1034
+msgid "Heading Font"
+msgstr ""
+
+#: admin/customizer-config.php:1039 admin/customizer-config.php:1233
+#: admin/customizer-config.php:1296
+msgid "Font Family"
+msgstr ""
+
+#: admin/customizer-config.php:1046 admin/customizer-config.php:1303
+msgid "Font Weight"
+msgstr ""
+
+#: admin/customizer-config.php:1058 admin/customizer-config.php:1072
+#: admin/customizer-config.php:1086
+msgid "H1 Font Size"
+msgstr ""
+
+#: admin/customizer-config.php:1100 admin/customizer-config.php:1114
+#: admin/customizer-config.php:1128
+msgid "H2 Font Size"
+msgstr ""
+
+#: admin/customizer-config.php:1142 admin/customizer-config.php:1156
+#: admin/customizer-config.php:1170
+msgid "H3 Font Size"
+msgstr ""
+
+#: admin/customizer-config.php:1184 admin/customizer-config.php:1198
+#: admin/customizer-config.php:1212
+msgid "H4 Font Size"
+msgstr ""
+
+#: admin/customizer-config.php:1227
+msgid "Body Font"
+msgstr ""
+
+#: admin/customizer-config.php:1240 admin/customizer-config.php:1253
+#: admin/customizer-config.php:1266
+msgid "Font Size"
+msgstr ""
+
+#: admin/customizer-config.php:1279
+msgid "Body Font Weight"
+msgstr ""
+
+#: admin/customizer-config.php:1291
+msgid "Button Font"
+msgstr ""
+
+#: admin/customizer-config.php:1317
+msgid "Widget Title Font"
+msgstr ""
+
+#: admin/customizer-config.php:1323 admin/customizer-config.php:1336
+#: admin/customizer-config.php:1349
+msgid "Widget Title Font Size"
+msgstr ""
+
+#: admin/customizer-config.php:1362
+msgid "Widget Title Font Weight"
+msgstr ""
+
+#: admin/customizer-config.php:1375
+msgid "Widget Content Font"
+msgstr ""
+
+#: admin/customizer-config.php:1381 admin/customizer-config.php:1394
+#: admin/customizer-config.php:1407
+msgid "Widget Content Font Size"
+msgstr ""
+
+#: admin/customizer-config.php:1420
+msgid "Widget Content Font Weight"
+msgstr ""
+
+#: admin/customizer-config.php:1434
+msgid "Menu Top Level Font"
+msgstr ""
+
+#: admin/customizer-config.php:1440 admin/customizer-config.php:1453
+#: admin/customizer-config.php:1466
+msgid "Menu Top Font Size"
+msgstr ""
+
+#: admin/customizer-config.php:1479
+msgid "Menu Top Font Weight"
+msgstr ""
+
+#: admin/customizer-config.php:1493
+msgid "Menu Dropdown Font"
+msgstr ""
+
+#: admin/customizer-config.php:1499 admin/customizer-config.php:1512
+#: admin/customizer-config.php:1525
+msgid "Menu Dropdown Font Size"
+msgstr ""
+
+#: admin/customizer-config.php:1538
+msgid "Menu Dropdown Font Weight"
+msgstr ""
+
+#: admin/customizer-config.php:1552
+msgid "Facebook Profile / Page URL"
+msgstr ""
+
+#: admin/customizer-config.php:1559
+msgid "Instagram Profile URL"
+msgstr ""
+
+#: admin/customizer-config.php:1566
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: admin/customizer-config.php:1573
+msgid "YouTube Channel URL"
+msgstr ""
+
+#: admin/customizer-config.php:1580
+msgid "Pinterest Profile URL"
+msgstr ""
+
+#: admin/customizer-config.php:1587
+msgid "Linked In Profile URL"
+msgstr ""
+
+#: admin/customizer-config.php:1596
+msgid "Google Map Address"
+msgstr ""
+
+#: admin/customizer-config.php:1603
+msgid "Contact Address"
+msgstr ""
+
+#: admin/customizer-config.php:1610
+msgid "Phone"
+msgstr ""
+
+#: admin/customizer-config.php:1617 libs/Attire.class.php:469
+msgid "Email"
+msgstr ""
+
+#: admin/customizer-config.php:1624
+msgid "Thank you message"
+msgstr ""
+
+#: admin/customizer-config.php:1637
+msgid "Copyright "
+msgstr ""
+
+#: admin/customizer-config.php:1640
+msgid "Show Copyright Visibility"
+msgstr ""
+
+#: admin/customizer-config.php:1650
+msgid "Show Page Header"
+msgstr ""
+
+#: admin/customizer-config.php:1657
+msgid "Show On Front Page"
+msgstr ""
+
+#: admin/customizer-config.php:1664
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: admin/customizer-config.php:1671
+msgid "Page Header Background Color"
+msgstr ""
+
+#: admin/customizer-config.php:1690
+msgid "Page Header Text Color"
+msgstr ""
+
+#: admin/customizer-config.php:1697
+msgid "Page Header Text Alignment"
+msgstr ""
+
+#: admin/customizer-config.php:1702
+msgid "Center"
+msgstr ""
+
+#: admin/customizer-config.php:1709
+msgid "Page Header Padding Top"
+msgstr ""
+
+#: admin/customizer-config.php:1721
+msgid "Page Header Padding Bottom"
+msgstr ""
+
+#: admin/customizer-config.php:1733
+msgid "Page Header Margin Bottom"
+msgstr ""
+
+#: admin/customizer-config.php:1748
+msgid "Write a review"
+msgstr ""
+
+#: admin/customizer.php:448 admin/customizer.php:505
+msgid "Measurement is in pixel."
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:22
+msgid "Top Menu Style"
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:24
+#: admin/metaboxes/attire-page-options.php:38 libs/MetaBoxes.class.php:89
+msgid "Theme Default"
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:25
+msgid "Default"
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:26
+msgid "Compact"
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:28
+msgid "Centered"
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:29
+msgid "Extended"
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:30
+msgid "Transparent"
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:36
+msgid "Page Header"
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:47
+msgid "Hide Top Menu"
+msgstr ""
+
+#: admin/metaboxes/attire-page-options.php:53
+msgid "Hide Site Footer"
+msgstr ""
+
+#: author.php:51
+msgid "About"
+msgstr ""
+
+#: comments.php:19
+msgid "Discussion"
+msgstr ""
+
+#: comments.php:41
+msgid "Reply"
+msgstr ""
+
+#: content-wpdmpro.php:37
+msgid "More Details"
+msgstr ""
+
+#: content.php:50 single-post-meta.php:23
+msgid "On"
+msgstr ""
+
+#: content.php:55 single-post-meta.php:28
+msgid "By"
+msgstr ""
+
+#: download-manager/email-to-download.php:11
+msgid "Subscribe"
+msgstr ""
+
+#: download-manager/email-to-download.php:50
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: download-manager/email-to-download.php:50
+msgid "Email Address"
+msgstr ""
+
+#: footer.php:67 search.php:34
+msgid "Post"
+msgstr ""
+
+#: footer.php:71 functions.php:388 search.php:42
+msgid "Page"
+msgstr ""
+
+#: footer.php:78 search.php:52
+msgid "Downloads"
+msgstr ""
+
+#: footer.php:85 search.php:63
+msgid "Products"
+msgstr ""
+
+#: footer.php:92 search.php:70 templates/parts/mobile-search.php:13
+msgid "Search..."
+msgstr ""
+
+#: functions.php:138
+msgid "Boxed Panel"
+msgstr ""
+
+#: functions.php:161
+msgid "read more..."
+msgstr ""
+
+#: header.php:18
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:17 pagination.php:16
+msgid "Previous"
+msgstr ""
+
+#: image.php:18 pagination.php:17
+msgid "Next"
+msgstr ""
+
+#: libs/Attire.class.php:154
+msgid "Top Menu"
+msgstr ""
+
+#: libs/Attire.class.php:456
+msgid "Name"
+msgstr ""
+
+#: libs/Attire.class.php:483
+msgid "Website"
+msgstr ""
+
+#: libs/Attire.class.php:504
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: libs/Attire.class.php:516
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: libs/Attire.class.php:535
+msgid "Comment"
+msgstr ""
+
+#: libs/Attire.class.php:543
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: libs/Attire.class.php:552
+#, php-format
+msgid "Logged in as %3$s"
+msgstr ""
+
+#: libs/Attire.class.php:552
+msgid "Log out?"
+msgstr ""
+
+#: libs/Attire.class.php:555
+#, php-format
+msgid "Logged in as %s. Edit your profile."
+msgstr ""
+
+#: libs/Attire.class.php:565
+msgid "Your email address will not be published."
+msgstr ""
+
+#: libs/Attire.class.php:576
+msgid "Leave a Reply"
+msgstr ""
+
+#: libs/Attire.class.php:578
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: libs/Attire.class.php:583
+msgid "Cancel reply"
+msgstr ""
+
+#: libs/Attire.class.php:584
+msgid "Post Comment"
+msgstr ""
+
+#: libs/MetaBoxes.class.php:30
+msgid "Page Width"
+msgstr ""
+
+#: libs/MetaBoxes.class.php:44
+msgid "Header & Footer"
+msgstr ""
+
+#: libs/wp_bootstrap_navwalker.php:215
+#: libs/wp_bootstrap_navwalker_mobile.php:211
+msgid "Home"
+msgstr ""
+
+#: libs/wp_bootstrap_navwalker.php:216
+#: libs/wp_bootstrap_navwalker_mobile.php:212
+msgid "Add a menu"
+msgstr ""
+
+#: search-post.php:12 search-wpdmpro.php:17 search.php:23
+msgid "Search result for: "
+msgstr ""
+
+#: search-result-wpdmpro.php:16
+msgid "Last updated on "
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "%d results found"
+msgstr ""
+
+#: single-post-meta.php:33
+msgid "In"
+msgstr ""
+
+#: single-post-meta.php:39
+msgid "No comments"
+msgstr ""
+
+#: single-post-meta.php:39
+msgid "One comment"
+msgstr ""
+
+#: single-post-meta.php:39
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: single-wpdmpro.php:51
+msgid "Previous Item"
+msgstr ""
+
+#: single-wpdmpro.php:54
+msgid "Next Item"
+msgstr ""
+
+#: single.php:104
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:107
+msgid "Next Post"
+msgstr ""
+
+#: templates/footers/footer1.php:20 templates/footers/footer2.php:28
+#: templates/footers/footer3.php:20 templates/footers/footer4.php:28
+msgid " Built with"
+msgstr ""
+
+#: templates/headers/header-5.php:134
+msgid "items"
+msgstr ""
+
+#: templates/headers/header-5.php:134
+msgid "item"
+msgstr ""
+
+#: templates/headers/header-5.php:139 templates/headers/header-5.php:154
+msgid "Account"
+msgstr ""
+
+#: templates/headers/header-5.php:144 templates/headers/header-5.php:159
+msgid "Login / Register"
+msgstr ""
+
+#: templates/headers/header-5.php:207
+msgid "Cart"
+msgstr ""
+
+#: templates/headers/header-5.php:217
+msgid "Continue Shopping"
+msgstr ""
+
+#: templates/headers/header-5.php:218
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:29
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""

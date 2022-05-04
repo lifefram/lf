@@ -1,0 +1,103 @@
+// Colors
+
+$blue: #2563EB
+$green: #22C55E
+$orange: #F97316
+$yellow: #FBBF24
+$red: #EF4444
+$turquoise: #2DD4BF
+$cyan: #06B6D4
+$purple: #A855F7
+
+$white-ter: #F3F4F6
+$white-bis: #F9FAFB
+
+$grey-lighter: #F8FAFC
+$grey-light: #E2E8F0
+$grey: #94A3B8
+$grey-dark: #475569
+$grey-darker: #1E293B
+
+$black: #1C1917
+$black-bis: #171717
+$black-ter: #18181B
+
+
+$info: #60A5FA
+$success: $green
+$warning: $yellow
+$danger: $red
+
+
+// Root
+$root-family-primary: "Raleway", sans-serif
+$root-family-title:  "PT Sans", sans-serif
+$root-color-primary: $blue
+$root-color-primary-dark: #245fe0
+$root-color-primary-shadow: rgba(37,99,235,0.25)
+$root-breadcrumb-color: $blue
+$root-breadcrumb-color-active: $grey-dark
+$root-color-link: $blue
+$root-color-text: $grey-dark
+$root-post-color-icon: $grey
+$root-panel-heading-background: $grey-lightest
+
+$primary: var(--color-primary, $root-color-primary)
+$primary-invert: $white
+$primary-dark: var(--color-primary-darken, $root-color-primary-dark)
+
+$custom-colors: null
+$colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "info": ($info, $info-invert, $info-light, $info-dark), "success": ($success, $success-invert, $success-light, $success-dark), "warning": ($warning, $warning-invert, $warning-light, $warning-dark), "danger": ($danger, $danger-invert, $danger-light, $danger-dark)), $custom-colors)
+
+
+// Link colors
+$link: $root-color-link
+$link-visited: $purple
+$link-hover: var(--color-text, $grey-dark)
+$link-focus: var(--color-text, $grey-dark)
+$link-active: var(--color-text, $grey-dark)
+
+// Breadcrumb color
+$breadcrumb-item-color: var(--breadcrumb-color, $root-breadcrumb-color)
+$breadcrumb-item-hover-color: var(--breadcrumb-color-active, $root-color-text)
+$breadcrumb-item-active-color: var(--breadcrumb-color-active, $root-color-text)
+
+// Text colors
+$text: var(--color-text, $root-color-text)
+$text-strong: var(--color-text, $root-color-text)
+
+// Panel, Post icon color
+$panel-icon-color: var(--post-color-icon, $root-post-color-icon)
+$panel-heading-background-color: var(--panel-heading-background, $root-panel-heading-background)
+
+
+$input-color: $root-color-text
+
+
+// Typography
+$family-primary: var(--family-primary, $root-family-primary)
+$family-title: var(--family-title, $root-family-title)
+
+// Body
+$body-background-color: var(--body-background, $white)
+$body-svg-color: var(--body-svg-color, $white-ter)
+
+// Footer
+$footer-background-color: var(--footer-background, $white-bis)
+
+// Header
+$navbar-background-color: var(--header-background, $white)
+$navbar-item-color: var(--navbar-item-color, $grey-dark)
+$navbar-item-hover-color: var(--navbar-item-hover-color, $blue)
+$navbar-dropdown-arrow: var(--navbar-item-hover-color, $blue)
+$navbar-item-hover-background-color: var(--navbar-item-hover-background, $white)
+$navbar-item-active-color: var(--navbar-item-hover-color, $blue)
+//$navbar-dropdown-background-color: var(--header-background, $white)
+
+// Sidebar Menu
+$menu-item-active-background-color: var(--color-primary, $blue)
+$menu-item-active-color: $white
+
+// Blockquote
+$content-blockquote-border-left: 4px solid $border !default
+

@@ -1,0 +1,349 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MyKnowledgeBase\n"
+"POT-Creation-Date: 2021-07-14 16:04+0200\n"
+"PO-Revision-Date: 2015-12-22 00:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:16
+#, php-format
+msgid "%1$s comment on %2$s"
+msgid_plural "%1$s comments on %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35
+msgid "Comments are closed."
+msgstr ""
+
+#: content-knowledge.php:70
+msgid "(no title)"
+msgstr ""
+
+#: content-knowledge.php:86
+msgid "View All &raquo;"
+msgstr ""
+
+#: content-list.php:9
+msgid "Featured post"
+msgstr ""
+
+#: content-list.php:13
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-list.php:31
+msgid "Read More &raquo;"
+msgstr ""
+
+#: content-none.php:7
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:8
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: content-postmeta-single.php:8
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: content-postmeta-single.php:8 content-postmeta-single.php:10
+msgid ", "
+msgstr ""
+
+#: content-postmeta-single.php:10
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: content-postmeta-single.php:14
+#, php-format
+msgid "Format: %s"
+msgstr ""
+
+#: content-postmeta.php:8
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: content-postmeta.php:9
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: content-postmeta.php:11
+msgid "No comments"
+msgstr ""
+
+#: content-postmeta.php:11
+msgid "1 comment"
+msgstr ""
+
+#: content-postmeta.php:11
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: footer.php:28
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:18
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:45
+msgid "Default header"
+msgstr ""
+
+#: functions.php:100
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:102 functions.php:111 functions.php:120 functions.php:129
+#: functions.php:138
+msgid "You can add one or multiple widgets here."
+msgstr ""
+
+#: functions.php:109
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: functions.php:118
+msgid "Footer Right"
+msgstr ""
+
+#: functions.php:127
+msgid "Footer Middle"
+msgstr ""
+
+#: functions.php:136
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:179 functions.php:308
+msgid "Knowledge Base"
+msgstr ""
+
+#: functions.php:192
+msgid ""
+"Setting for the Knowledge Base page template. This field will override the "
+"one in Customizer."
+msgstr ""
+
+#: functions.php:193 functions.php:392
+msgid "Exclude category by ID"
+msgstr ""
+
+#: functions.php:195 functions.php:393
+msgid "Use a comma to separate multiple categories."
+msgstr ""
+
+#: functions.php:221 functions.php:230
+msgid "Logo"
+msgstr ""
+
+#: functions.php:223
+msgid "This logo will replace site title and tagline."
+msgstr ""
+
+#: functions.php:239
+msgid "Width"
+msgstr ""
+
+#: functions.php:240
+msgid "Only numeric characters allowed. Leave empty for original size."
+msgstr ""
+
+#: functions.php:251
+msgid "Blog Page"
+msgstr ""
+
+#: functions.php:259 functions.php:452
+msgid "Title"
+msgstr ""
+
+#: functions.php:268 functions.php:476
+msgid "Content"
+msgstr ""
+
+#: functions.php:274
+msgid "Posts"
+msgstr ""
+
+#: functions.php:283
+msgid "Show a summary"
+msgstr ""
+
+#: functions.php:288 functions.php:303 functions.php:323 functions.php:338
+#: functions.php:353 functions.php:368 functions.php:383 functions.php:443
+msgid "Yes"
+msgstr ""
+
+#: functions.php:289 functions.php:304 functions.php:324 functions.php:339
+#: functions.php:354 functions.php:369 functions.php:384 functions.php:444
+msgid "No"
+msgstr ""
+
+#: functions.php:298
+msgid "Show Read More button"
+msgstr ""
+
+#: functions.php:310
+msgid "Settings for the Knowledge Base page template."
+msgstr ""
+
+#: functions.php:318
+msgid "Show page title"
+msgstr ""
+
+#: functions.php:333
+msgid "Show number of posts"
+msgstr ""
+
+#: functions.php:348
+msgid "Show post meta"
+msgstr ""
+
+#: functions.php:363
+msgid "Show View All link"
+msgstr ""
+
+#: functions.php:378
+msgid "Show category description"
+msgstr ""
+
+#: functions.php:402
+msgid "Posts per category"
+msgstr ""
+
+#: functions.php:403
+msgid "Only numeric characters allowed."
+msgstr ""
+
+#: functions.php:419
+msgid "Order posts"
+msgstr ""
+
+#: functions.php:424
+msgid "By date"
+msgstr ""
+
+#: functions.php:425
+msgid "By name"
+msgstr ""
+
+#: functions.php:429
+msgid "Search Bar"
+msgstr ""
+
+#: functions.php:438
+msgid "Show Search Bar"
+msgstr ""
+
+#: functions.php:453
+msgid "This will override the default title."
+msgstr ""
+
+#: functions.php:462
+msgid "Placeholder"
+msgstr ""
+
+#: functions.php:463
+msgid "This will override the default placeholder."
+msgstr ""
+
+#: functions.php:468
+msgid "Footer"
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:48
+msgid "Menu"
+msgstr ""
+
+#: header.php:48
+msgid " +"
+msgstr ""
+
+#: header.php:74 header.php:79
+msgid "Search Posts"
+msgstr ""
+
+#: header.php:83
+msgid "Search for:"
+msgstr ""
+
+#: header.php:86
+msgid "Search"
+msgstr ""
+
+#: page-full.php:23 page.php:21 single-full.php:22 single.php:20
+msgid "Pages:"
+msgstr ""
+
+#: page-full.php:32 page.php:30 single-full.php:34 single.php:32
+msgid "Edit"
+msgstr ""
+
+#: search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "MyKnowledgeBase"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.guido.site/themes"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"MyKnowledgeBase is a lightweight and mobile-friendly WordPress theme. "
+"Personalize your website via the Customizer in your dashboard and by using a "
+"custom post or page template. With 2 of the custom page templates you can "
+"transform your categories and posts into a knowledge base, FAQ, wiki or link "
+"portal. It also contains multiple widget areas. Enjoy!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Guido"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.guido.site"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Knowledge Base Full Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Knowledge Base Sidebar"
+msgstr ""

@@ -1,0 +1,106 @@
+
+.brand-logo
+  max-width: 150px
+
+// Live search result
+.search-result
+  position: absolute
+  top: 100%
+  left: 0
+  width: 100%
+  right: 0
+  background: #fff
+  box-shadow: $shadow
+  border-radius: 0 0 $radius $radius
+  max-height: 230px
+  overflow-x: hidden
+  overflow-y: auto
+  z-index: 100
+  margin: 0
+  padding: 0
+  font-size: 14px
+  color: $text
+  scrollbar-color: dark
+  scrollbar-width: thin
+  overscroll-behavior: contain
+  opacity: 0
+
+.intersect
+  position: absolute
+  top: 0
+  left: 0
+  margin: -1px
+  fill: $body-svg-color
+
+.header
+  background-color: var(--header-background)
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title
+  font-family: var(--family-title)
+
+.navbar-dropdown
+  a.navbar-item
+    color: var(--color-text, $root-color-text)
+
+.menu-list ul a .icon
+  color: var(--post-color-icon, $root-post-color-icon)
+
+html
+  height: 100%
+  scroll-behavior: smooth
+
+body
+  min-height: 100%
+  display: grid
+  grid-template-rows: auto 1fr auto
+
+.footer
+  .navbar > .container
+    @media screen and (max-width: 1023px)
+      display: flex
+      flex-direction: column
+
+  .navbar-menu
+    background-color: transparent
+    box-shadow: none
+
+  .navbar-item, .navbar-link
+    color: var(--footer-menu-color)
+    padding-left: 0
+
+  .copyright
+    color: var(--footer-copyright-color)
+    @media screen and (max-width: 1023px)
+      order: 1
+
+  a.navbar-item:focus,
+  a.navbar-item:focus-within,
+  a.navbar-item:hover,
+  a.navbar-item.is-active,
+  .navbar-link:focus,
+  .navbar-link:focus-within,
+  .navbar-link:hover,
+  .navbar-link.is-active
+    color: var(--footer-menu-hover-color)
+    background-color: transparent
+
+.helpful button
+  @media screen and (max-width: 600px)
+    width: 100%
+    margin-top: 0.5rem
+
+.widget a,
+.content a
+  text-decoration: underline
+
+.menu a
+  text-decoration: none
+
+.content pre
+  white-space: pre-wrap

@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Knowledge Center</title>
+  <!--
+
+  Sprite shape dimensions
+  ====================================================================================================
+  You will need to set the sprite shape dimensions via CSS when you use them as inline SVG, otherwise
+  they would become a huge 100% in size. You may use the your own classes for different icon domensions or colors.
+  They might well be outsourced to an external stylesheet of course.
+  -->
+  <style type="text/css">
+    .svg-icon {
+      width: 32px;
+      height: 32px;
+
+      display: inline-block;
+      fill: currentColor;
+    }
+  </style>
+</head>
+<body>
+<!--
+
+Inline <symbol> SVG sprite
+====================================================================================================
+This is an inlined version of the generated SVG sprite. The single images may be <use>d everywhere
+below within this document. Please note the width, height and style attribute of generated SVG code.
+-->
+
+<svg width="0" height="0" style="position:absolute">
+  <symbol viewBox="-32 0 512 512" id="icon-arrow-right"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></symbol>
+  <symbol viewBox="-32 0 512 512" id="icon-long-arrow-right"><path d="M254.544 154.427L320.118 220H24c-13.255 0-24 10.745-24 24v24c0 13.255 10.745 24 24 24h296.118l-65.574 65.573c-9.373 9.373-9.373 24.569 0 33.941l16.971 16.971c9.373 9.373 24.569 9.373 33.941 0L440.97 272.97c9.373-9.373 9.373-24.569 0-33.941L305.456 103.515c-9.373-9.373-24.569-9.373-33.941 0l-16.971 16.971c-9.373 9.372-9.373 24.568 0 33.941z"/></symbol>
+  <symbol viewBox="-36.57 -36.57 585.14 585.14" id="icon-search"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></symbol>
+</svg>
+
+<!--
+====================================================================================================
+-->
+  <div class="container">
+    <blockquote>SVG Sprite reference</blockquote>
+    <h1>Knowledge Center</h1>
+    <p class="lead">
+      This document shows two different techniques of using SVG sprite (inlined vs. external) on your website. Please take a look at the HTML source or see the section below the icons for further details.
+    </p>
+
+    <!--
+
+    Inline SVG with embedded sprite
+    ====================================================================================================
+    These SVG images make use of fragment identifiers (IDs) and are extracted out of the inline sprite
+    embedded above. They may be styled via CSS.
+
+    -->
+    <section class="icons">
+      <div class="icons__item">
+        <!-- icon-arrow-right -->
+        <svg class="svg-icon">
+          <use xlink:href="#icon-arrow-right"></use>
+        </svg>
+
+        <input type="text" value="<svg class='svg-icon'><use xlink:href='#icon-arrow-right'></use></svg>" readonly />
+      </div>
+      <div class="icons__item">
+        <!-- icon-long-arrow-right -->
+        <svg class="svg-icon">
+          <use xlink:href="#icon-long-arrow-right"></use>
+        </svg>
+
+        <input type="text" value="<svg class='svg-icon'><use xlink:href='#icon-long-arrow-right'></use></svg>" readonly />
+      </div>
+      <div class="icons__item">
+        <!-- icon-search -->
+        <svg class="svg-icon">
+          <use xlink:href="#icon-search"></use>
+        </svg>
+
+        <input type="text" value="<svg class='svg-icon'><use xlink:href='#icon-search'></use></svg>" readonly />
+      </div>
+    </section>
+
+    <!--
+    ====================================================================================================
+    -->
+
+    <header>
+      <h1>Use SVG sprite on your website</h1>
+    </header>
+
+    <div class="tabs-wrapper">
+      <input class="radio" id="one" name="group" type="radio" checked>
+      <input class="radio" id="two" name="group" type="radio">
+      <div class="tabs">
+        <label class="tab" id="one-tab" for="one">External SVG sprite</label>
+        <label class="tab" id="two-tab" for="two">Inline SVG sprite</label>
+      </div>
+      <div class="panels">
+        <div class="panel" id="one-panel">
+          <section>
+            <h2>External SVG sprite</h2>
+            <p class="m-8">
+              Use SVG sprite by referencing the external SVG which you can find in svg/kcicons-sprite.svg.<br>
+              Please use <a href="https://github.com/jonathantneal/svg4everybody" target="_blank">SVG for Everybody</a> polyfill in order to support this technique on Internet Explorer 11 and below.
+            </p>
+          </section>
+
+          <section>
+            <h3>Add CSS</h3>
+            <p>Make sure to include the sprite shape dimensions via CSS.<br>You may use the your own classes for different icon dimensions or colors.</p>
+            <pre><code class="css">.svg-icon {
+  width: 32px;
+  height: 32px;
+
+  display: inline-block;
+  fill: currentColor;
+}</code></pre>
+          </section>
+
+          <section>
+            <h3>Use your icons</h3>
+            <p>Include any icon by using the following code referencing the icon name</p>
+            <pre><code class="html">&lt;svg class="svg-icon"&gt;
+  &lt;use xlink:href="svg/kcicons-sprite.svg#icon-name"&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+          </section>
+        </div>
+        <div class="panel" id="two-panel">
+          <section>
+            <h2>Inline SVG sprite</h2>
+            <p class="m-8">Use SVG sprite by inlining the SVG code on your website. <br>Your browser has to <a href="http://caniuse.com/#feat=svg-html5" target="_blank">support inline SVG</a> for this technique to work.</p>
+
+            <h3>Include the SVG code</h3>
+            <p>This is an inlined version of the generated SVG sprite with <abbr>&lt;symbol&gt;</abbr> definitions, which should be included at the top of your page. Icons may be <abbr>&lt;use&gt;d</abbr> anywhere
+            below the code on the same page. Please note the <abbr>width</abbr>, <abbr>height</abbr> and <abbr>style</abbr> attribute of generated SVG code.</p>
+            <pre><code class="html" id="inline-svg"></code></pre>
+          </section>
+
+          <section>
+            <h3>Add CSS</h3>
+            <p>Make sure to include the sprite shape dimensions via CSS.<br>You may use the your own classes for different icon dimensions or colors.</p>
+            <pre><code class="css">.svg-icon {
+  width: 32px;
+  height: 32px;
+
+  display: inline-block;
+  fill: currentColor;
+}</code></pre>
+          </section>
+
+          <section>
+            <h3>Use your icons</h3>
+            <p>Include any icon by using the following code referencing the icon name</p>
+            <pre><code class="html">&lt;svg class="svg-icon"&gt;
+  &lt;use xlink:href="#icon-name"&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Generated by <a href="https://webfontapp.com" target="_blank">Webfont</a> on Mon, 01 Feb 2021 14:55:30 GMT.
+    </footer>
+  </div>
+
+  <!--
+  Javascript and styling for CVG spirte reference (you don't need any of this)
+  -->
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin: 0;
+      padding: 32px;
+      background: white;
+      color: black;
+    }
+    a {
+      color: #455FEB;
+    }
+    h1 {
+      margin: 0 0 16px 0;
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+    h2 {
+      font-size: 26px;
+      margin: 24px 0 4px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+    h2 + p {
+      margin: 8px 0 32px 0;
+    }
+    h3 + p {
+      margin-top: 0;
+    }
+    abbr {
+      font-family: monospace;
+      padding: 1px 3px;
+      background: #f6f6f6;
+      color: red;
+    }
+    pre {
+      background: #f6f6f6;
+      padding: 12px;
+      border: 1px solid #eee;
+    }
+    code {
+      background: transparent !important;
+    }
+    blockquote {
+      padding: 0;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #666;
+    }
+    p {
+      line-height: 1.5rem;
+      max-width: 720px;
+    }
+    header {
+      margin-top: 64px;
+    }
+    footer {
+      margin: 2rem 0;
+      font-size: 14px;
+    }
+    .lead {
+      font-size: 1.15rem;
+      line-height: 1.75rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .icons {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      align-items: flex-start;
+      margin: 32px 0;
+    }
+    .icons__item {
+      width: 33%;
+      align-self: flex-start;
+      display: flex;
+      align-items: center;
+      margin: 16px 0;
+    }
+    .icons__item input {
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      border-radius: 4px;
+      outline: none;
+      font-size: 16px;
+    }
+    .icons__item,
+    .icons__item svg {
+      cursor: pointer;
+    }
+    .icons__item svg {
+      margin: 0 6px 0 0;
+    }
+    .tabs-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .tabs {
+      border-bottom: 1px solid #ddd;
+    }
+    .tab {
+      font-weight: 600;
+      cursor: pointer;
+      padding: 12px 0;
+      margin: 0 16px -1px 0;
+      display: inline-block;
+    }
+    .panels {
+      overflow: hidden;
+    }
+    .panel {
+      display: none;
+    }
+    .radio {
+      display:none;
+    }
+    #one:checked ~ .panels #one-panel,
+    #two:checked ~ .panels #two-panel {
+      display:block
+    }
+    #one:checked ~ .tabs #one-tab,
+    #two:checked ~ .tabs #two-tab {
+      color: #455FEB;
+      border-bottom: 2px solid #455FEB;
+    }
+  </style>
+  <script type="text/javascript">
+    (function() {
+      var codeBlock = document.getElementById('inline-svg')
+      var svgContent = document.getElementsByTagName('svg')[0]
+      document.getElementById('inline-svg').innerHTML = svgContent.outerHTML.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    }).call(this)
+  </script>
+  <script type="text/javascript">
+    (function() {var ref = document.getElementsByTagName('input'); for (var i = 0; i < ref.length; i++) { ref[i].addEventListener('click', function(e) { if (e.target.tagName === 'INPUT') { return e.target.select() }})}}).call(this)
+  </script>
+  <!-- Code blocks highlighting -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/github-gist.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad()</script>
+  <!--
+  ====================================================================================================
+  -->
+  </body>
+</html>

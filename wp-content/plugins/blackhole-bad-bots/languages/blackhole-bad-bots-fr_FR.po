@@ -1,0 +1,1097 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blackhole for Bad Bots\n"
+"POT-Creation-Date: 2017-05-04 21:50+0200\n"
+"PO-Revision-Date: 2017-05-04 22:10+0200\n"
+"Last-Translator: Bouzin <info@conceptiweb.com>\n"
+"Language-Team: Bouzin <info@conceptiweb.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: blackhole.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: blackhole.php:67 inc/blackhole-core.php:267
+msgid "You have been banned from this site."
+msgstr "Vous avez été banni de ce site."
+
+#: blackhole.php:125
+msgid "Get Blackhole Pro!"
+msgstr "Téléchargez Blackhole Pro !"
+
+#: blackhole.php:126
+msgid "Go&nbsp;Pro"
+msgstr "Go&nbsp;Pro"
+
+#: blackhole.php:131 inc/settings-display.php:11
+msgid "Settings"
+msgstr "Paramètres"
+
+#: blackhole.php:143
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr "Cliquez ici pour noter et commenter cette extension sur WordPress.org"
+
+#: blackhole.php:144
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "Noter ce plugin&nbsp;&raquo;"
+
+#: blackhole.php:157
+msgid "Warning:"
+msgstr "Attention:"
+
+#: blackhole.php:157
+msgid ""
+"Pro version of Blackhole currently active. Free and Pro versions cannot be "
+"activated at the same time. "
+msgstr ""
+"La version Pro de Blackhole et actuellement activé. Les versions Free et Pro "
+"ne peuvent pas être activées en même temps. "
+
+#: blackhole.php:158 blackhole.php:172
+msgid "Please return to the"
+msgstr "Merci de retourner dans"
+
+#: blackhole.php:158 blackhole.php:172
+msgid "WP Admin Area"
+msgstr "Zone d'administration"
+
+#: blackhole.php:158
+msgid "and try again."
+msgstr "et essayez à nouveau."
+
+#: blackhole.php:171
+msgid "requires WordPress "
+msgstr "nécessite WordPress "
+
+#: blackhole.php:171
+msgid " or higher, and has been deactivated! "
+msgstr " ou plus, et a été désactivé ! "
+
+#: blackhole.php:172
+msgid "to upgrade WordPress and try again."
+msgstr "pour mettre à jour WordPress et réessayer."
+
+#: blackhole.php:184 blackhole.php:188
+msgid "Cheatin&rsquo; huh?"
+msgstr "Vous trichez&rsquo; euh?"
+
+#: inc/badbots-register.php:11 inc/contextual-help.php:389
+msgid "Welcome to Blackhole.."
+msgstr "Bienvenue chez Blackhole.."
+
+#: inc/badbots-register.php:13
+msgid "Blocked Bots"
+msgstr "Bots bloqués"
+
+#: inc/badbots-register.php:13
+msgid "List of blocked bots"
+msgstr "Liste des bots bloqués"
+
+#: inc/badbots-register.php:14 inc/contextual-help.php:412
+#: inc/contextual-help.php:414
+msgid "Reset Bad Bots"
+msgstr "Reset Bad Bots"
+
+#: inc/badbots-register.php:14
+msgid "Reset the list of bad bots"
+msgstr "Réinitialiser la liste des mauvais bots"
+
+#: inc/badbots-register.php:15 inc/settings-register.php:24
+msgid "Upgrade to Pro"
+msgstr "Passer à la version Pro"
+
+#: inc/badbots-register.php:15 inc/settings-register.php:24
+#: inc/settings-register.php:214
+msgid "Get Blackhole Pro &raquo;"
+msgstr "Obtenez Blackhole Pro &raquo;"
+
+#: inc/badbots-register.php:39
+msgid "Here is a complete log of all blocked bots. "
+msgstr "Voici un registre complet de tous les bots bloqués. "
+
+#: inc/badbots-register.php:40
+msgid "To remove a bot from the list, click the"
+msgstr "Pour supprimer un bot dans la liste, cliquez sur le"
+
+#: inc/badbots-register.php:41
+msgid "Visit the Help tab for complete documentation."
+msgstr "Visitez l’onglet d’aide pour une documentation complète."
+
+#: inc/badbots-register.php:50
+msgid "Reset Bad Bot Log"
+msgstr "Réinitialiser le journal des robots"
+
+#: inc/badbots-register.php:88
+msgid "Delete this bot"
+msgstr "Supprimer ce bot"
+
+#. Plugin Name of the plugin/theme
+#: inc/blackhole-core.php:9 inc/settings-display.php:8
+msgid "Blackhole for Bad Bots"
+msgstr "Blackhole for Bad Bots"
+
+#: inc/blackhole-core.php:10
+msgid "Do NOT follow this link or you will be banned from the site!"
+msgstr "NE PAS suivre ce lien ou vous serez banni du site!"
+
+#: inc/blackhole-core.php:101
+msgid "Error: Invalid Address"
+msgstr "Erreur: adresse invalide"
+
+#: inc/blackhole-core.php:176
+msgid "Bad Bot Alert at "
+msgstr "Alerte Bad Bot à "
+
+#: inc/blackhole-core.php:179
+msgid "Request URI: "
+msgstr "Demande URI: "
+
+#: inc/blackhole-core.php:180
+msgid "IP Address: "
+msgstr "Adresse IP: "
+
+#: inc/blackhole-core.php:181
+msgid "User Agent: "
+msgstr "Agent utilisateur : "
+
+#: inc/blackhole-core.php:182
+msgid "Whois Lookup: "
+msgstr "Whois Lookup: "
+
+#: inc/blackhole-core.php:268
+msgid ""
+"If you think there has been a mistake, please contact the administrator via "
+"proxy server."
+msgstr ""
+"Si vous pensez qu'il y a eu une erreur, contactez l'administrateur via le "
+"serveur proxy."
+
+#: inc/blackhole-lookup.php:13
+msgid "IP address required for WHOIS lookup. "
+msgstr "Adresse IP requise pour la recherche WHOIS. "
+
+#: inc/blackhole-lookup.php:20 inc/blackhole-lookup.php:54
+msgid "Timed-out connecting to "
+msgstr "Connexion temporaire à "
+
+#: inc/blackhole-lookup.php:20 inc/blackhole-lookup.php:54
+msgid " (port 43). "
+msgstr " (Port 43). "
+
+#: inc/blackhole-lookup.php:49
+msgid "Deferred to specific whois server: "
+msgstr "Renvoyé à un serveur spécifique: "
+
+#: inc/blackhole-lookup.php:49
+msgid "..."
+msgstr "..."
+
+#: inc/contextual-help.php:9 inc/contextual-help.php:213
+msgid "More Information"
+msgstr "Détails de l'offre"
+
+#: inc/contextual-help.php:12
+msgid "Visit the"
+msgstr "Consultez l'onglet"
+
+#: inc/contextual-help.php:12
+msgid "Blackhole Docs"
+msgstr "Documentation Blackhole"
+
+#: inc/contextual-help.php:12
+msgid "at WordPress.org."
+msgstr "sur WordPress.org."
+
+#: inc/contextual-help.php:15
+msgid "Support Blackhole Pro!"
+msgstr "Support Blackhole Pro!"
+
+#: inc/contextual-help.php:18
+msgid "Get Blackhole Pro&nbsp;&raquo;"
+msgstr "Obtenez Blackhole Pro&nbsp;&raquo;"
+
+#: inc/contextual-help.php:19
+msgid "Make a donation&nbsp;&raquo;"
+msgstr "Faire un don&nbsp;&raquo;"
+
+#: inc/contextual-help.php:45
+msgid "Pro Version"
+msgstr "Version Pro"
+
+#: inc/contextual-help.php:47 inc/settings-register.php:216
+msgid "Blackhole Pro"
+msgstr "Blackhole Pro"
+
+#: inc/contextual-help.php:50
+msgid ""
+"Like Blackhole for Bad Bots? Show support and upgrade to the Pro version. "
+msgstr ""
+"Vous aimez Blackhole for Bad Bots? Soutien et mise à niveau vers la version "
+"Pro. "
+
+#: inc/contextual-help.php:51
+msgid ""
+"You get all the features of the free version, plus advanced settings to give "
+"you full control over virtually everything. "
+msgstr ""
+"Vous obtenez toutes les fonctionnalités de la version gratuite, ainsi que "
+"les paramètres avancés pour vous donner un contrôle total sur pratiquement "
+"tout. "
+
+#: inc/contextual-help.php:52
+msgid "Pro version features include:"
+msgstr "Fonctionnalités Pro:"
+
+#: inc/contextual-help.php:65 inc/contextual-help.php:111
+#: inc/contextual-help.php:387
+msgid "Bad Bot Log"
+msgstr "Bad Bot Log"
+
+#: inc/contextual-help.php:68
+msgid ""
+"To make the Pro version extra awesome, Blackhole Pro includes a robust, full-"
+"featured Bad Bot Log, where you can view and manage all of your blocked "
+"bots. "
+msgstr ""
+"Pour rendre la version Pro exceptionnelle, Blackhole Pro inclut un robuste, "
+"Journal de Bot, où vous pouvez afficher et gérer toutes vos bots bloqués. "
+
+#: inc/contextual-help.php:69
+msgid "The Bad Bot Log is extra deluxe with the following features:"
+msgstr ""
+"Le journal de Bot est luxe supplémentaire avec les caractéristiques "
+"suivantes :"
+
+#: inc/contextual-help.php:80
+msgid "Learn more and get Blackhole Pro at Plugin Planet&nbsp;&raquo;"
+msgstr ""
+"En savoir plus et obtenir Blackhole Pro chez Plugin Planet&nbsp;&raquo;"
+
+#: inc/contextual-help.php:101 inc/contextual-help.php:103
+msgid "Introduction"
+msgstr "Introduction"
+
+#: inc/contextual-help.php:106
+msgid ""
+"Blackhole for Bad Bots is a WordPress security plugin that detects and traps "
+"bad bots in a"
+msgstr ""
+"Blackhole Pro est un plugin de sécurité WordPress qui détecte et piège les "
+"mauvais robots dans un"
+
+#: inc/contextual-help.php:108
+msgid "virtual blackhole"
+msgstr "blackhole virtuel"
+
+#: inc/contextual-help.php:109
+msgid "where they are denied access to your entire site. "
+msgstr "où ils se voient refuser l'accès à l'ensemble de votre site. "
+
+#: inc/contextual-help.php:110
+msgid "You can customize Blackhole via the"
+msgstr "Vous pouvez personnaliser Blackhole Pro via le"
+
+#: inc/contextual-help.php:110
+msgid "Blackhole Settings"
+msgstr "Paramètres Blackhole"
+
+#: inc/contextual-help.php:111
+msgid "and you can manage blocked bots via the"
+msgstr "et vous pouvez gérer les robots bloqués via le"
+
+#: inc/contextual-help.php:114
+msgid "Useful Resources"
+msgstr "Ressources utiles"
+
+#: inc/contextual-help.php:117
+msgid "View the plugin documentation"
+msgstr "Voir la documention du plugin"
+
+#: inc/contextual-help.php:118
+msgid "Report an issue in the Support Forum"
+msgstr "Signaler un problème dans le Forum du Support"
+
+#: inc/contextual-help.php:119
+msgid "Contact the plugin developer for help"
+msgstr "Contactez le développeur du plugin pour obtenir de l'aide"
+
+#: inc/contextual-help.php:120
+msgid "Check out Blackhole Pro"
+msgstr "Découvrez Blackhole Pro"
+
+#: inc/contextual-help.php:123
+msgid "About the Developer"
+msgstr "A propos du développeur"
+
+#: inc/contextual-help.php:126
+msgid "Blackhole Pro is developed by"
+msgstr "Blackhole Pro est développé par"
+
+#. Author of the plugin/theme
+#: inc/contextual-help.php:126
+msgid "Jeff Starr"
+msgstr "Jeff Starr"
+
+#: inc/contextual-help.php:127
+msgid "10-year WordPress veteran and"
+msgstr "Ancien combattant WordPress de 10 ans et"
+
+#: inc/contextual-help.php:127
+msgid "book author"
+msgstr "auteur du livre"
+
+#: inc/contextual-help.php:137
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: inc/contextual-help.php:139
+msgid "Bye bye bad bots.."
+msgstr "Au revoir bad bots .."
+
+#: inc/contextual-help.php:142
+msgid ""
+"Bad bots are the worst. They do all sorts of nasty stuff and waste server "
+"resources. "
+msgstr ""
+"Les mauvais bots sont les pires. Ils font toutes sortes de choses néfaste "
+"sur le serveurs. "
+
+#: inc/contextual-help.php:143
+msgid ""
+"Blackhole for Bad Bots helps to stop bad bots, spammers, scrapers, and other "
+"automated threats. "
+msgstr ""
+"Blackhole for Bad Bots contribue à arrêter les bots spammeurs, scrapers et "
+"autres menaces automatisées. "
+
+#: inc/contextual-help.php:144
+msgid ""
+"This increases security and saves precious server resources for your legit "
+"visitors."
+msgstr ""
+"Cela augmente la sécurité et économise de précieuses ressources du serveur "
+"pour vos visiteurs légitimes."
+
+#: inc/contextual-help.php:147
+msgid "How does it work?"
+msgstr "Comment cela fonctionne?"
+
+#: inc/contextual-help.php:150
+msgid ""
+"First the plugin adds a hidden trigger link to the footer of your pages. "
+msgstr ""
+"Tout d'abord, le plugin ajoute un lien de déclenchement caché au pied de "
+"page de vos pages. "
+
+#: inc/contextual-help.php:151
+msgid ""
+"You then add a line to your robots.txt file that forbids all bots from "
+"following the hidden link. "
+msgstr ""
+"Vous ajoutez ensuite une ligne à votre fichier robots.txt qui interdit à "
+"tous les robots de suivre le lien caché. "
+
+#: inc/contextual-help.php:152
+msgid ""
+"Bots that then ignore or disobey your robots rules will crawl the link and "
+"fall into the trap. "
+msgstr ""
+"Les robots qui ignorent ou désobéissent à vos règles vont suivre le lien et "
+"tomber dans le piège. "
+
+#: inc/contextual-help.php:153
+msgid "Once trapped, bad bots are denied further access to your entire site. "
+msgstr ""
+"Une fois piégé, les bots malveillants se voient refuser un accès "
+"supplémentaire à l'ensemble de votre site. "
+
+#: inc/contextual-help.php:156
+msgid ""
+"I call it the &ldquo;one-strike&rdquo; rule: bots have one chance to obey "
+"your site&rsquo;s robots.txt rules. "
+msgstr ""
+"Je l'appelle la règle &ldquo;one-strike&rdquo; les robots ont une chance "
+"d'obéir aux règles robots.txt de votre site. "
+
+#: inc/contextual-help.php:157
+msgid "Failure to comply results in immediate banishment. "
+msgstr "Le non-respect des règles résulte d'un bannissement immédiat. "
+
+#: inc/contextual-help.php:160
+msgid "What about human visitors?"
+msgstr "Qu'en est-il des visiteurs humains?"
+
+#: inc/contextual-help.php:163
+msgid ""
+"Wait.. what about human visitors? What if they visit the blackhole link? "
+"Will they get banned from the site? "
+msgstr ""
+"Attendez ... qu'en est-il des visiteurs humains? Que faire si ils visitent "
+"le lien Blackhole? Sont-ils interdits du site? "
+
+#: inc/contextual-help.php:164
+msgid ""
+"Nope. The blackhole link is completely hidden from normal visitors. The only "
+"way to discover the link is to snoop around in the page markup. "
+msgstr ""
+"Non. Le lien Blackhole est complètement caché aux visiteurs normaux. La "
+"seule façon de découvrir le lien est de faire un sondage dans le code de la "
+"page. "
+
+#: inc/contextual-help.php:165
+msgid ""
+"And even if someone does happen to find the link, it clearly warns against "
+"following it. So there is virtually zero chance of false positives. "
+msgstr ""
+"Et même si quelqu'un trouve le lien, il est clairement avisé de ne pas le "
+"suivre. Donc, il existe pratiquement de faibles chances de faux positifs. "
+
+#: inc/contextual-help.php:166
+msgid ""
+"Worst-case scenario if someone ignores the warning and follows the link? "
+"Visit the Bad Bots screen and remove them from the list."
+msgstr ""
+"Le pire cas si quelqu'un a ignoré l'avertissement et suit le lien? Visitez "
+"l'écran Bad Bots et supprimez-les de la liste."
+
+#: inc/contextual-help.php:169
+msgid "How to use Blackhole Pro"
+msgstr "Comment utiliser Blackhole Pro"
+
+#: inc/contextual-help.php:171
+msgid "Here is an overview of how to use the plugin:"
+msgstr "Voici un aperçu de la façon d'utiliser le plugin:"
+
+#: inc/contextual-help.php:174
+msgid ""
+"Visit the &ldquo;Robots Rules&rdquo; setting and add the provided rules to "
+"your robots.txt file"
+msgstr ""
+"Visitez le paramètre &ldquo;Règles des robots&rdquo; et ajoutez les règles "
+"fournies à votre fichier robots.txt"
+
+#: inc/contextual-help.php:175
+msgid "Customize any settings as desired"
+msgstr "Personnalisez les paramètres souhaités"
+
+#: inc/contextual-help.php:176
+msgid "Visit the Bad Bots screen to view and manage all blocked bots"
+msgstr ""
+"Visitez l'écran Bad Bots pour afficher et gérer tous les robots bloqués"
+
+#: inc/contextual-help.php:179
+msgid "A quick tour.."
+msgstr "Faire une visite rapide.."
+
+#: inc/contextual-help.php:181
+msgid ""
+"Here are the various plugin screens available under the Blackhole Pro menu:"
+msgstr ""
+"Voici les différents écrans du plugins disponibles sous le menu Blackhole "
+"Pro:"
+
+#: inc/contextual-help.php:184
+msgid "Settings &mdash; Provides all plugin settings"
+msgstr "Paramètres  &mdash; Fournit tous les paramètres du plugin"
+
+#: inc/contextual-help.php:185
+msgid "Bad Bots &mdash; Complete log of all blocked bots"
+msgstr "Bad Bots &mdash; Journal complet de tous les robots bloqués"
+
+#: inc/contextual-help.php:189
+msgid "For further information, check out the "
+msgstr "Pour plus d’informations, consultez le "
+
+#: inc/contextual-help.php:190
+msgid "plugin documentation"
+msgstr "documention du plugin"
+
+#: inc/contextual-help.php:201 inc/contextual-help.php:203
+#: inc/settings-register.php:14
+msgid "Robots Rules"
+msgstr "Règles des robots"
+
+#: inc/contextual-help.php:206
+msgid ""
+"In order for Blackhole to work properly, add the provided rules to your "
+"site&rsquo;s robots.txt file. "
+msgstr ""
+"Pour que Blackhole fonctionne correctement, ajoutez les règles fournies au "
+"fichier robots.txt de votre site&rsquo;s. "
+
+#: inc/contextual-help.php:207
+msgid ""
+"If your robots.txt is blank, then add both rules. If your robots.txt already "
+"includes"
+msgstr ""
+"Si votre fichier robots.txt est vide, ajoutez les deux règles. Si votre "
+"fichier robots.txt inclut déjà"
+
+#: inc/contextual-help.php:208
+msgid ""
+"then add only the second rule. For more complex robots.txt configurations, "
+"consult your web developer. "
+msgstr ""
+"puis ajoutez uniquement la deuxième règle. Pour des configurations plus "
+"complexes de robots.txt, consultez votre développeur web. "
+
+#: inc/contextual-help.php:211
+msgid ""
+"Important: proper robots.txt syntax is critical for good SEO. So make sure "
+"to validate your robots.txt rules after making any changes."
+msgstr ""
+"Important: la syntaxe appropriée de robots.txt est essentielle pour un bon "
+"référencement. Assurez-vous donc de valider vos règles robots.txt après "
+"avoir effectué des modifications."
+
+#: inc/contextual-help.php:216
+msgid ""
+"Why the robots.txt rules? Because you only want to trap &ldquo;bad&rdquo; "
+"bots, not good bots. "
+msgstr ""
+"Pourquoi le règlement robots.txt? Parce que vous voulez seulement piéger des "
+"«mauvais» bots, pas de bons robots. "
+
+#: inc/contextual-help.php:217
+msgid ""
+"The robots.txt rules explicitly instruct all bots to NOT crawl the blackhole "
+"link. "
+msgstr ""
+"Les règles robots.txt indiquent explicitement à tous les robots que NE PAS "
+"ouvrir le lien Blackhole. "
+
+#: inc/contextual-help.php:218
+msgid ""
+"So any bots that follow the link are disobeying robots.txt and will be "
+"banned from further site access."
+msgstr ""
+"Ainsi, tous les robots qui suivent le lien désobéissent au robots.txt et "
+"seront interdits d'accès supplémentaire au site."
+
+#: inc/contextual-help.php:222
+msgid "Learn more about robots.txt"
+msgstr "En savoir plus sur robots.txt"
+
+#: inc/contextual-help.php:223
+msgid "Check your robots.txt rules"
+msgstr "Vérifiez vos règles robots.txt"
+
+#: inc/contextual-help.php:234 inc/contextual-help.php:236
+#: inc/settings-register.php:15
+msgid "Email Alerts"
+msgstr "Alertes e-mail"
+
+#: inc/contextual-help.php:238
+msgid ""
+"Enable this setting if you want to receive an email alert each time a bot "
+"visits the blackhole link (aka, &ldquo;trigger&rdquo;). "
+msgstr ""
+"Activez ce paramètre si vous souhaitez recevoir une alerte par courrier "
+"électronique chaque fois qu'un robot visite le lien Blackhole (aka, &ldquo;"
+"déclencheur&rdquo;). "
+
+#: inc/contextual-help.php:240
+msgid "Default: Enabled"
+msgstr "Valeur par défaut: activée"
+
+#: inc/contextual-help.php:242 inc/settings-register.php:16
+msgid "Email Address"
+msgstr "Adresse e-mail"
+
+#: inc/contextual-help.php:244
+msgid "The email address to which email alerts should be sent. "
+msgstr ""
+"L'adresse électronique à laquelle les alertes par courrier électronique "
+"doivent être envoyées. "
+
+#: inc/contextual-help.php:246 inc/contextual-help.php:257
+msgid "Default: Admin email"
+msgstr "Par défaut: Adresse e-mail Administrateur"
+
+#: inc/contextual-help.php:248
+msgid "Email From"
+msgstr "Email Expéditeur"
+
+#: inc/contextual-help.php:251
+msgid ""
+"The address to be used in the &ldquo;From&rdquo; header for email alerts. "
+msgstr ""
+"L'adresse à utiliser dans l'en-tête &ldquo;De&rdquo; pour les alertes par "
+"courrier électronique. "
+
+#: inc/contextual-help.php:252
+msgid ""
+"If your email address is a domain-based address, then this setting should be "
+"the same as the previous Email setting. "
+msgstr ""
+"Si votre adresse e-mail est une adresse basée sur le domaine, ce paramètre "
+"devrait être identique au paramètre de messagerie précédent. "
+
+#: inc/contextual-help.php:253
+msgid ""
+"Otherwise, if you are using a 3rd-party email service, this setting should "
+"be a local, domain-based address. "
+msgstr ""
+"Sinon, si vous utilisez un service de messagerie tiers, ce paramètre doit "
+"être une adresse locale basée sur le domaine. "
+
+#: inc/contextual-help.php:254
+msgid ""
+"If you find that the email alerts are getting sent to the spam bin, this "
+"setting may help."
+msgstr ""
+"Si vous trouvez que les alertes par courrier électronique sont envoyées dans "
+"les courrier indésirable, ce paramètre peut vous aider."
+
+#: inc/contextual-help.php:267
+msgid "Frontend Display"
+msgstr "Visible dans le site"
+
+#: inc/contextual-help.php:270 inc/settings-register.php:18
+msgid "Message Display"
+msgstr "Affichage des messages"
+
+#: inc/contextual-help.php:273
+msgid ""
+"This setting determines the type of message displayed to all blocked bots. "
+"Here are the options:"
+msgstr ""
+"Ce paramètre détermine le type de message affiché pour tous les robots "
+"bloqués. Voici les options :"
+
+#: inc/contextual-help.php:277
+msgid "Default message"
+msgstr "Message par défaut"
+
+#: inc/contextual-help.php:277
+msgid "Displays some basic text and markup"
+msgstr "Affiche un texte de base et le balisage"
+
+#: inc/contextual-help.php:278 inc/settings-register.php:19
+msgid "Custom message"
+msgstr "Message complémentaire"
+
+#: inc/contextual-help.php:278
+msgid "Define your own message in the next setting"
+msgstr "Définir votre propre message au réglage suivant"
+
+#: inc/contextual-help.php:279 inc/settings-register.php:72
+msgid "Into the Void"
+msgstr "Dans le vide"
+
+#: inc/contextual-help.php:279
+msgid "Displays an empty page with a black background"
+msgstr "Affiche une page vide avec fond noir"
+
+#: inc/contextual-help.php:282
+msgid "Default: Default message"
+msgstr "Par défaut: message par défaut"
+
+#: inc/contextual-help.php:284 inc/settings-register.php:19
+msgid "Message Custom"
+msgstr "Message personnalisé"
+
+#: inc/contextual-help.php:286
+msgid ""
+"Defines a custom message to display to blocked bots. You can use any text/"
+"markup. Note: for this to work, &ldquo;Custom Message&rdquo; must be "
+"selected in the previous setting."
+msgstr ""
+"Définit un message personnalisé à afficher aux robots bloqués. Vous pouvez "
+"utiliser n’importe quel texte/balisage. Remarque : pour ce faire, &ldquo;"
+"Message personnalisé&rdquo; doit être sélectionné dans les paramètres "
+"précédents."
+
+#: inc/contextual-help.php:288
+msgid "Default:"
+msgstr "Par défaut :"
+
+#: inc/contextual-help.php:290
+msgid "Warning Message"
+msgstr "Message d’avertissement"
+
+#: inc/contextual-help.php:294
+msgid ""
+"Notes about the warning message displayed to bad bots when they visit the "
+"Blackhole trigger link. "
+msgstr ""
+"Remarques concernant le message d’avertissement affiché à pour les bots "
+"lorsqu’ils visitent le lien de déclenchement Blackhole. "
+
+#: inc/contextual-help.php:295
+msgid ""
+"The default warning message displays some basic info and a whois lookup on a "
+"red background. "
+msgstr ""
+"Le message d’avertissement par défaut affiche quelques informations de base "
+"ainsi qu’une recherche whois sur un fond rouge. "
+
+#: inc/contextual-help.php:296
+msgid "To customize this, follow these steps:"
+msgstr "Pour personnaliser, procédez comme suit:"
+
+#: inc/contextual-help.php:300
+msgid "Copy"
+msgstr "Copier"
+
+#: inc/contextual-help.php:300
+msgid "from the plugin&rsquo;s"
+msgstr "du plugin&rsquo;s"
+
+#: inc/contextual-help.php:300
+msgid "directory"
+msgstr "annonce"
+
+#: inc/contextual-help.php:301
+msgid "Paste into your theme, for example:"
+msgstr "Coller dans votre thème, par exemple:"
+
+#: inc/contextual-help.php:302
+msgid ""
+"Customize any of the markup between &ldquo;BEGIN TEMPLATE&rdquo; and &ldquo;"
+"END TEMPLATE&rdquo;"
+msgstr ""
+"Personnaliser l'un des balises entre &ldquo;DEBUT TEMPLATE&rdquo; et &ldquo;"
+"FIN TEMPLATE&rdquo;"
+
+#: inc/contextual-help.php:303
+msgid "Upload to the server and done"
+msgstr "Télécharger sur le serveur et terminé"
+
+#: inc/contextual-help.php:306
+msgid "Note that the template provides the following variables:"
+msgstr "Notez que le modèle fournit les variables suivantes :"
+
+#: inc/contextual-help.php:316
+msgid "Whitelist Settings"
+msgstr "Paramètres de la liste blanche"
+
+#: inc/contextual-help.php:318 inc/settings-register.php:20
+msgid "Whitelisted Bots"
+msgstr "Bots sur la liste blanche"
+
+#: inc/contextual-help.php:321
+msgid ""
+"Blackhole blocks bad bots via their reported IP address. This setting "
+"enables you to whitelist bots based on their reported user agent. "
+msgstr ""
+"Blackhole blocks bad bot bloque les mauvais robots via leur adresse IP "
+"signalée. Ce paramètre vous permet de rechercher les robots en fonction de "
+"leur agent utilisateur. "
+
+#: inc/contextual-help.php:322
+msgid ""
+"That way you will never block important things like Google, et al. Note: any "
+"strings entered here will be matched against the user agent via regular "
+"expression. Separate multiple strings with commas."
+msgstr ""
+"De cette façon, vous ne bloquerez jamais des choses importantes comme Google "
+"et al. Remarque: toutes les chaînes saisies ici seront adaptées à l'agent "
+"utilisateur via une expression régulière. Séparez plusieurs chaînes avec des "
+"virgules."
+
+#: inc/contextual-help.php:326
+msgid ""
+"Note that the IP address of your server automatically is added to the "
+"whitelist. If you are using anything like caching, load-balancing, or "
+"reverse proxy, make sure to add their respective IPs to the whitelist. "
+msgstr ""
+"Notez que l’adresse IP de votre serveur est automatiquement ajouté à la "
+"liste blanche. Si vous utilisez quelque chose comme la mise en cache, de "
+"proxy ou équilibrage de charge, veillez à ajouter leur adresses IP "
+"respective à la liste blanche. "
+
+#: inc/contextual-help.php:329
+msgid ""
+"Default: aolbuild, baidu, bingbot, bingpreview, msnbot, duckduckgo, adsbot-"
+"google, googlebot, mediapartners-google, teoma, slurp, yandex"
+msgstr ""
+"Par défaut: aolbuild, baidu, bingbot, bingpreview, msnbot, duckduckgo, "
+"adsbot-google, googlebot, mediapartners-google, teoma, slurp, yandex"
+
+#: inc/contextual-help.php:331 inc/settings-register.php:21
+msgid "Whitelisted IPs"
+msgstr "IP inscrites sur la liste blanche"
+
+#: inc/contextual-help.php:334
+msgid "Here you can whitelist bots based on their IP address. "
+msgstr ""
+"Ici vous pouvez ajouter en liste blanche des robots en fonction de leur "
+"adresse IP. "
+
+#: inc/contextual-help.php:335
+msgid ""
+"Any IPs entered here will be matched against the reported IP address via "
+"regular expression. "
+msgstr ""
+"Toutes les adresses IP entrées ici seront adaptées à l'adresse IP signalée "
+"par une expression régulière. "
+
+#: inc/contextual-help.php:336
+msgid "So you can block entire ranges of IPs by adding something like"
+msgstr ""
+"Ainsi, vous pouvez bloquer des rangée entières d'adresses IP en ajoutant "
+"quelque chose comme"
+
+#: inc/contextual-help.php:337
+msgid "Separate multiple IP/strings with commas."
+msgstr "Séparez plusieurs IP / strings par des virgules."
+
+#: inc/contextual-help.php:340
+msgid "Default: Blank/none"
+msgstr "Par défaut: vide / nul"
+
+#: inc/contextual-help.php:350 inc/contextual-help.php:352
+#: inc/settings-register.php:22
+msgid "Reset Options"
+msgstr "Réinitialisez les options"
+
+#: inc/contextual-help.php:354
+msgid ""
+"This setting enables you to restore the default plugin settings. Does not "
+"affect the Bad Bot Log."
+msgstr ""
+"Permet de restaurer les paramètres du plugin par défaut. N'affecte pas le "
+"journal Bad Bot."
+
+#: inc/contextual-help.php:356 inc/contextual-help.php:418
+msgid "Default: none (it&rsquo;s just a link)"
+msgstr "Par défaut: aucun (it&rsquo;s c'est juste un lien)"
+
+#: inc/contextual-help.php:391
+msgid ""
+"On this screen you will find a complete log of all blocked bots. Everything "
+"should be self-explanatory, but there are a few tricks worth knowing:"
+msgstr ""
+"Sur cet écran, vous trouverez un journal complet de tous les robots bloqués. "
+"Tout devrait s'expliquer automatiquement, mais il y a quelques trucs à "
+"savoir:"
+
+#: inc/contextual-help.php:394
+msgid "To delete any bot(s), click its [x] button"
+msgstr "Pour supprimer tout le(s) bot(s), cliquez sur son bouton [x]"
+
+#: inc/contextual-help.php:395
+msgid "The plugin adds a default bot as an example (cannot be deleted)"
+msgstr ""
+"Le plugin ajoute un bot par défaut comme exemple (ne peuvent pas être "
+"supprimées)"
+
+#: inc/contextual-help.php:396
+msgid ""
+"To clear the log and restore the default bot, click the link, &ldquo;Reset "
+"Bad Bots&rdquo;"
+msgstr ""
+"Pour effacer le journal et restaurer le bot par défaut, cliquez sur le lien, "
+"&ldquo;Réinitialiser Bad Bots&rdquo;"
+
+#: inc/contextual-help.php:400
+msgid ""
+"Note that the Pro version provides much more information for each bot, along "
+"with robust bot-management features like refined search and Geo/IP lookups. "
+msgstr ""
+"Notez que la version Pro fournit beaucoup plus d’informations pour chaque "
+"bot, ainsi que des fonctionnalités robustes de gestion des bots comme "
+"recherche affinée et les recherches de Geo/IP. "
+
+#: inc/contextual-help.php:401
+msgid "Check out Blackhole Pro&nbsp;&raquo;"
+msgstr "Obtenez Blackhole Pro&nbsp;&raquo;"
+
+#: inc/contextual-help.php:416
+msgid ""
+"This setting enables you to clear the Bad Bot Log and restore the default "
+"bot. Does not affect plugin settings."
+msgstr ""
+"Ce paramètre vous permet d'effacer le journal des Bot et restaure le bot par "
+"défaut. N’affecte pas la configuration du plugin."
+
+#: inc/resources-enqueue.php:30 inc/resources-enqueue.php:35
+msgid "Confirm Reset"
+msgstr "Confirm Reset"
+
+#: inc/resources-enqueue.php:31
+msgid "Reset the list of bad bots?"
+msgstr "Réinitialiser la liste des mauvais bots?"
+
+#: inc/resources-enqueue.php:32 inc/resources-enqueue.php:37
+msgid "Yes, make it so."
+msgstr "Oui, faites-le ainsi."
+
+#: inc/resources-enqueue.php:33 inc/resources-enqueue.php:38
+msgid "No, abort mission."
+msgstr "Non, annuler la mission."
+
+#: inc/resources-enqueue.php:36
+msgid "Restore default options?"
+msgstr "Rétablir les options par défaut?"
+
+#: inc/resources-enqueue.php:40
+msgid "Confirm Delete"
+msgstr "Confirmer Suppression"
+
+#: inc/resources-enqueue.php:41
+msgid "Delete this bot?"
+msgstr "Supprimer ce bot?"
+
+#: inc/resources-enqueue.php:42
+msgid "Yes, let him go."
+msgstr "Oui, laissez-le aller."
+
+#: inc/resources-enqueue.php:43
+msgid "No, stay on the leader."
+msgstr "Non, restez le chef."
+
+#: inc/settings-display.php:8
+msgid "Blackhole"
+msgstr "Blackhole"
+
+#: inc/settings-display.php:12
+msgid "Bad Bots"
+msgstr "Bad Bots"
+
+#: inc/settings-register.php:11
+msgid "Set the Controls.."
+msgstr "Définir les contrôles .."
+
+#: inc/settings-register.php:14
+msgid "Add these rules to your site&rsquo;s robots.txt file"
+msgstr "Ajoutez ces règles au fichier&rsquo;s robots.txt de votre site"
+
+#: inc/settings-register.php:15
+msgid "Enable email alerts"
+msgstr "Activer les alertes par courrier électronique"
+
+#: inc/settings-register.php:16
+msgid "Email address for alerts"
+msgstr "Adresse e-mail pour les alertes"
+
+#: inc/settings-register.php:17
+msgid "From Address"
+msgstr "Adresse d'expéditeur"
+
+#: inc/settings-register.php:17
+msgid "Email address for &ldquo;From&rdquo; header"
+msgstr "Adresse e-mail pour &ldquo;l'en-tête&rdquo; De"
+
+#: inc/settings-register.php:18
+msgid "Message displayed to blocked bots"
+msgstr "Message affiché sur les robots bloqués"
+
+#: inc/settings-register.php:19
+msgid "(when Custom is selected in previous setting)"
+msgstr ""
+"(Lorsque Message personnalisé est sélectionné dans le réglage précédent)"
+
+#: inc/settings-register.php:20
+msgid "User agents that never should be blocked"
+msgstr "Agents utilisateurs qui ne devraient jamais être bloqués"
+
+#: inc/settings-register.php:20 inc/settings-register.php:21
+msgid "(separate with commas)"
+msgstr "(Séparé par des virgules)"
+
+#: inc/settings-register.php:21
+msgid "IP addresses that never should be blocked"
+msgstr "Les adresses IP qui ne doivent jamais être bloquées"
+
+#: inc/settings-register.php:22 inc/settings-register.php:170
+msgid "Restore default plugin options"
+msgstr "Rétablir les options par défaut"
+
+#: inc/settings-register.php:23
+msgid "Support Plugin"
+msgstr "Assistance"
+
+#: inc/settings-register.php:23 inc/settings-register.php:204
+msgid "Show support with a 5-star rating &raquo;"
+msgstr "Lui donner une note de 5 étoiles &raquo;"
+
+#: inc/settings-register.php:55
+msgid ""
+"Thanks for using the free Blackhole plugin. May your site be free of "
+"disobedient bots. Visit the Help tab for complete documentation."
+msgstr ""
+"Merci d’utiliser le plugin gratuit de Blackhole. Votre site est libre des "
+"bots désobéissants. Visitez l’onglet d’aide pour une documentation complète."
+
+#: inc/settings-register.php:64
+msgid "Default Message"
+msgstr "Message par défaut"
+
+#: inc/settings-register.php:64
+msgid "(displays some basic text and markup)"
+msgstr "(Affiche un texte de base et le balisage)"
+
+#: inc/settings-register.php:68
+msgid "Custom Message"
+msgstr "Message personnalisé"
+
+#: inc/settings-register.php:68
+msgid "(define your own message in the next setting)"
+msgstr "(Décrivez votre propre message au réglage suivant)"
+
+#: inc/settings-register.php:72
+msgid "(displays an empty page with a black background)"
+msgstr "(affiche une page vide avec un fond noir)"
+
+#: inc/settings-register.php:186
+msgid "Please check WP General Settings."
+msgstr "Vérifiez les paramètres généraux de WP."
+
+#: inc/settings-register.php:193
+msgid "Add the following rules to your site&rsquo;s robots.txt file:"
+msgstr ""
+"Ajoutez les règles suivantes au fichier robots.txt de votre site&rsquo;s:"
+
+#: inc/settings-register.php:206
+msgid "Help keep Blackhole going strong! A huge THANK YOU for your support!"
+msgstr "Aider Blackhole à devenir fort! Un grand Merci pour votre soutien !"
+
+#: inc/settings-reset.php:15
+msgid "Default options restored."
+msgstr "Les options par défauts ont été restaurées."
+
+#: inc/settings-reset.php:19
+msgid "No changes made to options."
+msgstr "Aucune modifications apportées aux options."
+
+#: inc/settings-reset.php:27
+msgid "Bad bots reset successfully."
+msgstr "Bad bots réinitialiser avec succès."
+
+#: inc/settings-reset.php:31
+msgid "No changes made to bad bots."
+msgstr "Aucune modifications apportées aux mauvais robots."
+
+#: inc/settings-reset.php:39
+msgid "Bot deleted."
+msgstr "Bot supprimé."
+
+#: inc/settings-reset.php:43
+msgid "No bots deleted."
+msgstr "Aucun bots n'a été supprimé."
+
+#. Plugin URI of the plugin/theme
+msgid "https://perishablepress.com/blackhole-bad-bots/"
+msgstr "https://perishablepress.com/Blackhole-Bad-bots/"
+
+#. Description of the plugin/theme
+msgid "Protects your site against bad bots by trapping them in a blackhole."
+msgstr ""
+"Protège votre site contre de mauvais robots en les piégeant dans un trou "
+"noir."
+
+#. Author URI of the plugin/theme
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"

@@ -1,0 +1,330 @@
+CHANGELOG
+=========
+
+MyKnowledgeBase version 7.4 - july 2021
+- Customizer: added setting for search bar (change field placeholder)
+- Updated file header
+- File footer: added ARIA Landmark
+- Updated file style
+
+MyKnowledgeBase version 7.3 - may 2021
+- Customizer: added setting for knowledge base (show number of posts per category)
+
+MyKnowledgeBase version 7.2 - may 2021
+- File functions: minor changes in Customizer code
+
+MyKnowledgeBase version 7.1 - may 2021
+- Changed structure of the knowledge base page template
+- Previous structure was not valid HTML
+- Customizer: added setting for knowledge base (show post meta)
+- Page template files: added wrapper around page content
+- Updated file style
+
+MyKnowledgeBase version 7.0 - may 2021
+- Removed jQuery dependency from mobile menu
+- Mobile menu is regular JavaScript now
+- Customizer: you can now set width of logo and add content in footer
+- For users with a child theme: updated files header and footer
+- Added content width variable for full width page and post
+- Several minor adjustments
+
+MyKnowledgeBase version 6.9 - january 2021
+- Fix: submenu in IE11
+- Fix: submenu in older iOS version
+- Fix: image caption
+- Updated support for screen readers
+
+MyKnowledgeBase version 6.8 - november 2020
+- Have updated the metabox that was added in previous version
+
+MyKnowledgeBase version 6.7 - november 2020
+- Knowledge base page template: added field to exclude categories
+- This field will override the one in Customizer
+- You can now exclude categories per page
+- File style: minor fix
+
+MyKnowledgeBase version 6.6 - october 2020
+- Improved accessibility
+- Better support for screen readers
+- Because of this the CSS of main navigation is updated
+- File header: added skip to content link
+- Added ARIA Landmarks in several files
+- Several minor adjustments
+
+MyKnowledgeBase version 6.5 - may 2020
+- Added extra class to bottom postmeta of single event page
+- Added setting to show or hide Search Bar
+- Added setting for knowledge base to show a View All link
+- Minor changes in code
+- Readme file: updated info about theme features and settings
+
+MyKnowledgeBase version 6.4 - january 2020
+- Removed support for IE 8 and older
+- Added basic support for new editor
+- Updated head section
+- Changed logo tagline from h2 into div
+- Added class "list-image" to featured image in blog list
+- This class replaces native class "wp-post-image"
+- Removed native class "wp-post-image" from stylesheet
+- Removed unnecessary whitespaces from most files
+- Minor changes in code
+
+MyKnowledgeBase version 6.3 - july 2018
+- File style: changed CSS of many floating elements
+- File style: removed unnecessary CSS
+- File style: mobile menu update
+- File comments: changed comments-title from h4 into h3
+
+MyKnowledgeBase version 6.2 - june 2018
+- Fixed mistake in POT file
+- Readme file: removed donate link
+
+MyKnowledgeBase version 6.1 - june 2018
+- File comments: minor fix
+- Both knowledge base files: minor fix
+- Updated file style
+- Updated theme author info
+
+MyKnowledgeBase version 6.0 - february 2018
+- Several minor adjustments
+- Updated files style and custom-editor-style
+
+MyKnowledgeBase version 5.9 - february 2018
+- Several minor adjustments
+- Updated file style and functions
+
+MyKnowledgeBase version 5.8 - february 2018
+- Added a static font-size in body tag
+- Now other font-sizes will scale better
+- Updated h1-h6 headings
+- Updated files style and custom-editor-style
+- Several minor adjustments
+
+MyKnowledgeBase version 5.7 - november 2017
+- Added new options in customizer for blog page and posts
+- File style: relocated border-bottom from CSS class .more to CSS class .post-list
+
+MyKnowledgeBase version 5.6 - september 2017
+- Fixed display issue with mobile menu
+- Added div container around mobile menu
+- Updated files header and style
+
+MyKnowledgeBase version 5.5 - july 2017
+- Added full width post template
+- File style and custom-editor-style: added clear and margin-bottom to headings
+
+MyKnowledgeBase version 5.4 - june 2017
+- New jQuery navigation for mobile screens
+- Replaced select menu with toggle menu 
+- Files nav, header and style: added and removed code regarding new navigation
+- Files style and custom-editor-style: changed margin of several HTML tags to avoid margin collapsing
+- If you're using a child theme that contains file header: copy-paste code regarding new navigation
+
+MyKnowledgeBase version 5.3 - april 2017
+- Removed page template with left sidebar
+- Because other parts of theme do not support left sidebar
+- Removed files page-sidebar-left and sidebar-left
+- File style: minor changes
+
+MyKnowledgeBase version 5.2 - april 2017
+- File style: minor changes
+
+MyKnowledgeBase version 5.1 - april 2017
+- File single: added post class .post-single
+- File style: changed margin and padding of several elements (layout improvement)
+- Both knowledge base files: updated category and post query
+- Customizer: show or hide category description on knowledge base page
+
+MyKnowledgeBase version 5.0 - march 2017
+- File style: changed margin of several elements to avoid margin collapsing
+- Cleaned up file style
+- Updated files content-list and custom-editor-style
+- File functions: improved font family registering
+
+MyKnowledgeBase version 4.9 - march 2017
+- File style: fixed alignment issue of #respond
+
+MyKnowledgeBase version 4.8 - march 2017
+- File style: minor changes in HTML tags
+- File style: styling of select tag (cross-browser compatibility)
+- File style: added width and float to several elements (for better alignment)
+- File functions and single: removed post format (status)
+- Several minor adjustments
+
+MyKnowledgeBase version 4.7 - january 2017
+- Added support for hentry tags
+- Updated files content-postmeta, content-list and single
+- File style: adjusted CSS for inputs
+- File style: improved comments display
+- File custom-editor-style: removed theme colors (because theme can be customized)
+- Several minor adjustments
+
+MyKnowledgeBase version 4.6 - october 2016
+- Added page template with left sidebar
+- Knowledge base page template: you can now add content (text) too
+- Customizer: show or hide page title on knowledge base page
+- Several minor adjustments
+- New screenshot
+
+MyKnowledgeBase version 4.5 - august 2016
+- Customizer: textual changes
+- Updated file functions
+
+MyKnowledgeBase version 4.4 - august 2016
+- Customizer: order posts by date or name
+- Updated files page-knowledge-three and page-knowledge-four
+
+MyKnowledgeBase version 4.3 - august 2016
+- File functions: fix
+
+MyKnowledgeBase version 4.2 - august 2016
+- Customizer: exclude categories
+- Updated file functions
+- Updated files page-knowledge-three and page-knowledge-four
+- File content-postmeta-single: display post format too
+- Updated text strings
+- Several minor adjustments
+- New screenshot
+
+MyKnowledgeBase version 4.1 - august 2016
+- Cleanup: removed unnecessary white space from several files
+- File style: removed unnecessary id tags from several strings
+- File style: updated mobile stylesheet
+- File style and custom-editor-style: several minor adjustments
+- File functions: updated feature for HTML5 support in ie 8 and older
+
+MyKnowledgeBase version 4.0 - june 2016
+- Files style and custom-editor-style: resized all headings (including line-height)
+- File style: removed line-height from several elements
+
+MyKnowledgeBase version 3.9 - may 2016
+- Added file content-none 
+- Files 404, archive, index and search: relocated nothing found to separate file
+- Updated file index
+- Renamed both postmetadata files
+- Several minor adjustments
+
+MyKnowledgeBase version 3.8 - may 2016
+- Theme now supports post formats
+- File header: updated head section
+- Added file content-list 
+- Files archive, index and search: relocated part of loop to separate file
+- File index and style: changed featured post notice
+- File single: changed .page-title-post into .post-title-single
+- Changed .sticky into .sticky-title
+- Several minor adjustments
+
+MyKnowledgeBase version 3.6 - april 2016
+- Resized all headings (thanks Tom)
+- Changed address tag display
+- Several minor adjustments
+
+MyKnowledgeBase version 3.5 - march 2016
+- Localized mobile menu
+- Mobile menu now supports 2 level subpages
+
+MyKnowledgeBase version 3.4 - march 2016
+- Added file postmeta-single
+- File single: relocated postmetadata to separate file
+- Fix in file custom-editor-style: removed tags from reset stylesheet
+- SEO improvement: blog description is h2 (thanks Tom)
+- SEO improvement: all page titles are h1 and all post titles are h2 (thanks Tom)
+- SEO improvement: all widget titles are h3 (thanks Tom)
+- File single: changed title class into .page-title-post
+- File header: changed class .search-title into .searchbar-title
+- Updated readme file to WordPress default
+
+MyKnowledgeBase version 3.3 - march 2016
+- Added file postmeta
+- Files archive, index, search and single: relocated postmetadata to separate file
+- File style and custom-editor-style: updated HTML tags (thanks Tom)
+- Updated text strings (thanks Tom)
+- Several minor adjustments
+
+MyKnowledgeBase version 3.2 - february 2016
+- File header: the search bar in header is for posts only
+- Theme customizer: change search bar title
+- File search: post nav inside the loop
+- File style: fixed alignment of next and prev post link
+- Several minor adjustments
+
+MyKnowledgeBase version 2.9 - january 2016
+- File header: removed is_home so homepage content is not displayed when using a static blog page
+- Several minor adjustments
+
+MyKnowledgeBase version 2.8 - january 2016
+- Updated file style
+- Updated file custom-editor-style
+- Updated file functions
+
+MyKnowledgeBase version 2.7 - december 2015
+- Theme customizer: set amount of posts for each knowledge base category
+- File functions: theme customizer
+- Updated files page-knowledge-three and page-knowledge-four
+- Several files: updated postmetadata
+- File style: several modifications
+- Several minor adjustments
+- Updated pot file
+
+MyKnowledgeBase version 2.5 - november 2015
+- Updated archive.php (added the_archive_title and the_archive_description)
+- Updated pot file
+- Removed translations (to support language packs from wordpress.org)
+- Several minor adjustments
+
+MyKnowledgeBase version 2.4 - september 2015
+- Updated knowledge base page templates 
+- Updated file comments
+- Updated pagelink
+- File footer: copyrights
+- File archive and index: added pagetitle when no posts are found
+- Changed postmetadata heading into div
+- Reordered mobile stylesheet
+- Added Swedish translation (thanks Stefan)
+- Updated language files
+- Several minor adjustments
+
+MyKnowledgeBase version 2.2 - june 2015
+- File single: removed if statement
+- File functions, comments and style: changed alignment of comment nav
+- Reordered file style
+- Updated file readme
+
+MyKnowledgeBase version 2.1 - april 2015
+- Several minor adjustments in stylesheet
+- Removed support for document title in older WP versions
+- Files index and archive: pagination inside loop
+
+MyKnowledgeBase version 2.0 - february 2015
+- Added Spanish translation (thanks Miquel)
+- Added German translation (thanks Frank)
+- Updated French translation (thanks Ollie)
+- File style: adjusted styling comments area
+- File style: added support in Chrome for Checkbox, Radio and Select
+- File style and file custom-editor-style: finetuned img position in post and page
+- File style: reordered mobile stylesheet
+- File footer: added div around footer-widgets
+- File functions: removed class excerpt because not used anymore
+- File functions: added class to posts nav (now no empty space when posts nav is not present)
+
+MyKnowledgeBase version 1.9 - december 2014
+- File header: removed wp_title because of new title-tag
+- File functions: added backwards compatibility for WP 4.0 and older
+- Reordered file nav
+
+MyKnowledgeBase version 1.8 - december 2014 
+- File functions: added title-tag
+- Updated the reset stylesheet
+- Adjusted styling of several tags
+- Reordered and cleaned up files style and custom-editor-style
+- Reordered PHP files
+
+MyKnowledgeBase version 1.6 - december 2014 
+- Added French translation
+- Several CSS adjustments
+
+MyKnowledgeBase version 1.5 - november 2014 
+- Several CSS adjustments
+
+MyKnowledgeBase version 1.4 - october 2014 
+- First stable release

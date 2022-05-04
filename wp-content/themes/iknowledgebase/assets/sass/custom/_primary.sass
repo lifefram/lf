@@ -1,0 +1,168 @@
+// Buttons
+$btn-primary-color: $primary
+$btn-primary-color-invert: $primary-invert
+$btn-primary-color-darken: $primary-dark
+$btn-color-primary-shadow: var(--color-primary-shadow, $root-color-primary-shadow)
+.button
+  &.is-primary
+    background-color: $btn-primary-color
+    border-color: transparent
+    color: $btn-primary-color-invert
+    &:hover,
+    &.is-hovered
+      background-color: $btn-primary-color-darken !important
+      border-color: transparent !important
+      color: $btn-primary-color-invert !important
+    &:focus,
+    &.is-focused
+      border-color: transparent !important
+      color: $btn-primary-color-invert !important
+      &:not(:active)
+        box-shadow: $button-focus-box-shadow-size $btn-color-primary-shadow !important
+    &:active,
+    &.is-active
+      background-color: $btn-primary-color-darken !important
+      border-color: transparent !important
+      color: $btn-primary-color-invert !important
+    &[disabled],
+    fieldset[disabled] &
+      background-color: $btn-primary-color
+      border-color: transparent
+      box-shadow: none
+    &.is-inverted
+      background-color: $btn-primary-color-invert
+      color: $btn-primary-color
+      &:hover,
+      &.is-hovered
+        background-color: $btn-primary-color-darken
+      &[disabled],
+      fieldset[disabled] &
+        background-color: $btn-primary-color-invert
+        border-color: transparent
+        box-shadow: none
+        color: $btn-primary-color
+    &.is-loading
+      &::after
+        border-color: transparent transparent $btn-primary-color-invert $btn-primary-color-invert !important
+    &.is-outlined
+      background-color: transparent
+      border-color: $btn-primary-color
+      color: $btn-primary-color
+      &:hover,
+      &.is-hovered,
+      &:focus,
+      &.is-focused
+        background-color: $btn-primary-color
+        border-color: $btn-primary-color
+        color: $btn-primary-color-invert
+      &.is-loading
+        &::after
+          border-color: transparent transparent $btn-primary-color $btn-primary-color !important
+        &:hover,
+        &.is-hovered,
+        &:focus,
+        &.is-focused
+          &::after
+            border-color: transparent transparent $btn-primary-color-invert $btn-primary-color-invert !important
+      &[disabled],
+      fieldset[disabled] &
+        background-color: transparent
+        border-color: $btn-primary-color
+        box-shadow: none
+        color: $btn-primary-color
+    &.is-inverted.is-outlined
+      background-color: transparent
+      border-color: $btn-primary-color-invert
+      color: $btn-primary-color-invert
+      &:hover,
+      &.is-hovered,
+      &:focus,
+      &.is-focused
+        background-color: $btn-primary-color-invert
+        color: $btn-primary-color
+      &.is-loading
+        &:hover,
+        &.is-hovered,
+        &:focus,
+        &.is-focused
+          &::after
+            border-color: transparent transparent $btn-primary-color $btn-primary-color !important
+      &[disabled],
+      fieldset[disabled] &
+        background-color: transparent
+        border-color: $btn-primary-color-invert
+        box-shadow: none
+        color: $btn-primary-color-invert
+
+// Tags
+.tag:not(body).is-primary
+  background-color: $btn-primary-color
+  color: $btn-primary-color-invert
+
+// Color
+.has-text-primary
+  color: $btn-primary-color !important
+a.has-text-primary
+  &:hover,
+  &:focus
+    color: $primary-dark !important
+.has-background-primary
+  background-color: $btn-primary-color !important
+
+// Input Textarea
+%input-textarea
+  @extend %input
+  box-shadow: $input-shadow
+  max-width: 100%
+  width: 100%
+  &[readonly]
+    box-shadow: none
+  &.is-primary
+    border-color: $btn-primary-color
+    &:focus,
+    &.is-focused,
+    &:active,
+    &.is-active
+      box-shadow: $input-focus-box-shadow-size $btn-color-primary-shadow
+
+// File
+.file
+  // Colors
+  &.is-primary
+    .file-cta
+      background-color: $btn-primary-color
+      border-color: transparent
+      color: $btn-primary-color-invert
+    &:hover,
+    &.is-hovered
+      .file-cta
+        background-color: $btn-primary-color-darken
+        border-color: transparent
+        color: $btn-primary-color-invert
+    &:focus,
+    &.is-focused
+      .file-cta
+        border-color: transparent
+        box-shadow: 0 0 0.5em $btn-color-primary-shadow
+        color: $btn-primary-color-invert
+    &:active,
+    &.is-active
+      .file-cta
+        background-color: $btn-primary-color-darken
+        border-color: transparent
+        color: $btn-primary-color-invert
+// Select
+.select
+  &.is-primary
+    &:not(:hover)::after
+      border-color: $btn-primary-color
+    select
+      border-color: $btn-primary-color
+      &:hover,
+      &.is-hovered
+        border-color: $btn-primary-color-darken
+      &:focus,
+      &.is-focused,
+      &:active,
+      &.is-active
+        box-shadow: $input-focus-box-shadow-size $btn-color-primary-shadow

@@ -1,0 +1,22 @@
+Version 1.0
+i)   Initial version Release
+
+Version 1.1
+i)   Resolved theme sniffer issues as pointed out by reviewer
+ii)  Readme validated.
+
+Version 1.2
+i)   Add a copyright notice for the theme. 
+ii)  Solve Warning: printf(): Too few arguments in template-tags.php on line 74
+
+Version 1.3
+i)   On the comment section added commenter name.
+
+Version 1.4
+i)  Footer copyright text updated.  
+
+Version 1.5
+i)  Changed WordPress version minimum requirements  
+
+Version 1.6
+i)  Resolved theme check and theme sniffer issues.

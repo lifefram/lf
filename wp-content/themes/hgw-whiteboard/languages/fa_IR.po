@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.4.3\n"
+"Language-Team: \n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+
+#: customize.php
+msgid "Sidebar Search Form"
+msgstr "فرم جستجوی ستون کناری"
+
+msgid "Show Sidebar Search Form"
+msgstr "نمایش فرم جستجوی پوسته در ستون کناری"
+
+msgid "Show Search Form"
+msgstr "نمایش فرم جستجو"
+
+msgid "Social Media Settings"
+msgstr "تنظیمات شبکه های اجتماعی"
+
+msgid "Add Your Page ( Full URL )"
+msgstr "صفحه خود را اضافه کنید ( لینک کامل را وارد کنید )"
+
+msgid "Show Social Media"
+msgstr "نمایش شبکه های اجتماعی"
+
+msgid "Singular"
+msgstr "صفحات تکی ( ادامه مطلب )"
+
+msgid "Show Short url"
+msgstr "نمایش لینک کوتاه"
+
+msgid "Show Prev & Next posts"
+msgstr "نمایش مطلب بعدی و قبلی در انتهای پست"
+
+msgid "Archive posts layouts"
+msgstr "نوع نمایش نوشته ها"
+
+msgid "Breadcrumbs"
+msgstr "مسیر راهنما"
+
+msgid "Show Breadcrumb"
+msgstr "نمایش مسیر راهنما"
+
+msgid "Home"
+msgstr "صفحه نخست"
+
+#: template-tags.php
+msgid "in"
+msgstr "در"
+
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: navigation.php
+msgid "Previous Post"
+msgstr "مطلب قبلی"
+
+msgid "Next Post"
+msgstr "مطلب بعدی"
+
+#: simple-content.php
+msgid "Read More"
+msgstr "ادامه مطلب"
+
+#: singular-content.php
+msgid "Tags"
+msgstr "برچسب ها"
+
+msgid "Short URL"
+msgstr "لینک کوتاه"
+
+#: 404.php
+msgid "Page Not Found"
+msgstr "صفحه پیدا نشد"
+
+msgid ""
+"The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr ""
+"صفحه ای که به دنبال آن هستید پیدا نشد، این صفحه ممکن است حذف یا تغییر نام داده شده باشد می توانید با عنوان دیگری در سایت جستجو "
+"کنید."
+
+msgid "Search ..."
+msgstr "جستجو ..."
+
+msgid "Search"
+msgstr "جستجو"
+
+#: comments.php
+msgid "1 Comment"
+msgstr "1 نظر"
+
+msgid "Comments"
+msgstr "نظرات"
+
+#: footer.php
+msgid "Powered by WordPress"
+msgstr "قدرت گرفته از وردپرس"
+
+msgid "Whiteboard Theme"
+msgstr "پوسته تخته سفید"
+
+#: functions.php
+msgid "Main Sidebar"
+msgstr "ستون کناری اصلی"
+
+msgid "Primary Menu"
+msgstr "منو اصلی"
+
+#: header.php
+msgid "Skip to content"
+msgstr "رفتن به محتوای اصلی"
+
+#: header.php
+msgid "Does not match any results!"
+msgstr "هیچ نتیجه مشابهی پیدا نشد!"
+
+msgid "Not Found"
+msgstr "چیزی پیدا نشد"
+
+#: classes/class-widget-recent-posts.php:13
+msgid "Custom Posts widget"
+msgstr "ابزارک نمایش نوشته ها سفارشی"
+
+#: classes/class-widget-recent-posts.php:15
+msgid "Custom recent posts with image and by categories"
+msgstr "نوشته های اخیر با عکس بر اساس دسته بندی"
+
+#: classes/class-widget-recent-posts.php:119
+msgid "Not post yet"
+msgstr "هنوز مطلبی وجود ندارد"
+
+#: classes/class-widget-recent-posts.php:162
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/class-widget-recent-posts.php:180
+msgid "Category"
+msgstr "دسته بندی"
+
+#: classes/class-widget-recent-posts.php:185
+msgid "Recent Posts"
+msgstr "آخرین نوشته ها"
+
+#: classes/class-widget-recent-posts.php:202
+msgid "Number of posts"
+msgstr "تعداد نوشته ها"
+
+#: classes/class-widget-recent-posts.php:213
+msgid "Display post date"
+msgstr "نمایش تاریخ انتشار"
+
+#: classes/class-widget-recent-posts.php:220
+msgid "Display post comments"
+msgstr "نمایش تعداد دیدگاه"
+
+#: inc/templates/inc-theme-page-info.php
+msgid "Hi, thank you for choosing Hgw Whiteboard theme. Help improve this theme with your suggestions."
+msgstr ""
+"سلام، از انتخاب شما سپاسگذارم. با پیشنهادات خود به بهتر شدن قالب کمک کنید، کافیست از طریق لینک پایین صفحه پیشنهاد خود را ثبت "
+"کنید تا در بروزرسانی بعدی به قالب تخته سفید اضافه شود."
+
+msgid "Theme Options"
+msgstr "تنظیمات قالب"
+
+msgid ""
+"Theme uses Customizer API for theme options. Using the Customizer you can easily customize different aspects of the theme."
+msgstr ""
+"تنظیمات قالب در بخش سفارشی سازی در دسترس است، با استفاده از بخش سفارشی سازی به راحتی بخش های مختلف قالب را شخصی سازی کنید."
+
+msgid "Options"
+msgstr "تنظیمات"
+
+msgid "Widgets"
+msgstr "ابزارک ها"
+
+msgid "Theme uses Wedgets API for widget options. Using the Widgets you can easily customize different aspects of the theme."
+msgstr ""
+"برای استفاده از ابزارک می توانید از بخش سفارشی سازی استفاده کنید، با استفاده از ابزارک های می توانید بخش های مختلف را شخصی "
+"سازی کنید."
+
+msgid "Participate to get better"
+msgstr "برای بهتر شدن مشارکت کنید"
+
+msgid "Any suggestion for improvement is welcome, if you think your suggestion to improve this script let me know"
+msgstr ""
+"از هر پیشنهادی در راستای بهتر شدن استقبال می شود، اگر فکر می کنید پیشنهاد شما برای تمامی استفاده کنندگان از این قالب مفید است "
+"به ما اطلاع دهید."
+
+msgid "Have an idea for a better whiteboard theme?"
+msgstr "آیا ایده ای برای بهتر شدن تم تخته سفید دارید؟"
+
+msgid "Tell me"
+msgstr "اطلاع دهید"
+
+msgid "Please rate this theme in WordPress"
+msgstr "لطفا نظر خود را در مورد این تم در وردپرس ثبت کنید"
+
+msgid "Review"
+msgstr "ثبت نظر"

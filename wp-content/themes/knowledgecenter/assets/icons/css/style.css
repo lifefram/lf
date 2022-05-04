@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "kcicons";
+  src: url("../font/kcicons.eot");
+  src: url("../font/kcicons.eot?fa6niw#iefix") format("embedded-opentype"), url("../font/kcicons.woff2?fa6niw") format("woff2"), url("../font/kcicons.woff?fa6niw") format("woff"), url("../font/kcicons.ttf?fa6niw") format("truetype"), url("../font/kcicons.svg?fa6niw#kcicons") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+.kc-icon {
+  display: inline-block;
+  font-family: "kcicons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right::before {
+  content: "";
+}
+
+.icon-long-arrow-right::before {
+  content: "";
+}
+
+.icon-search::before {
+  content: "";
+}
+
+/*# sourceMappingURL=style.css.map */

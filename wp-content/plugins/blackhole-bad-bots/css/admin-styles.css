@@ -1,0 +1,51 @@
+/* Blackhole for Bad Bots - Admin CSS */
+
+.wp-admin .share-button { margin: 4px 0; }
+
+.wp-admin h1.bbb-title { 
+	margin: 0 0 8px 0; padding: 8px 0 8px 50px; text-shadow: 1px 1px 1px rgba(255,255,255,0.5); 
+	background-image: url(../img/bbb-icon-88.png); background-color: transparent; background-repeat: no-repeat; background-position: left center; background-size: 44px 44px; 
+	}
+	.wp-admin h1.bbb-title span { color: #c7c7c7; font-size: 90%; }
+
+.wp-admin .bbb-label { display: block; color: #555; font-style: italic; font-size: 14px; line-height: 1.5; }
+.wp-admin .inline-block { display: inline-block; }
+.wp-admin .bbb-light-text { color: #777; font-size: 80%; }
+
+.wp-admin input[type=text] { width: 55%; }
+.wp-admin textarea { width: 77%; min-height: 50px; }
+.wp-admin pre { box-sizing: border-box; max-width: 380px; padding: 20px; color: #fff; background-color: #222; border-radius: 1px; }
+
+.wp-admin .bbb-blocked-bots { width: 90%; height: 300px; overflow-x: auto; overflow-y: scroll; padding: 10px; background-color: #fff; border: 1px solid #eee; }
+.wp-admin .bbb-blocked-bots ol { margin: 0; padding: 0; list-style: none outside; line-height: 1.5; font-size: 11px; }
+.wp-admin .bbb-blocked-bots li { margin: 0; padding: 10px 5px; border-bottom: 1px solid #eee; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; }
+.wp-admin .bbb-blocked-bots li .bbb-user-agent { color: #777; }
+.wp-admin .bbb-blocked-bots li .bbb-delete-bot { 
+	display: inline-block; position: relative; top: -1px; 
+	margin: 0 3px 0 0; font-size: 13px; font-weight: bold; text-decoration: none; 
+	}
+.wp-admin .bbb-delete-bot-icon {
+	display: inline-block; width: 11px; height: 11px; position: relative; top: -2px; margin: 0 5px 0 0; 
+	border-radius: 50%; vertical-align: middle; background-color: #222; 
+	}
+
+.wp-admin .pseudo-link { color: #0073aa; font-weight: bold; }
+.wp-admin .bbb-warning { color: #cc3333; font-weight: bold; }
+
+.wp-admin .blackhole-pro { margin: 10px 0 0 0; }
+.wp-admin .blackhole-pro a, 
+.wp-admin .blackhole-pro a:hover, 
+.wp-admin .blackhole-pro a img { display: block; width: 400px; height: 104px; margin: 0; padding: 0; border: 0; text-decoration: none; opacity: 0.9; }
+.wp-admin .blackhole-pro a:hover { opacity: 1.0; }
+
+.ui-dialog .ui-dialog-titlebar { font-size: 16px; }
+.ui-dialog .ui-dialog-buttonpane, .ui-dialog .ui-dialog-titlebar, .ui-dialog .ui-dialog-content { text-align: center; }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: none; }
+.ui-dialog .ui-dialog-buttonpane .ui-button { margin: 0; }
+.ui-dialog .ui-dialog-buttonpane .ui-button:first-child { margin-right: 15px; }
+
+@media (max-width: 1000px) {
+	.wp-admin input[type=text] { width: 77%; }
+	.wp-admin textarea { width: 88%; }
+	.bbb-blocked-bots { width: 99%; }
+}
