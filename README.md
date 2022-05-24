@@ -19,7 +19,7 @@ Then, insert your API key at wp-content\plugins\advanced-classifieds-and-directo
 		...
 		...
 
-It includes a donate page after a content is submitted where you could award your donors with an NFT token containing the content itself, in the form of a JSON file and the image you uploaded.
+It includes a donate page after a content is submitted where you could award your donors with an NFT token containing the content itself, in the form of a JSON file and image file as metadata. The NFT contains the IPFS URL linking to your content files.
 
 NFT token minting and delivery is handled at the admin console during the pre-publication and storing phase. It has only been tested with [MetaMask](https://metamask.io/) wallet. Ensure you have one installed.
 
