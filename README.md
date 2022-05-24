@@ -1,6 +1,6 @@
 ## Introduction
 
-This repository contains WordPress theme and plugins and IPFS content upload script that we used to publish and store biographical content. 
+This repository contains WordPress theme and plugins and IPFS content upload script that we use to publish and store biographical content. 
 
 The main plugin that we use is [Advanced Classifieds & Directory Pro](https://wordpress.org/plugins/advanced-classifieds-and-directory-pro/) but has been heavily customized.
 
