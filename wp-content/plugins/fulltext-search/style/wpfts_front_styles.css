@@ -1,0 +1,32 @@
+/**
+ * This CSS snippet will be automatically minimized 
+ * upon usage with a frontend. 
+ * (Comments, tabs and spaces will be removed)
+ */
+.wpfts-result-item .wpfts-smart-excerpt {	
+	/* Excerpt text */
+}
+.wpfts-result-item .wpfts-not-found {
+	/* Not found text */
+	color: #808080;
+	font-size: 0.9em;
+}
+.wpfts-result-item .wpfts-score {
+	/* Score text */
+	color: #006621;
+	font-size: 0.9em;
+}
+.wpfts-shift {	
+	/* Space between score and download link */
+	margin-left: 40px;
+}
+.wpfts-result-item .wpfts-download-link {
+	/* Download link */
+	color: #006621;
+	font-size: 0.9em;
+}
+.wpfts-result-item .wpfts-file-size {
+	/* Filesize number */
+	color: #006621;
+	font-size: 0.9em;
+}

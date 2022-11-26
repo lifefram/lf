@@ -1,0 +1,1581 @@
+# Translation of Plugins - Search Regex - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - Search Regex - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-04 15:08:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Search Regex - Development (trunk)\n"
+
+#: build/search-regex.js:17
+msgid "OK"
+msgstr "OK"
+
+#. translators: version installed
+#: build/search-regex.js:17
+msgid "Version %s installed! Please read the {{url}}release notes{{/url}} for details."
+msgstr "バージョン%sがインストールされました! 詳細は、{{url}}リリースノート{{/url}}をご覧ください。"
+
+#: build/search-regex.js:15
+msgid "A problem occurred with your last query. This is likely caused by a combination of search filters that haven't been handled properly."
+msgstr "最後のクエリで問題が発生しました。原因は、検索絞り込みの組み合わせが適切に処理されていないことのようです。"
+
+#: build/search-regex.js:15
+msgid "Query Problem"
+msgstr "クエリの問題"
+
+#: build/search-regex.js:15
+msgid "Progress"
+msgstr "進行状況"
+
+#: build/search-regex.js:14
+msgid "%s row deleted."
+msgid_plural "%s rows deleted."
+msgstr[0] "%s 行が削除されました。"
+
+#: build/search-regex.js:14
+msgid "Refresh"
+msgstr "更新"
+
+#: build/search-regex.js:14
+msgid "Matched Content"
+msgstr "一致したコンテンツ"
+
+#: build/search-regex.js:14 build/search-regex.js:15
+msgid "Your search resulted in too many requests. Please narrow your search terms."
+msgstr "検索結果が多すぎます。検索条件を絞り込んでください。"
+
+#: build/search-regex.js:14
+msgid "Your search conditions have changed. Please refresh to see the latest results."
+msgstr "検索条件が変更されました。最新の結果を表示するには、更新してください。"
+
+#: build/search-regex.js:8
+msgid "Matched rows: %(matches)s out of %(total)s total."
+msgstr "一致した行: 全 %(total)s個中 %(matches)s 個"
+
+#: build/search-regex.js:8
+msgid "Delete database row"
+msgstr "このデータベース行を削除"
+
+#: build/search-regex.js:8
+msgid "View"
+msgstr "表示"
+
+#: build/search-regex.js:8
+msgid "No title"
+msgstr "タイトルなし"
+
+#: build/search-regex.js:6
+msgid "Empty value"
+msgstr "値が空白です"
+
+#: build/search-regex.js:6
+msgid "No value"
+msgstr "値なし"
+
+#: build/search-regex.js:6
+msgid "Click to replace match"
+msgstr "クリックで一致箇所を置換"
+
+#: build/search-regex.js:6
+msgid "Contains encoded data"
+msgstr "エンコードされたデータを含む"
+
+#: build/search-regex.js:6
+msgid "New meta value"
+msgstr "新しいメタ値"
+
+#: build/search-regex.js:6
+msgid "New meta key"
+msgstr "新しいメタキー"
+
+#: build/search-regex.js:6
+msgid "Apply to matches only"
+msgstr "一致のみ適用"
+
+#: build/search-regex.js:6
+msgid "Enter replacement"
+msgstr "置換文字列を入力"
+
+#: build/search-regex.js:6
+msgid "Click to replace column"
+msgstr "クリックで列を置換"
+
+#: build/search-regex.js:6
+msgid "This column contains special formatting. Modifying it could break the format."
+msgstr "この列には特別な書式が含まれています。これを変更すると、体裁が崩れる可能性があります。"
+
+#: build/search-regex.js:6
+msgid "HTML"
+msgstr "HTML"
+
+#: build/search-regex.js:6
+msgid "Blocks"
+msgstr ""
+
+#: build/search-regex.js:6
+msgid "Serialized PHP"
+msgstr "シリアル化された PHP"
+
+#: build/search-regex.js:6
+msgid "Paste preset JSON."
+msgstr "プリセット用の JSON を貼り付け"
+
+#: build/search-regex.js:6
+msgid "Global Search Flags"
+msgstr "全体検索フラグ"
+
+#: build/search-regex.js:6
+msgid "Global Replace"
+msgstr "全体置換"
+
+#: build/search-regex.js:6
+msgid "Global Search"
+msgstr "全体検索"
+
+#: build/search-regex.js:6
+msgid "View Columns"
+msgstr "列を表示"
+
+#: build/search-regex.js:6
+msgid "Sources"
+msgstr "入力"
+
+#: build/search-regex.js:6
+msgid "Only include selected columns"
+msgstr "選択した列のみを含める"
+
+#: build/search-regex.js:6
+msgid "WordPress Action"
+msgstr "WordPress のアクション"
+
+#: build/search-regex.js:6
+msgid "SQL"
+msgstr "SQL"
+
+#: build/search-regex.js:6
+msgid "CSV"
+msgstr "CSV"
+
+#: build/search-regex.js:6
+msgid "JSON"
+msgstr "JSON"
+
+#: build/search-regex.js:6
+msgid "Export Format"
+msgstr "エクスポート形式"
+
+#: build/search-regex.js:6
+msgid "Run a WordPress action for each matching result."
+msgstr "一致したそれぞれの結果に対して WordPress のアクションを実行。"
+
+#: build/search-regex.js:6 build/search-regex.js:14
+msgid "Run Action"
+msgstr "アクションを実行"
+
+#: build/search-regex.js:6
+msgid "Delete matching results."
+msgstr "一致結果の記事を削除します。"
+
+#: build/search-regex.js:6 build/search-regex.js:14
+msgid "Delete Matches"
+msgstr "一致項目を削除"
+
+#: build/search-regex.js:6
+msgid "Export matching results to JSON, CSV, or SQL."
+msgstr "一致結果を JSON, CSV, SQL でエクスポート"
+
+#: build/search-regex.js:6 build/search-regex.js:14
+msgid "Export Matches"
+msgstr "一致項目をエクスポート"
+
+#: build/search-regex.js:6
+msgid "Perform changes to specific values of the matching results."
+msgstr "一致結果中の特定の値を変更する。"
+
+#: build/search-regex.js:6
+msgid "Modify Matches"
+msgstr "一致項目を修正"
+
+#: build/search-regex.js:6
+msgid "Replace the global search values."
+msgstr "全体検索の値を置換する。"
+
+#: build/search-regex.js:6
+msgid "Global Text Replace"
+msgstr "全体の文字列置換"
+
+#: build/search-regex.js:6
+msgid "Just show matching results."
+msgstr "一致結果をただ表示します。"
+
+#: build/search-regex.js:6
+msgid "No action"
+msgstr "操作なし"
+
+#: build/search-regex.js:6
+msgid "Enter replacement value"
+msgstr "置換用の文字列を入力"
+
+#: build/search-regex.js:6
+msgid "Matched values will be removed"
+msgstr "一致した値は除去されます"
+
+#. translators: text to replace
+#: build/search-regex.js:6
+msgid "Replace \"%1s\""
+msgstr "置換 「%1s」"
+
+#: build/search-regex.js:4
+msgid "Year"
+msgstr "年"
+
+#: build/search-regex.js:4
+msgid "Months"
+msgstr "月"
+
+#: build/search-regex.js:4
+msgid "Weeks"
+msgstr "週"
+
+#: build/search-regex.js:4
+msgid "Days"
+msgstr "日"
+
+#: build/search-regex.js:4
+msgid "Hours"
+msgstr "時間"
+
+#: build/search-regex.js:4
+msgid "Minutes"
+msgstr "分"
+
+#: build/search-regex.js:4
+msgid "Seconds"
+msgstr "秒"
+
+#: build/search-regex.js:4
+msgid "Decrement"
+msgstr "減少"
+
+#: build/search-regex.js:4
+msgid "Increment"
+msgstr "増加"
+
+#: build/search-regex.js:4
+msgid "Set Value"
+msgstr "値を指定"
+
+#: build/search-regex.js:4
+msgid "Replace With"
+msgstr "これと置換"
+
+#: build/search-regex.js:4 build/search-regex.js:6
+msgid "Add"
+msgstr "追加"
+
+#: build/search-regex.js:4
+msgid "Column"
+msgstr "列"
+
+#: build/search-regex.js:4
+msgid "AND"
+msgstr "AND"
+
+#: build/search-regex.js:4 build/search-regex.js:6
+msgid "Filters"
+msgstr "絞り込み"
+
+#: build/search-regex.js:4
+msgid "Add sub-filter (OR)"
+msgstr "絞り込み条件の追加 (OR)"
+
+#: build/search-regex.js:4
+msgid "OR"
+msgstr "OR"
+
+#: build/search-regex.js:4
+msgid "All"
+msgstr "すべて"
+
+#: build/search-regex.js:4
+msgid "between {{first/}} and {{second/}}"
+msgstr "{{first/}} から {{second/}} の間"
+
+#: build/search-regex.js:4
+msgid "No Owner"
+msgstr "所有者なし"
+
+#: build/search-regex.js:4
+msgid "Has Owner"
+msgstr "所有者あり"
+
+#: build/search-regex.js:4
+msgid "Any"
+msgstr "の指定なし"
+
+#: build/search-regex.js:4
+msgid "Excludes any"
+msgstr "に含まない"
+
+#: build/search-regex.js:4
+msgid "Includes any"
+msgstr "に含む"
+
+#: build/search-regex.js:4
+msgid "End"
+msgstr "が以下で終わる"
+
+#: build/search-regex.js:4
+msgid "Begins"
+msgstr "が以下で始まる"
+
+#: build/search-regex.js:4
+msgid "Not contains"
+msgstr "に含まない"
+
+#: build/search-regex.js:4
+msgid "Contains"
+msgstr "に含む"
+
+#: build/search-regex.js:4
+msgid "Range"
+msgstr "の範囲"
+
+#: build/search-regex.js:4
+msgid "Less"
+msgstr "が小さい"
+
+#: build/search-regex.js:4
+msgid "Greater"
+msgstr "が大きい"
+
+#: build/search-regex.js:4
+msgid "Not Equals"
+msgstr "が等しくない"
+
+#: build/search-regex.js:4
+msgid "Equals"
+msgstr "が等しい"
+
+#: build/search-regex.js:4
+msgid "Optional global search phrase. Leave blank to use filters only."
+msgstr "全体検索用の語句。空白にすると、絞り込みだけ行います。"
+
+#: build/search-regex.js:2
+msgid "REST API 404"
+msgstr "REST API 404"
+
+#: build/search-regex.js:2
+msgid "Your REST API appears to be cached and this will cause problems. Please exclude your REST API from your caching system."
+msgstr "お使いの REST API はキャッシュされているようで、このことが問題を引き起こしています。REST API を利用中のキャッシュのシステムから除外してください。"
+
+#: build/search-regex.js:2
+msgid "Your REST API is showing a deprecated PHP error. Please fix this error."
+msgstr "お使いの REST API は、非推奨になっている PHP のエラーを出しています。このエラーを修正してください。"
+
+#: build/search-regex.js:2
+msgid "Your server configuration is blocking access to the REST API."
+msgstr "このサーバーの設定が REST API へのアクセスをブロックしています。"
+
+#: build/search-regex.js:2
+msgid "Can you access your {{api}}REST API{{/api}} without it redirecting?."
+msgstr "リダイレクトなしでお使いの {{api}}REST API{{/api}} にアクセスできますか ?"
+
+#: build/search-regex.js:2
+msgid "You will will need to fix this on your site. Redirection is not causing the error."
+msgstr "このサイト上のこれを修正する必要があります。リダイレクトはエラーの原因ではありません。"
+
+#: build/search-regex.js:2
+msgid "Preset uploaded"
+msgstr "プリセットはアップロードされました"
+
+#: build/search-regex.js:2
+msgid "Multiline"
+msgstr "複数行"
+
+#: build/search-regex.js:2
+msgid "Case"
+msgstr "大/小なし"
+
+#: build/search-regex.js:2
+msgid "Regex"
+msgstr "正規表現"
+
+#: includes/source/plugin/source-redirection.php:499
+msgid "Nginx"
+msgstr "Nginx"
+
+#: includes/source/plugin/source-redirection.php:495
+msgid "Apache"
+msgstr "Apache"
+
+#: includes/source/plugin/source-redirection.php:491
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/source/plugin/source-redirection.php:487
+msgid "Module"
+msgstr "モジュール"
+
+#: includes/source/plugin/source-redirection.php:468
+msgid "Redirection Groups"
+msgstr "リダイレクトのグループ"
+
+#: includes/source/plugin/source-redirection.php:347
+msgid "Not accessed"
+msgstr "アクセスなし"
+
+#: includes/source/plugin/source-redirection.php:232
+msgid "Target"
+msgstr "対象"
+
+#: includes/source/plugin/source-redirection.php:208
+msgid "HTTP Code"
+msgstr "HTTP コード"
+
+#: includes/source/plugin/source-redirection.php:203
+msgid "Position"
+msgstr "配置"
+
+#: includes/source/plugin/source-redirection.php:196
+#: includes/source/plugin/source-redirection.php:514
+msgid "Disabled"
+msgstr "無効"
+
+#: includes/source/plugin/source-redirection.php:192
+#: includes/source/plugin/source-redirection.php:510
+msgid "Enabled"
+msgstr "有効"
+
+#: includes/source/plugin/source-redirection.php:188
+#: includes/source/plugin/source-redirection.php:506
+msgid "Status"
+msgstr "状態"
+
+#: includes/source/plugin/source-redirection.php:181
+msgid "Group"
+msgstr "グループ"
+
+#: includes/source/plugin/source-redirection.php:176
+msgid "Last Access"
+msgstr "最終アクセス"
+
+#: includes/source/plugin/source-redirection.php:171
+msgid "Hit Count"
+msgstr "ヒット数"
+
+#: includes/source/plugin/source-redirection.php:164
+msgid "Source URL (matching)"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:157
+msgid "Source URL"
+msgstr ""
+
+#: includes/source/core/source-user.php:174
+msgid "User meta"
+msgstr "ユーザーメタ情報"
+
+#: includes/source/core/source-user.php:168
+msgid "Registered"
+msgstr "登録日時"
+
+#: includes/source/core/source-user.php:134
+msgid "Login"
+msgstr "ログイン"
+
+#: includes/source/core/source-terms.php:135
+msgid "Taxonomy"
+msgstr "タクソノミー"
+
+#: includes/source/core/source-post.php:411
+msgid "Post Tag"
+msgstr "投稿タグ"
+
+#: includes/source/core/source-post.php:402
+msgid "Post Category"
+msgstr "投稿カテゴリー"
+
+#: includes/source/core/source-post.php:396
+msgid "Comment Count"
+msgstr "コメント数"
+
+#: includes/source/core/source-post.php:389
+msgid "MIME"
+msgstr "MIME"
+
+#: includes/source/core/source-post.php:374
+msgid "Parent"
+msgstr "親"
+
+#: includes/source/core/source-post.php:368
+msgid "Modified GMT"
+msgstr "更新日時 (GMT)"
+
+#: includes/source/core/source-post.php:362
+msgid "Modified"
+msgstr "更新日時"
+
+#: includes/source/core/source-post.php:355
+msgid "Password"
+msgstr "パスワード"
+
+#: includes/source/core/source-post.php:352
+msgid "Has no password"
+msgstr "パスワードなし"
+
+#: includes/source/core/source-post.php:348
+msgid "Has password"
+msgstr "パスワードあり"
+
+#: includes/source/core/source-post.php:339
+msgid "Ping Status"
+msgstr "PING の状態"
+
+#: includes/source/core/source-post.php:323
+msgid "Comment Status"
+msgstr "コメントの状態"
+
+#: includes/source/core/source-post.php:316
+#: includes/source/core/source-post.php:332
+msgid "Open"
+msgstr "開放"
+
+#: includes/source/core/source-post.php:308
+msgid "Post Status"
+msgstr "投稿状態"
+
+#: includes/source/core/source-post.php:268
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: includes/source/core/source-options.php:136
+msgid "Autoload"
+msgstr "Autoload"
+
+#: includes/source/core/source-options.php:133
+msgid "Is not autoload"
+msgstr "autoload ではない"
+
+#: includes/source/core/source-options.php:129
+msgid "Is autoload"
+msgstr "autoload です"
+
+#: includes/source/core/source-meta.php:126 build/search-regex.js:4
+#: build/search-regex.js:6
+msgid "Meta Value"
+msgstr "メタ値"
+
+#: includes/source/core/source-meta.php:119 build/search-regex.js:4
+#: build/search-regex.js:6
+msgid "Meta Key"
+msgstr "メタキー"
+
+#: includes/source/core/source-meta.php:112
+msgid "Owner ID"
+msgstr ""
+
+#: includes/source/core/source-comment.php:262
+msgid "Comment meta"
+msgstr "コメントメタ情報"
+
+#: includes/source/core/source-comment.php:254
+msgid "User ID"
+msgstr "ユーザー ID"
+
+#: includes/source/core/source-comment.php:248
+msgid "Parent Comment"
+msgstr "親コメント"
+
+#: includes/source/core/source-comment.php:237
+msgid "Trackback"
+msgstr "トラックバック"
+
+#: includes/source/core/source-comment.php:233
+msgid "Pingback"
+msgstr "ピンバック"
+
+#: includes/source/core/source-comment.php:229
+msgid "Type"
+msgstr "種類"
+
+#: includes/source/core/source-comment.php:224
+msgid "User Agent"
+msgstr "ユーザーエージェント"
+
+#: includes/source/core/source-comment.php:219
+msgid "Approval Status"
+msgstr "承認状態"
+
+#: includes/source/core/source-comment.php:216
+msgid "Spam"
+msgstr "スパム"
+
+#: includes/source/core/source-comment.php:212
+msgid "Approved"
+msgstr "承認済み"
+
+#: includes/source/core/source-comment.php:208
+msgid "Unapproved"
+msgstr "承認待ち"
+
+#: includes/source/core/source-comment.php:199
+#: includes/source/core/source-post.php:295
+msgid "Date GMT"
+msgstr "日時 (GMT)"
+
+#: includes/source/core/source-comment.php:193
+#: includes/source/core/source-post.php:289
+msgid "Date"
+msgstr "日時"
+
+#: includes/source/core/source-comment.php:188
+msgid "IP"
+msgstr "IP"
+
+#: includes/source/core/source-comment.php:161
+#: includes/source/core/source-post.php:282
+msgid "Author"
+msgstr "投稿者"
+
+#: includes/source/core/source-comment.php:154
+msgid "Post ID"
+msgstr "投稿 ID"
+
+#: includes/source/core/source-comment.php:148
+#: includes/source/core/source-options.php:105
+#: includes/source/core/source-post.php:245
+#: includes/source/core/source-terms.php:114
+#: includes/source/core/source-user.php:127
+#: includes/source/plugin/source-redirection.php:151
+#: includes/source/plugin/source-redirection.php:474
+msgid "ID"
+msgstr "ID"
+
+#: includes/source/class-manager.php:76
+#: includes/source/core/source-terms.php:108
+msgid "Terms"
+msgstr "用語"
+
+#: includes/source/class-manager.php:22
+#: includes/source/core/source-post.php:239
+msgid "Posts (core & custom)"
+msgstr "投稿 (コア & カスタム)"
+
+#: build/search-regex.js:2
+msgid "Please review your data and try again."
+msgstr "データを見直し再度お試しください。"
+
+#: build/search-regex.js:2
+msgid "There was a problem making a request to your site. This could indicate you provided data that did not match requirements, or that the plugin sent a bad request."
+msgstr "このサイトへのリクエストに問題がありました。これは、要件に一致しないデータを提供したか、プラグインが不正なリクエストを送信したことを示しています。"
+
+#: build/search-regex.js:2
+msgid "Bad data"
+msgstr "不正なデータ"
+
+#: build/search-regex.js:2
+msgid "Your WordPress REST API is returning a 404 page. This is almost certainly an external plugin or server configuration issue."
+msgstr "WordPress REST API が 404 ページを返しています。これは、外部のプラグインまたはサーバー設定の問題であることがほとんどです。"
+
+#: build/search-regex.js:2
+msgid "2000 per page"
+msgstr "2000件 / ページ"
+
+#: build/search-regex.js:2
+msgid "1000 per page"
+msgstr "1000件 / ページ"
+
+#: build/search-regex.js:2
+msgid "Set a preset to use by default when Search Regex is loaded."
+msgstr "Search Regex が読み込まれたら標準で使用するプリセットを設定します。"
+
+#: build/search-regex.js:2
+msgid "No default preset"
+msgstr "標準のプリセットなし"
+
+#: build/search-regex.js:2
+msgid "Default Preset"
+msgstr "標準のプリセット"
+
+#: build/search-regex.js:2
+msgid "Your admin pages are being cached. Clear this cache and try again. There may be multiple caches involved."
+msgstr "管理画面のページがキャッシュされています。このキャッシュを消去し再度お試しください。複数のキャッシュが関与している可能性があります。"
+
+#: build/search-regex.js:2
+msgid "This is usually fixed by doing one of the following:"
+msgstr "これは、以下のいずれかを行うことで通常は解決されます:"
+
+#: build/search-regex.js:2
+msgid "You are using an old or cached session"
+msgstr "古いか、キャッシュされたセッションを使用中です"
+
+#: build/search-regex.js:2
+msgid "Debug Information"
+msgstr "デバッグ情報"
+
+#: build/search-regex.js:2
+msgid "Show debug"
+msgstr "デバッグを表示"
+
+#: build/search-regex.js:2
+msgid "WordPress returned an unexpected message. This could be a PHP error from another plugin, or data inserted by your theme."
+msgstr "WordPress が予期せぬメッセージを返しました。これは、他のプラグインによる PHP エラー、または利用中のテーマによって挿入されたデータの可能性があります。"
+
+#: build/search-regex.js:2
+msgid "Your WordPress REST API has been disabled. You will need to enable it to continue."
+msgstr "WordPress REST API が無効になっています。 続行するには有効化する必要があります。"
+
+#: build/search-regex.js:2
+msgid "Your REST API is being redirected. Please remove the redirection for the API."
+msgstr "お使いの REST API はリダイレクトされています。API のリダイレクトを削除してください。"
+
+#: build/search-regex.js:2
+msgid "A security plugin or firewall is blocking access. You will need to whitelist the REST API."
+msgstr "セキュリティ用のプラグインかファイアーウォールがアクセスを遮断しています。REST API をホワイトリストに登録する必要があります。"
+
+#: build/search-regex.js:2
+msgid "Check your {{link}}Site Health{{/link}} and fix any issues."
+msgstr "{{link}}サイトヘルス{{/link}}を確認し、問題を修正してください。"
+
+#: build/search-regex.js:6
+msgid "Preset"
+msgstr "プリセット"
+
+#: build/search-regex.js:6
+msgid "Upload"
+msgstr "アップロード"
+
+#: build/search-regex.js:6
+msgid "Add file"
+msgstr "ファイルの追加"
+
+#: build/search-regex.js:2
+msgid "Preset saved"
+msgstr "プリセットを保存しました"
+
+#: build/search-regex.js:6
+msgid "Copy to clipboard"
+msgstr "クリップボードにコピー"
+
+#: build/search-regex.js:6
+msgid "Are you sure you want to delete this preset?"
+msgstr "このプリセットを削除しますか ?"
+
+#: build/search-regex.js:6
+msgid "Locked fields"
+msgstr "入力欄のロック"
+
+#: build/search-regex.js:6
+msgid "For example, create tag {{code}}URL{{/code}} and title {{code}}Image URL{{/code}}. Your search could be {{code}}<img src=\"URL\">{{/code}}. When the preset is used it will ask the user for the {{code}}Image URL{{/code}} instead of the full search phrase."
+msgstr "例: タイトル {{{code}}URL{{/code}}} とタグ {{{code}}Image URL{/code}} を作成します。検索では {{{code}}<img src=\"URL\">{{/code}}} とすることができます。プリセットを使うと、完全な検索語句の代わりに {{{code}}Image URL{{/code}}} をユーザーに要求します。"
+
+#: build/search-regex.js:6
+msgid "A tag creates a custom input field. Insert the tag anywhere in the search, replace, text filter, or text action and when the preset is used it will be replaced with a custom text field with the tag label."
+msgstr "タグは、独自の入力欄を作成します。検索か置換、文字列絞り込み、または文字列操作の好きな位置にタグを挿入し、プリセットを使用すると、タグラベルの独自のテキストに置き換えられます。"
+
+#: build/search-regex.js:6
+msgid "Enter tag which is used in the field"
+msgstr "入力欄で使うタグを入力"
+
+#: build/search-regex.js:6
+msgid "Tag"
+msgstr "タグ"
+
+#: build/search-regex.js:6
+msgid "Enter tag title shown to user"
+msgstr "ユーザーに表示されるタグのタイトルを入力"
+
+#: build/search-regex.js:6
+msgid "Tags"
+msgstr "タグ"
+
+#: build/search-regex.js:6
+msgid "Locking a field removes it from the search form and prevents changes."
+msgstr "入力欄をロックすると、検索フォームから入力が消え変更を防止できます。"
+
+#: build/search-regex.js:6
+msgid "Fields"
+msgstr "入力欄"
+
+#: build/search-regex.js:6
+msgid "Locked Fields"
+msgstr "入力欄のロック"
+
+#: build/search-regex.js:6
+msgid "Advanced preset"
+msgstr "高度なプリセット"
+
+#: build/search-regex.js:6
+msgid "Describe the preset"
+msgstr "プリセットを説明します"
+
+#: build/search-regex.js:6
+msgid "Preset Description"
+msgstr "プリセットの説明"
+
+#: build/search-regex.js:6
+msgid "Give the preset a name"
+msgstr "プリセットに名前をつけてください"
+
+#: build/search-regex.js:6
+msgid "Preset Name"
+msgstr "プリセット名"
+
+#: build/search-regex.js:6
+msgid "Edit preset"
+msgstr "プリセットの編集"
+
+#: build/search-regex.js:6
+msgid "Results per page"
+msgstr "ページあたりの結果表示数"
+
+#: build/search-regex.js:6
+msgid "remove phrase"
+msgstr "語句の削除"
+
+#: build/search-regex.js:6
+msgid "no phrase"
+msgstr "語句なし"
+
+#: build/search-regex.js:6
+msgid "Import"
+msgstr "インポート"
+
+#: build/search-regex.js:6
+msgid "Please check your JSON data is a valid preset. You may have copied it incorrectly, or pasted something that is not a preset."
+msgstr "JSON のデータは正しいプリセットかを、ご確認ください。不完全なコピーや、プリセット以外のデータを貼り付けした可能性があります。"
+
+#: build/search-regex.js:6
+msgid "Unable to import preset"
+msgstr "プリセットをインポートできません"
+
+#: build/search-regex.js:6
+msgid "Import preset from clipboard"
+msgstr "クリップボードからプリセットをインポート"
+
+#: build/search-regex.js:6
+msgid "Done"
+msgstr "完了"
+
+#: build/search-regex.js:6
+msgid "Uploaded %(total)d preset"
+msgid_plural "Uploaded %(total)d presets"
+msgstr[0] "計%(total)d個のプリセットをアップロードしました"
+
+#: build/search-regex.js:6
+msgid "Importing"
+msgstr "インポート中"
+
+#: build/search-regex.js:6
+msgid "File selected"
+msgstr "選択されたファイル"
+
+#: build/search-regex.js:6
+msgid "Click 'Add File' or drag and drop here."
+msgstr "「ファイルの追加」をクリック、またはここへドロップ。"
+
+#: build/search-regex.js:6
+msgid "Import a JSON file"
+msgstr "JSON ファイルのインポート"
+
+#: build/search-regex.js:6
+msgid "Import JSON"
+msgstr "JSON のインポート"
+
+#: build/search-regex.js:6
+msgid "Export JSON"
+msgstr "JSON のエクスポート"
+
+#: build/search-regex.js:6
+msgid "Download presets!"
+msgstr "プリセットのダウンロード !"
+
+#: build/search-regex.js:6
+msgid "There are no presets"
+msgstr "プリセットはありません"
+
+#: build/search-regex.js:4 build/search-regex.js:6
+msgid "Flags"
+msgstr "フラグ"
+
+#: build/search-regex.js:17
+msgid "Presets"
+msgstr "プリセット"
+
+#: build/search-regex.js:2
+msgid "If that did not help then {{strong}}create an issue{{/strong}} or send it in an {{strong}}email{{/strong}}."
+msgstr "解決しない場合、{{strong}}問題 (issue) のトピックを作成するか{{/strong}}、{{strong}}メール{{/strong}}を送信してください。"
+
+#: build/search-regex.js:2
+msgid "Please check the {{link}}support site{{/link}} before proceeding further."
+msgstr "先に進める前に、{{link}}サポート用サイト{{/link}}をご確認ください。"
+
+#: build/search-regex.js:6
+msgid "Enter preset name"
+msgstr "プリセット名を入力"
+
+#: build/search-regex.js:6
+msgid "Enter a name for your preset"
+msgstr "プリセットの名前を入力"
+
+#: build/search-regex.js:6
+msgid "Saving Preset"
+msgstr "プリセットの保存"
+
+#: build/search-regex.js:6
+msgid "Update current preset"
+msgstr "現在のプリセットを更新"
+
+#: build/search-regex.js:6
+msgid "Save search as new preset"
+msgstr "検索を新規プリセットとして保存"
+
+#: build/search-regex.js:6
+msgid "No preset"
+msgstr "プリセットなし"
+
+#: build/search-regex.js:6
+msgid "Saving preset"
+msgstr "プリセットの保存"
+
+#: includes/source/class-manager.php:158
+msgid "Advanced"
+msgstr "高度"
+
+#: includes/source/class-manager.php:151
+msgid "Standard"
+msgstr "標準"
+
+#. translators: %searched: number of rows searched and matched %phrases: number
+#. of phrases matched
+#: build/search-regex.js:12
+msgid "matched rows = %(searched)s, phrases = %(found)s"
+msgstr "一致した行 = %(searched)s、語句 = %(found)s"
+
+#: build/search-regex.js:15
+msgid "Please backup your data before making modifications."
+msgstr "変更を加える前に、データをバックアップすることを強くおすすめします。"
+
+#: build/search-regex.js:14
+msgid "%s row."
+msgid_plural "%s rows."
+msgstr[0] "%s行。"
+
+#: build/search-regex.js:2
+msgid "An unknown error occurred."
+msgstr "不明なエラーが発生しました。"
+
+#: includes/source/core/source-post.php:382
+msgid "GUID"
+msgstr "GUID"
+
+#: includes/source/core/source-post.php:259
+#: includes/source/core/source-terms.php:128
+msgid "Slug"
+msgstr "スラッグ"
+
+#: includes/source/core/source-post.php:301
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: includes/source/core/source-comment.php:181
+#: includes/source/core/source-post.php:274
+msgid "Content"
+msgstr "本文"
+
+#: includes/source/core/source-user.php:148
+msgid "Display Name"
+msgstr "表示名"
+
+#: includes/source/core/source-user.php:141
+msgid "Nicename"
+msgstr "ナイスネーム"
+
+#: includes/source/core/source-options.php:118
+msgid "Value"
+msgstr "値"
+
+#: includes/source/core/source-comment.php:241
+msgid "Comment"
+msgstr "コメント"
+
+#: includes/source/core/source-options.php:111
+#: includes/source/core/source-terms.php:121
+#: includes/source/plugin/source-redirection.php:480 build/search-regex.js:6
+msgid "Name"
+msgstr "名前"
+
+#: includes/source/core/source-post.php:251
+#: includes/source/plugin/source-redirection.php:214 build/search-regex.js:6
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/source/core/source-comment.php:175
+#: includes/source/core/source-user.php:161
+msgid "URL"
+msgstr "URL"
+
+#. translators: 1: server PHP version. 2: required PHP version.
+#: search-regex.php:38
+msgid "Disabled! Detected PHP %1$s, need PHP %2$s+"
+msgstr "無効です。PHP %1$s が検出されました。PHP %2$s+ が必要です"
+
+#: includes/source/class-manager.php:165
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: includes/source/class-manager.php:40
+msgid "WordPress Options"
+msgstr "WordPress 設定"
+
+#: includes/source/class-manager.php:70
+#: includes/source/core/source-user-meta.php:30
+msgid "User Meta"
+msgstr "ユーザーのメタ情報"
+
+#: includes/source/class-manager.php:34
+#: includes/source/core/source-user.php:121
+msgid "Users"
+msgstr "ユーザー"
+
+#: includes/source/class-manager.php:64
+#: includes/source/core/source-comment-meta.php:23
+msgid "Comment Meta"
+msgstr "コメントメタ情報"
+
+#: includes/source/class-manager.php:28
+#: includes/source/core/source-comment.php:142
+msgid "Comments"
+msgstr "コメント"
+
+#: includes/source/class-manager.php:58
+#: includes/source/core/source-post-meta.php:25
+#: includes/source/core/source-post.php:420
+msgid "Post Meta"
+msgstr "投稿メタ情報"
+
+#: includes/search-regex-admin.php:467
+msgid "Please enable JavaScript"
+msgstr "JavaScript を有効にしてください"
+
+#: includes/search-regex-admin.php:463
+msgid "Loading, please wait..."
+msgstr "読み込み中、少々お待ちください..."
+
+#: includes/search-regex-admin.php:446
+msgid "Create Issue"
+msgstr "問題を報告"
+
+#: includes/search-regex-admin.php:443
+msgid "<code>SearchRegexi10n</code> is not defined. This usually means another plugin is blocking Search Regex from loading. Please disable all plugins and try again."
+msgstr "<code>SearchRegexi10n</code> が定義されていません。別のプラグインが Search Regex の機能をブロックしているようです。一度すべてのプラグインを無効にしてから、もう一度お試しください。"
+
+#: includes/search-regex-admin.php:442
+msgid "If you think Search Regex is at fault then create an issue."
+msgstr "Search Regex に問題がある場合は、問題を報告してください。"
+
+#: includes/search-regex-admin.php:441
+msgid "Please see the <a href=\"https://searchregex.com/support/problems/\">list of common problems</a>."
+msgstr "お手数ですが<a href=\"https://searchregex.com/support/problems/\">開発者のウェブサイト</a>をご覧ください。"
+
+#: includes/search-regex-admin.php:440
+msgid "Please note that Search Regex requires the WordPress REST API to be enabled. If you have disabled this then you won't be able to use Search Regex"
+msgstr "Search Regex では、WordPress の REST API を 有効にする必要があります。無効にすると、Search Regex を使用できません"
+
+#: includes/search-regex-admin.php:438
+msgid "Also check if your browser is able to load <code>search-regex.js</code>:"
+msgstr "また使用中のブラウザが <code>search-regex.js</code> を読み込み可能か確認してください:"
+
+#: includes/search-regex-admin.php:436
+msgid "This may be caused by another plugin - look at your browser's error console for more details."
+msgstr "この問題は、使用中の別のプラグインが原因である可能性があります。詳細はブラウザのエラーコンソールを確認してください。"
+
+#: includes/search-regex-admin.php:435
+msgid "Unable to load Search Regex ☹️"
+msgstr "Search Regex を読み込めません☹️"
+
+#: includes/search-regex-admin.php:420
+msgid "Unable to load Search Regex"
+msgstr "Search Regex を読み込めません"
+
+#. translators: 1: Expected WordPress version, 2: Actual WordPress version
+#: includes/search-regex-admin.php:417
+msgid "Search Regex requires WordPress v%1$1s, you are using v%2$2s - please update your WordPress"
+msgstr "Search Regex には WordPress v%1$1s が必要です。このサイトでは v%2$2s を使用しています。WordPress 本体を更新してください"
+
+#: includes/search-regex-admin.php:318
+msgid "Search Regex Support"
+msgstr "Search Regex ヘルプ"
+
+#. translators: URL
+#: includes/search-regex-admin.php:309
+msgid "You can find full documentation about using Search Regex on the <a href=\"%s\" target=\"_blank\">searchregex.com</a> support site."
+msgstr "Search Regex の完全版マニュアルは、<a href=\"%s\" target=\"_blank\">searchregex.com</a> にあります。"
+
+#: includes/search-regex-admin.php:84
+msgid "Settings"
+msgstr "設定"
+
+#: build/search-regex.js:6
+msgid "Action"
+msgstr "操作"
+
+#: build/search-regex.js:14
+msgid "Row ID"
+msgstr "行の ID"
+
+#: build/search-regex.js:8
+msgid "No more matching results found."
+msgstr "これ以上の一致結果はありません。"
+
+#: build/search-regex.js:8
+msgid "Last page"
+msgstr "最後のページ"
+
+#: build/search-regex.js:8
+msgid "Page %(current)s of %(total)s"
+msgstr "%(total)s ページ中 %(current)s ページ"
+
+#: build/search-regex.js:8 build/search-regex.js:14
+msgid "Next page"
+msgstr "次のページ"
+
+#. translators: %current: current percent progress
+#: build/search-regex.js:14
+msgid "Progress %(current)s%%"
+msgstr "進行状況 %(current)s%%"
+
+#: build/search-regex.js:8 build/search-regex.js:12
+msgid "Prev page"
+msgstr "前のページ"
+
+#: build/search-regex.js:8 build/search-regex.js:12
+msgid "First page"
+msgstr "最初のページ"
+
+#. translators: %s: total number of rows searched
+#: build/search-regex.js:10
+msgid "%s database row in total"
+msgid_plural "%s database rows in total"
+msgstr[0] "合計 %s データベース行"
+
+#: build/search-regex.js:2
+msgid "500 per page"
+msgstr "500件 / ページ"
+
+#: build/search-regex.js:2
+msgid "250 per page"
+msgstr "250件 / ページ"
+
+#: build/search-regex.js:2
+msgid "100 per page"
+msgstr "100件 / ページ"
+
+#: build/search-regex.js:2
+msgid "50 per page"
+msgstr "50件 / ページ "
+
+#: build/search-regex.js:2
+msgid "25 per page"
+msgstr "25件 / ページ "
+
+#: build/search-regex.js:2
+msgid "Ignore Case"
+msgstr "大文字小文字の区別なし"
+
+#: build/search-regex.js:2
+msgid "Regular Expression"
+msgstr "正規表現"
+
+#: build/search-regex.js:2
+msgid "Row updated"
+msgstr "行の更新"
+
+#: build/search-regex.js:2
+msgid "Row replaced"
+msgstr "行の入れ替え"
+
+#: build/search-regex.js:2
+msgid "Row deleted"
+msgstr "行の削除"
+
+#: build/search-regex.js:2
+msgid "Settings saved"
+msgstr "設定を保存"
+
+#: includes/search-regex-admin.php:301 build/search-regex.js:4
+msgid "{{link}}Source Flags{{/link}} - additional options for the selected source. For example, include post {{guid}}GUID{{/guid}} in the search."
+msgstr "{{link}}検索フラグ{{/link}} - 選択した入力元用の追加のオプションです。たとえば、検索に投稿 {{guid}}GUID{{/guid}} を含めます。"
+
+#: includes/search-regex-admin.php:314 build/search-regex.js:4
+msgid "{{link}}Source{{/link}} - the source of data you wish to search. For example, posts, pages, or comments."
+msgstr "{{link}}入力元{{/link}} - 検索したいデータの入力元です。投稿、ページ、コメントなどです。"
+
+#: includes/search-regex-admin.php:313 build/search-regex.js:4
+msgid "{{link}}Regular expression{{/link}} - a way of defining a pattern for text matching. Provides more advanced matches."
+msgstr "{{link}}正規表現{{/link}} - 文字列一致のパターンを定義する記法です。より高度な検索が可能です。"
+
+#: includes/search-regex-admin.php:312 build/search-regex.js:4
+msgid "{{link}}Search Flags{{/link}} - additional qualifiers for your search, to enable case insensitivity, and to enable regular expression support."
+msgstr "{{link}}検索フラグ{{/link}} - 検索を修飾します。大文字小文字を区別しない、また正規表現の対応を有効にします。"
+
+#: includes/search-regex-admin.php:310 build/search-regex.js:4
+msgid "The following concepts are used by Search Regex:"
+msgstr "Search Regex では以下の概念が採用されています:"
+
+#: build/search-regex.js:4
+msgid "Quick Help"
+msgstr "簡易ヘルプ"
+
+#: build/search-regex.js:4
+msgid "Like this plugin? You might want to consider {{link}}Redirection{{/link}}, a plugin to manage redirects, from the same author."
+msgstr "本プラグインを気に入っていただけたでしょうか ? よければ開発者のほかのプラグイン {{link}}Redirection{{/link}} もご利用ください。"
+
+#: includes/source/plugin/source-redirection.php:145 build/search-regex.js:4
+msgid "Redirection"
+msgstr "Redirection"
+
+#: build/search-regex.js:4
+msgid "If you want to submit information that you don't want in a public repository then send it directly via {{email}}email{{/email}} - include as much information as you can!"
+msgstr "不要な情報を公開リポジトリに送信する場合は、{{email}}メール{{/email}}から直接送信できます。できるだけ多くの情報を含めてください。"
+
+#: build/search-regex.js:4
+msgid "Please note that any support is provide on as-time-is-available basis and is not guaranteed. I do not provide paid support."
+msgstr "できる限りサポートしますが、限界があることを了承ください。有料サポートはありません。"
+
+#: build/search-regex.js:4
+msgid "If you want to report a bug please read the {{report}}Reporting Bugs{{/report}} guide."
+msgstr "バグ報告を行う場合、{{report}}Reporting Bugs{{/report}} の手引きをお読みください。"
+
+#: build/search-regex.js:4
+msgid "Full documentation for Search Regex can be found at {{site}}https://searchregex.com{{/site}}."
+msgstr "Search Regex に関する包括的な説明文書は、{{site}}https://searchregex.com{{/site}} にあります。"
+
+#: build/search-regex.js:4
+msgid "Need more help?"
+msgstr "サポートが必要ですか ?"
+
+#: build/search-regex.js:6
+msgid "Results"
+msgstr "結果表示数"
+
+#: build/search-regex.js:6 build/search-regex.js:14
+msgid "Source"
+msgstr "入力"
+
+#: build/search-regex.js:4
+msgid "Enter search phrase"
+msgstr "検索語句を入力"
+
+#: build/search-regex.js:14
+msgid "Replace All"
+msgstr "すべて置換"
+
+#: build/search-regex.js:6 build/search-regex.js:14
+msgid "Search"
+msgstr "検索"
+
+#: build/search-regex.js:15
+msgid "Search and replace information in your database."
+msgstr "使用しているデータベースの情報を検索し置換します。"
+
+#: build/search-regex.js:2
+msgid "Update"
+msgstr "更新"
+
+#: build/search-regex.js:2
+msgid "How Search Regex uses the REST API - don't change unless necessary"
+msgstr "Search Regex による REST API の利用方法 - 必要なく変更しないよう"
+
+#: build/search-regex.js:2
+msgid "REST API"
+msgstr "REST API"
+
+#: build/search-regex.js:2
+msgid "I'm a nice person and I have helped support the author of this plugin"
+msgstr "すでにこのプラグインの作者を支援しました"
+
+#: build/search-regex.js:2
+msgid "Relative REST API"
+msgstr "相対的な REST API"
+
+#: build/search-regex.js:2
+msgid "Raw REST API"
+msgstr "そのままの REST API"
+
+#: build/search-regex.js:2
+msgid "Default REST API"
+msgstr "標準の REST API"
+
+#: build/search-regex.js:4
+msgid "Plugin Support"
+msgstr "プラグインの支援"
+
+#: build/search-regex.js:4
+msgid "Support 💰"
+msgstr "支援💰"
+
+#: build/search-regex.js:4
+msgid "You get useful software and I get to carry on making it better."
+msgstr "私はこのプラグインをもっと便利にしていきます。"
+
+#: build/search-regex.js:4
+msgid "Search Regex is free to use - life is wonderful and lovely! It has required a great deal of time and effort to develop and you can help support this development by {{strong}}making a small donation{{/strong}}."
+msgstr "Search Regex は無料で使用できます。人生はすばらしくてステキです ! 開発には多大な時間と労力が必要でしたが、{{strong}}少額の寄付{{/strong}}でこの開発を支援することができます。"
+
+#: build/search-regex.js:4
+msgid "I'd like to support some more."
+msgstr "もっと支援したいです。"
+
+#: build/search-regex.js:4
+msgid "You've supported this plugin - thank you!"
+msgstr "このプラグインを支援していただき、ありがとうございます。"
+
+#: build/search-regex.js:4
+msgid "If that doesn't help, open your browser's error console and create a {{link}}new issue{{/link}} with the details."
+msgstr "問題が解決しない場合は、ブラウザのエラーコンソールを開き、詳細を記載した {{link}}new issue{{/link}} を作成してください。"
+
+#: includes/search-regex-admin.php:437 build/search-regex.js:4
+msgid "If you are using a page caching plugin or service (CloudFlare, OVH, etc) then you can also try clearing that cache."
+msgstr "キャッシュプラグインまたは CDN サービス (CloudFlare、OVHなど) を使用している場合は、そのキャッシュを削除すると解決することがあります。"
+
+#: build/search-regex.js:4
+msgid "Search Regex is not working. Try clearing your browser cache and reloading this page."
+msgstr "Search Regex が機能していません。ブラウザのキャッシュをクリアして、このページをリロードしてみてください。"
+
+#: build/search-regex.js:15
+msgid "clearing your cache."
+msgstr "キャッシュを削除しています。"
+
+#: build/search-regex.js:15
+msgid "If you are using a caching system such as Cloudflare then please read this: "
+msgstr "Cloudflare などの CDN キャッシュを使用している場合は、次の項目をお読みください: "
+
+#: build/search-regex.js:15
+msgid "Please clear your browser cache and reload this page."
+msgstr "ブラウザのキャッシュをクリアして、このページをリロードしてください。"
+
+#: build/search-regex.js:15
+msgid "Cached Search Regex detected"
+msgstr "キャッシュされた正規表現が検出されました"
+
+#. translators: number of results to show
+#: build/search-regex.js:8
+msgid "Show %s more"
+msgid_plural "Show %s more"
+msgstr[0] "さらに%s件表示"
+
+#: build/search-regex.js:6
+msgid "Maximum number of matches exceeded and hidden from view. These will be included in any replacements."
+msgstr "一致の上限数を超えたので結果は表示されません。これらはすべての置換に含まれます。"
+
+#: build/search-regex.js:6
+msgid "Delete"
+msgstr "削除"
+
+#: build/search-regex.js:6 build/search-regex.js:8
+msgid "Edit"
+msgstr "編集"
+
+#: build/search-regex.js:4
+msgid "Check Again"
+msgstr "もう一度確認する"
+
+#. translators: test percent
+#: build/search-regex.js:4
+msgid "Testing - %s%%"
+msgstr "テスト中 - %s%%"
+
+#: build/search-regex.js:2
+msgid "Show Problems"
+msgstr "問題を表示"
+
+#: build/search-regex.js:2
+msgid "Summary"
+msgstr "概要"
+
+#: build/search-regex.js:2
+msgid "You are using a broken REST API route. Changing to a working API should fix the problem."
+msgstr "壊れた REST API ルートが使用されています。問題の解決には、機能している API に変更する必要があります。"
+
+#: build/search-regex.js:2
+msgid "Your REST API is not working and the plugin will not be able to continue until this is fixed."
+msgstr "お使いの REST API が機能していません。これが修正されるまで本プラグインは続行できません。"
+
+#: build/search-regex.js:2
+msgid "There are some problems connecting to your REST API. It is not necessary to fix these problems and the plugin is able to work."
+msgstr "REST API への接続にいくつかの問題がありますが、これらの問題の修正は必須ではなく、プラグインは機能します。"
+
+#: build/search-regex.js:2
+msgid "Unavailable"
+msgstr "利用できません"
+
+#: build/search-regex.js:2
+msgid "Not working but fixable"
+msgstr "機能していないが修正可能"
+
+#: build/search-regex.js:2
+msgid "Working but some issues"
+msgstr "機能中だが問題あり"
+
+#: build/search-regex.js:2
+msgid "Good"
+msgstr "良好"
+
+#: build/search-regex.js:2
+msgid "Current API"
+msgstr "現在の API"
+
+#: build/search-regex.js:2
+msgid "Switch to this API"
+msgstr "この API に切り替え"
+
+#: build/search-regex.js:2
+msgid "Hide"
+msgstr "非表示"
+
+#: build/search-regex.js:2
+msgid "Show Full"
+msgstr "すべて表示"
+
+#: build/search-regex.js:2
+msgid "Working!"
+msgstr "稼働中"
+
+#: build/search-regex.js:15
+msgid "Finished!"
+msgstr "完了 !"
+
+#: build/search-regex.js:6 build/search-regex.js:14
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: build/search-regex.js:4 build/search-regex.js:6
+msgid "Replace"
+msgstr "置換"
+
+#: build/search-regex.js:4 build/search-regex.js:6
+msgid "Remove"
+msgstr "削除"
+
+#: build/search-regex.js:2 build/search-regex.js:6
+msgid "Multi"
+msgstr "複数行"
+
+#: build/search-regex.js:6
+msgid "Single"
+msgstr "単一行"
+
+#: build/search-regex.js:17
+msgid "Support"
+msgstr "ヘルプ"
+
+#: includes/source/core/source-options.php:99 build/search-regex.js:17
+msgid "Options"
+msgstr "設定"
+
+#: build/search-regex.js:17
+msgid "Search & Replace"
+msgstr "検索と置換"
+
+#: build/search-regex.js:4
+msgid "If you are using WordPress 5.2 or newer then look at your {{link}}Site Health{{/link}} and resolve any issues."
+msgstr "WordPress 5.2以降を使用している場合は、{{link}}サイトヘルス{{/link}}を確認して問題を解決してください。"
+
+#: build/search-regex.js:4
+msgid "{{link}}Please temporarily disable other plugins!{{/link}} This fixes so many problems."
+msgstr "{{link}}一時的に他のプラグインを無効にしてください ! {{/link}}これにより、いくつかの問題が修正されるはずです。"
+
+#: build/search-regex.js:4
+msgid "{{link}}Caching software{{/link}}, in particular Cloudflare, can cache the wrong thing. Try clearing all your caches."
+msgstr "{{link}}キャッシュのソフトウェア{{/link}}、特に Cloudflare は、間違ったものをキャッシュする可能性があります。一度すべてのキャッシュを削除してみてください。"
+
+#: build/search-regex.js:4 build/search-regex.js:15
+msgid "What do I do next?"
+msgstr "次はどうしますか？"
+
+#: build/search-regex.js:2
+msgid "Something went wrong 🙁"
+msgstr "何かがうまくいきません 🙁"
+
+#: build/search-regex.js:2
+msgid "Log out, clear your browser cache, and log in again - your browser has cached an old session."
+msgstr "ログアウトし、ブラウザのキャッシュをクリアして、再度ログインしてください。ブラウザは古いセッションをキャッシュしています。"
+
+#: build/search-regex.js:2
+msgid "Reload the page - your current session is old."
+msgstr "ページを再読み込みしてください - 現在のセッションは古いです。"
+
+#: build/search-regex.js:2
+msgid "Include these details in your report along with a description of what you were doing and a screenshot."
+msgstr "これらの問題の詳細を、実行内容の説明とスクリーンショットをあわせて報告してください。"
+
+#: includes/source/core/source-comment.php:168
+#: includes/source/core/source-user.php:155 build/search-regex.js:2
+#: build/search-regex.js:6 build/search-regex.js:15
+msgid "Email"
+msgstr "メールアドレス"
+
+#: build/search-regex.js:2 build/search-regex.js:6 build/search-regex.js:15
+msgid "Create An Issue"
+msgstr "問題を報告"
+
+#: includes/source/core/source-post.php:320
+#: includes/source/core/source-post.php:336
+msgid "Closed"
+msgstr "閉鎖"
+
+#: build/search-regex.js:6
+msgid "Save"
+msgstr "保存"
+
+#: build/search-regex.js:2
+msgid "Unable to make request due to browser security. This is typically because your WordPress and Site URL settings are inconsistent, or the request was blocked by your site CORS policy."
+msgstr "ブラウザのセキュリティにより、リクエストを実行できません。これは通常、WordPress とサイトの URL 設定に一貫性がないか、リクエストがサイトの CORS ポリシーによってブロックされたことが原因です。"
+
+#: build/search-regex.js:2
+msgid "Possible cause"
+msgstr "考えられる原因"
+
+#: build/search-regex.js:2
+msgid "This could be a security plugin, or your server is out of memory or has an external error. Please check your server error log"
+msgstr "これはセキュリティのプラグインが原因か、サーバーのメモリの不足、または外部エラーが発生しています。ご契約のレンタルサーバーなどのエラーログを確認してください"
+
+#: build/search-regex.js:2
+msgid "Your server has rejected the request for being too big. You will need to reconfigure it to continue."
+msgstr "リクエストが大きすぎるためサーバーに拒否されました。続行するには再設定が必要です。"
+
+#: build/search-regex.js:2
+msgid "Your REST API is probably being blocked by a security plugin. Please disable this, or configure it to allow REST API requests."
+msgstr "REST API がセキュリティプラグインによってブロックされている可能性があります。これを無効にするか、REST API リクエストを許可するように設定してください。"
+
+#: build/search-regex.js:2
+msgid "Read this REST API guide for more information."
+msgstr "詳細は、この REST API ガイドをお読みください。"
+
+#: build/search-regex.js:2
+msgid "WordPress did not return a response. This could mean an error occurred or that the request was blocked. Please check your server error_log."
+msgstr "WordPress は応答を返しませんでした。これは、エラーが発生したか、要求がブロックされたことを意味します。サーバーのエラーログを確認してください。"
+
+#. Author of the plugin
+msgid "John Godley"
+msgstr "John Godley"
+
+#. Description of the plugin
+msgid "Adds search and replace functionality across posts, pages, comments, and meta-data, with full regular expression support"
+msgstr "投稿、ページ、コメント、メタデータにわたって、正規表現に完全に対応した検索と置換機能を追加します"
+
+#. Plugin URI of the plugin
+msgid "https://searchregex.com/"
+msgstr "https://searchregex.com/"
+
+#. Plugin Name of the plugin
+#: build/search-regex.js:17
+msgid "Search Regex"
+msgstr "Search Regex"

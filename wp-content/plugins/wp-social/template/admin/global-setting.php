@@ -338,6 +338,7 @@ defined( 'ABSPATH') || exit;
 						<label for="email_new_registered_user" class="social_switch_button_label"></label>
 					</div>
 				</div> <!-- ./ End Single Item -->
+				<?php do_action('wp_social_login_global_settings', $return_data); ?>
 				<!-- Submit Button -->
 				<div class="wslu-single-item">
 					

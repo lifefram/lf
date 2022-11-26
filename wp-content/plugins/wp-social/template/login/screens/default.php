@@ -21,7 +21,7 @@ switch($currentStyle) {
 
 		?>
 
-        <a class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="<?php echo esc_url($args['url']) ?>">
+        <a rel="nofollow" class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="javascript:void(0)" onclick="javascript:location.href='<?php echo esc_url($args['url']) ?>'">
             <span class="xs-login__item--icon"> <?php echo $args['icon'] ?> </span>
             <span class="xs-login__item--label"> <?php echo wp_kses($args['label'], $allowed_tags) ?> </span>
         </a>
@@ -33,7 +33,7 @@ switch($currentStyle) {
 	  Style No : 2
    --------------------*/
 	case 'style-2': ?>
-        <a class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="<?php echo esc_url($args['url']) ?>">
+        <a rel="nofollow" class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="javascript:void(0)" onclick="javascript:location.href='<?php echo esc_url($args['url']) ?>'">
             <span class="xs-login__item--icon"> <?php echo $args['icon'] ?> </span>
         </a>
 		<?php break;
@@ -43,7 +43,7 @@ switch($currentStyle) {
 	  Style No : 3
    --------------------*/
 	case 'style-3': ?>
-        <a class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="<?php echo esc_url($args['url']) ?>">
+        <a rel="nofollow" class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="javascript:void(0)" onclick="javascript:location.href='<?php echo esc_url($args['url']) ?>'">
             <span class="xs-login__item--label"> <?php echo wp_kses($args['label'], $allowed_tags) ?> </span>
         </a>
 		<?php break;
@@ -53,7 +53,7 @@ switch($currentStyle) {
 	   Style No : 4
 	--------------------*/
 	case 'style-4': ?>
-        <a class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="<?php echo esc_url($args['url']) ?>">
+        <a rel="nofollow" class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="javascript:void(0)" onclick="javascript:location.href='<?php echo esc_url($args['url']) ?>'">
             <span class="xs-login__item--icon"> <?php echo $args['icon'] ?> </span>
             <span class="xs-login__item--label"> <?php echo wp_kses($args['label'], $allowed_tags) ?> </span>
             <span class="xs-login__item--icon-overlay"> <?php echo $args['icon'] ?> </span>
@@ -64,7 +64,7 @@ switch($currentStyle) {
 	  Style No : 9
    --------------------*/
 	case 'style-9': ?>
-        <a class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="<?php echo esc_url($args['url']) ?>">
+        <a rel="nofollow" class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="javascript:void(0)" onclick="javascript:location.href='<?php echo esc_url($args['url']) ?>'">
             <div class="xs-login__item--content">
                 <span class="xs-login__item--icon"> <?php echo $args['icon'] ?> </span>
                 <span class="xs-login__item--label"> <?php echo wp_kses($args['label'], $allowed_tags) ?> </span>
@@ -78,7 +78,7 @@ switch($currentStyle) {
 	   Style No : default
 	--------------------*/
 	default: ?>
-        <a class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="<?php echo esc_url($args['url']) ?>">
+        <a rel="nofollow" class="xs-login__item <?php echo esc_attr($args['clrClass']) ?>" href="javascript:void(0)" onclick="javascript:location.href='<?php echo esc_url($args['url']) ?>'">
             <span class="xs-login__item--icon"> <?php echo $args['icon'] ?> </span>
             <span class="xs-login__item--label"> <?php echo wp_kses($args['label'], $allowed_tags) ?> </span>
         </a>

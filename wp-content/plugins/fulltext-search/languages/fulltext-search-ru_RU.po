@@ -1,0 +1,1377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Fulltext Search v5.3.21\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-15 23:50+0000\n"
+"PO-Revision-Date: 2020-08-15 23:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ?"
+" 2 : 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru_RU\n"
+"X-Loco-Version: 2.4.2; wp-5.5"
+
+#: fulltext-search.php:144
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: fulltext-search.php:145
+msgid "Changes was not saved - an error occured!"
+msgstr "Изменения не сохранены - произошла ошибка!"
+
+#: fulltext-search.php:146
+#, php-format
+msgid ""
+"This link follows to\n"
+"\n"
+"%s"
+msgstr ""
+"Эта ссылка ведёт на\n"
+"\n"
+"%s"
+
+#: fulltext-search.php:147
+msgid "This action will reset your custom CSS styles, are you sure?"
+msgstr ""
+"Это действие сбросит ваши настройки стилей. Вы уверены, что хотите "
+"продолжить?"
+
+#: fulltext-search.php:154
+msgid ""
+"The conversion process will take some time,\n"
+"during which you should stay on this page of the browser.\n"
+"\n"
+"If the progress value does not change for more than 2 minutes,\n"
+"refresh the page manually."
+msgstr ""
+"Преобразование займёт некоторое время, в течение которого \n"
+"вы должны держать эту вкладку браузера открытой.\n"
+"\n"
+"Если значение прогресса не меняется более, чем 2 минуты,\n"
+"обновите страницу вручную."
+
+#: fulltext-search.php:238 fulltext-search.php:295
+msgid "Settings"
+msgstr "Настройки"
+
+#: fulltext-search.php:248
+msgid "WP FullText Search"
+msgstr "WP FullText Search"
+
+#: fulltext-search.php:248
+msgid "Full Text Search"
+msgstr "Full Text Search"
+
+#: fulltext-search.php:251 includes/templates/admin_page.php:80
+msgid "Main Configuration"
+msgstr "Основные настройки"
+
+#: fulltext-search.php:252 includes/templates/admin_page.php:81
+msgid "Indexing Engine Settings"
+msgstr "Поисковый движок"
+
+#: fulltext-search.php:252
+msgid "Indexing Engine"
+msgstr "Индексирующий движок"
+
+#: fulltext-search.php:253 includes/templates/admin_page.php:82
+msgid "Search & Output"
+msgstr "Поиск и вывод"
+
+#: fulltext-search.php:254 includes/templates/admin_page.php:83
+msgid "Sandbox Area"
+msgstr "Песочница"
+
+#: fulltext-search.php:305
+msgid "Sorry, but you do not have permissions to change settings."
+msgstr "У вас нет прав на изменение настроек."
+
+#: includes/wpfts_core.php:136
+msgid "<b>WP Fulltext Search</b> new changes:"
+msgstr "Новые изменения в WP Fulltext Search:"
+
+#: includes/wpfts_core.php:139
+#, php-format
+msgid "In the version <b>%s</b>:"
+msgstr "В версии <b>%s</b>:"
+
+#: includes/wpfts_core.php:153
+msgid ""
+"<b style=\"color: red;\">The plugin's database requires update.</b><br>It is "
+"necessary to rebuild the index to ensure the correct operation of the search "
+"engine. This may take some time.<br><br>Click <a href=\"#\" "
+"class=\"btn_notify_start_indexing\">here</a> to rebuild the search index now."
+msgstr ""
+"<b style=\"color: red;\">Требуется обновление базы данных плагина.</b><br>"
+"Необходимо перестроить поисковый индекс, чтобы гарантировать корректную "
+"работу плагина. Это может занять некоторое время.<br><br>Нажмите <a "
+"href=\"#\" class=\"btn_notify_start_indexing\">здесь</a> чтобы перестроить "
+"индекс."
+
+#: includes/wpfts_core.php:158
+msgid ""
+"<b style=\"color: red;\">Attention!</b> <b>WP Fulltext Search</b> plugin "
+"requires your attention.<br><br>Please <a href=\"admin.php?page=wpfts-"
+"options\">click HERE</a> to go to WPFTS Settings page."
+msgstr ""
+"<b style=\"color: red;\">Внимание!</b> Плагину <b>WP Fulltext Search</b> "
+"требуется ваше внимание.<br><br>Пожалуйста, <a href=\"admin.php?page=wpfts-"
+"options\">нажмите СЮДА</a>, чтобы перейти на страницу настроек."
+
+#: includes/wpfts_core.php:195
+msgid ""
+"<h2>Initial Configuration Wizard</h2> First of all, thank you for your "
+"support by purchasing the copy of the WPFTS Pro plugin. Thus you are "
+"supporting the plugin development and the whole Open Source code idea."
+msgstr ""
+"<h2>Мастер начальной настройки</h2> Мы благодарим вас за приобретение "
+"профессиональной версии плагина WPFTS. Тем самым вы поддерживаете разработку "
+"этого продукта и идеи Open Source в целом."
+
+#: includes/wpfts_core.php:202
+msgid ""
+"<b style=\"color: red;\">Congratulations!</b> <b>WP FullText Search Pro "
+"plugin</b> has just been installed!<br><br>To complete the installation, "
+"please follow some steps on the <a href=\"admin.php?page=wpfts-options\">"
+"WPFTS Settings Page</a>"
+msgstr ""
+"<b style=\"color: red;\">Поздравляем!</b> Плагин <b>WP FullText Search "
+"Pro</b> активирован!<br><br>Чтобы завершить установку, пожалуйста, перейдите "
+"на страницу <a href=\"admin.php?page=wpfts-options\">Настройка WPFTS</a>"
+
+#: includes/wpfts_core.php:245
+msgid ""
+"<b style=\"color: red;\">Congratulations!</b> <b>WP FullText Search "
+"plugin</b> has just been installed and successfully activated!<br><br>To "
+"complete the installation, we need to create the Search Index of your "
+"existing WP posts data. To start this process, simply go to the <a "
+"href=\"admin.php?page=wpfts-options\">WPFTS Settings Page</a>"
+msgstr ""
+"<b style=\"color: red;\">Поздравляем!</b> Плагин <b>WP FullText Search</b> "
+"установлен и успешно активирован!<br><br>Для завершения установки необходимо "
+"создать поисковый индекс на основе публикаций и страниц вашего сайта. Чтобы "
+"запустить индексирование, просто перейдите на страницу <a href=\"admin.php?"
+"page=wpfts-options\">Настройка WPFTS</a>"
+
+#: includes/wpfts_core.php:298
+msgid ""
+"This plugin requires WordPress 3.0 or newer. Please update your WordPress "
+"installation to activate this plugin."
+msgstr ""
+"Этот плагин требует WordPress 3.0 или более новый. Пожалуйста, обновите ваш "
+"WordPress для активации плагина."
+
+#: includes/wpfts_core.php:303
+msgid "Error: "
+msgstr "Ошибка: "
+
+#: includes/wpfts_core.php:546
+#, php-format
+msgid ""
+"<b>Important Notice:</b> WP Fulltext Search plugin has detected <b>%s</b> "
+"files of the type <b>%s</b>"
+msgstr ""
+"<b>Важная информация:</b> Плагин WP Fulltext Search обнаружил <b>%s</b> "
+"файлов типа <b>%s</b>"
+
+#: includes/wpfts_core.php:548
+msgid "and other supported files"
+msgstr "а также другие поддерживаемые файлы"
+
+#: includes/wpfts_core.php:551
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Click here</a> to learn how to make them "
+"searchable by their <b>text content</b> and improve your website usability."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">Нажмите сюда</a> чтобы узнать как включить "
+"их в поиск по их <b>текстовому содержимому</b> и тем самым улучшить "
+"полезность сайта для ваших пользователей."
+
+#: includes/wpfts_core.php:554
+msgid "Learn More"
+msgstr "Узнать больше"
+
+#: includes/wpfts_core.php:554 includes/wpfts_core.php:592
+#| msgid "Don\\'t Show Again"
+msgid "Don't Show Again"
+msgstr "Не показывать снова"
+
+#: includes/wpfts_core.php:585
+msgid ""
+"<b>Important Notice:</b> WP Fulltext Search plugin is optimized for x64 "
+"platforms, however your website is currently using 32-bit version of PHP."
+msgstr ""
+
+#: includes/wpfts_core.php:587
+msgid ""
+"As a result, we are forced to use x64 software emulation, which decreases "
+"performance and increases search time."
+msgstr ""
+
+#: includes/wpfts_core.php:589
+msgid ""
+"Please contact your hosting provider to migrate your website to a modern <b>"
+"x64</b> server. This will speed up the search by 20-30%, and possibly even "
+"more."
+msgstr ""
+
+#: includes/wpfts_core.php:617
+msgid "Unable to find default stylesheet file"
+msgstr "Невозможно найти начальный файл CSS"
+
+#: includes/wpfts_core.php:943
+#, php-format
+msgid "%s posts has been rebuilt"
+msgstr "%s записей проиндексировано"
+
+#: includes/wpfts_core.php:1024 includes/wpfts_core.php:1949
+#, php-format
+msgid ""
+"The weight value of cluster \"%s\" should be numeric value from 0.0 to 1.0"
+msgstr "Значение веса кластера \"%s\" должно быть числом от 0.0 до 1.0"
+
+#: includes/wpfts_core.php:1066 includes/wpfts_core.php:1146
+#: includes/wpfts_core.php:1229 includes/wpfts_core.php:1277
+#: includes/wpfts_core.php:1375 includes/wpfts_core.php:1960
+#: includes/wpfts_core.php:2051
+msgid "There are errors"
+msgstr "Обнаружены ошибки"
+
+#: includes/wpfts_core.php:1086 includes/wpfts_core.php:1155
+#: includes/wpfts_core.php:1243 includes/wpfts_core.php:1339
+#: includes/wpfts_core.php:1507 includes/wpfts_core.php:1854
+#: includes/wpfts_core.php:1873 includes/wpfts_core.php:1890
+#: includes/wpfts_core.php:1907 includes/wpfts_core.php:1930
+#: includes/wpfts_core.php:1982 includes/wpfts_core.php:2001
+#: includes/wpfts_core.php:2062
+msgid "The form is outdated. Please refresh the page and try again."
+msgstr "Страница устарела. Пожалуйста, обновите страницу и попробуйте снова."
+
+#: includes/wpfts_core.php:1124 includes/wpfts_core.php:2029
+msgid "Optimal Length should be a number from 10 to 10240"
+msgstr "Оптимальная длина должна быть числом от 10 до 10240"
+
+#: includes/wpfts_core.php:1197
+msgid "Maximum Word Frequency should be an integer number from 0 to 100"
+msgstr "Максимальная Частота Слов должна быть целым числом от 0 до 100"
+
+#: includes/wpfts_core.php:1205
+msgid "Minimum Word Length should be an integer number from 0 to 50"
+msgstr "Минимальная Длина Слова должна быть целым числом от 0 до 50"
+
+#: includes/wpfts_core.php:1265
+msgid "Please specify post ID"
+msgstr "Укажите ID записи (поста)"
+
+#: includes/wpfts_core.php:1268
+msgid "Please specify a number"
+msgstr "Задайте число"
+
+#: includes/wpfts_core.php:1284
+#, php-format
+msgid "Results of Pre-indexing Filter Tester for Post ID = %s"
+msgstr "Результаты тестирования Пре-индекс фильтра для записи Post ID = %s"
+
+#: includes/wpfts_core.php:1300
+msgid "Cluster"
+msgstr "Кластер"
+
+#: includes/wpfts_core.php:1301
+msgid "Text Content"
+msgstr "Текстовое содержимое"
+
+#: includes/wpfts_core.php:1320
+#, php-format
+msgid ""
+"Filter result is not array. Please read <a href=\"%s\" target=\"_blank\">"
+"documentation</a> to fix this error."
+msgstr ""
+"Результат фильтра не является массивом. Пожалуйста, прочтите <a href=\"%s\" "
+"target=\"_blank\">документацию</a> чтобы это исправить."
+
+#: includes/wpfts_core.php:1325
+msgid "The post with specified ID is not found."
+msgstr "Запись с указанным ID не обнаружена."
+
+#: includes/wpfts_core.php:1367
+msgid "Please specify search query"
+msgstr "Задайте поисковый запрос"
+
+#: includes/wpfts_core.php:1380
+#, php-format
+msgid "Results of search for query = \"%s\""
+msgstr "Результат поиска по запросу = \"%s\""
+
+#: includes/wpfts_core.php:1407
+#, php-format
+msgid "Time spent: <b>%.3f</b> sec"
+msgstr "Затрачено времени: <b>%.3f</b> сек"
+
+#: includes/wpfts_core.php:1456
+msgid "#"
+msgstr "#"
+
+#: includes/wpfts_core.php:1457
+msgid "ID"
+msgstr "ID"
+
+#: includes/wpfts_core.php:1458
+msgid "Type"
+msgstr "Тип"
+
+#: includes/wpfts_core.php:1459
+msgid "Status"
+msgstr "Статус"
+
+#: includes/wpfts_core.php:1460
+msgid "Title, Thumbnail, Excerpt"
+msgstr "Заголовок, Иконка и Цитата"
+
+#: includes/wpfts_core.php:1461 includes/templates/search-relevance.php:55
+msgid "Relevance"
+msgstr "Релевантность"
+
+#: includes/wpfts_core.php:1489
+#, php-format
+msgid "Found: <b>%d</b> posts"
+msgstr "Найдено: <b>%d</b> записей"
+
+#: includes/wpfts_core.php:1579
+#, php-format
+msgid "Shown <span>%1s</span> from <b>%2s</b>"
+msgstr "Показано <span>%1s</span> из <b>%2s</b>"
+
+#: includes/wpfts_core.php:1591
+msgid "posts per page"
+msgstr "записей на странице"
+
+#: includes/wpfts_db_updates.php:7
+msgid ""
+"<ul><li>Big update: lots of functions was moved from the Pro version to the "
+"Free WPFTS Version</li>\n"
+"\t\t\t\t\t\t<li>Some interface bugs were fixed</li>\n"
+"\t\t\t\t\t\t<li>Relevance formula was completely rebuilt</li>\n"
+"\t\t\t\t\t\t<li>Reindex algorithm was sufficiently improved (now 5 times "
+"faster!)</li>\n"
+"\t\t\t\t\t\t<li>Word max length was increased to 255 characters</li>\n"
+"\t\t\t\t\t</ul>"
+msgstr ""
+"<ul><li>Большое обновление: множество функций было перенесено из "
+"профессиональной версии плагина в базовую версию WPFTS</li>\n"
+"\t\t\t\t\t\t<li>Некоторые баги интерфейса устранены</li>\n"
+"\t\t\t\t\t\t<li>Формула вычисления релевантности была полностью "
+"переделана</li>\n"
+"\t\t\t\t\t\t<li>Алгоритм индексирования был существенно оптимизирован "
+"(теперь в 5 раз быстрее!)</li>\n"
+"\t\t\t\t\t\t<li>Максимальная длина слова увеличена до 255 символов</li>\n"
+"\t\t\t\t\t</ul>"
+
+#: includes/wpfts_db_updates.php:16
+msgid ""
+"<ul><li>Introducing <b>Live Search</b>! You can switch Live Search ON with "
+"<b>WPFTS Fulltext Search</b> by replacing standard Search Widget by special "
+"one provided by the plugin (go to Appearance / Widgets and select <b>WPFTS ::"
+" Live Search</b>)</li></ul>"
+msgstr ""
+"<ul><li>Представляем \"живой поиск\" <b>Live Search</b>! Вы можете включить "
+"Live Search в <b>WPFTS Fulltext Search</b> путём замены стандартного виджета "
+"поиска специальным, который предоставляется плагином (перейдите в Внешний "
+"вид / Виджеты и выберите <b>WPFTS :: Live Search</b>)</li></ul>"
+
+#: includes/wpfts_db_updates.php:19
+msgid ""
+"<ul><li>Big update: the new search algorithm and key improvements!</li>\n"
+"\t\t\t\t\t\t<li>New algorithm that <b>supports sentences</b></li>\n"
+"\t\t\t\t\t\t<li>Deep search is now faster</li>\n"
+"\t\t\t\t\t\t<li>Character limit was removed</li>\n"
+"\t\t\t\t\t\t<li>MyISAM support was dropped</li>\n"
+"\t\t\t\t\t\t<li>Faster index rebuilding</li>\n"
+"\t\t\t\t\t</ul><br>\n"
+"\t\t\t\t\t<p>Read the <a href=\"https://fulltextsearch."
+"org/forum/topic/18/version-1-30-85-big-improvements-and-fixes\" "
+"target=\"_blank\">official announcement</a> on the WPFTS forum.</p>"
+msgstr ""
+
+#: includes/wpfts_index.php:471
+msgid "Reindex: wrong chunks format"
+msgstr "Переиндексирование: неправильный формат чанков"
+
+#: includes/wpfts_index.php:774
+msgid "Add document: parameter should be an array"
+msgstr "Добавление документа: параметр должен быть массивом"
+
+#: includes/wpfts_index.php:785
+#, php-format
+msgid "Add document: bad index \"%s\" given."
+msgstr "Добавление документа: задан неправильный индекс \"%s\"."
+
+#: includes/wpfts_output.php:40
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/wpfts_output.php:41
+msgid "Video"
+msgstr "Видео"
+
+#: includes/wpfts_output.php:42
+msgid "Text"
+msgstr "Текст"
+
+#: includes/wpfts_output.php:43
+msgid "Audio"
+msgstr "Аудио"
+
+#: includes/wpfts_output.php:44
+msgid "Misc App"
+msgstr "Другие приложения"
+
+#: includes/wpfts_output.php:45
+msgid "Microsoft Office"
+msgstr "Microsoft Office"
+
+#: includes/wpfts_output.php:46
+msgid "OpenOffice"
+msgstr "OpenOffice"
+
+#: includes/wpfts_output.php:47
+msgid "WordPerfect"
+msgstr "WordPerfect"
+
+#: includes/wpfts_output.php:48
+msgid "iWork"
+msgstr "iWork"
+
+#: includes/wpfts_output.php:49
+msgid "Used-Defined"
+msgstr "Определённые пользователем"
+
+#: includes/wpfts_output.php:50
+msgid "Not Registered"
+msgstr "Не зарегистрированы"
+
+#: includes/wpfts_output.php:65
+msgid "Search Engine Status"
+msgstr "Статус поискового движка"
+
+#: includes/wpfts_output.php:70
+msgid "The Search Index was disabled in configuration."
+msgstr "Поисковый индекс был отключен в настройках."
+
+#: includes/wpfts_output.php:70
+msgid "Disabled"
+msgstr "Выключен"
+
+#: includes/wpfts_output.php:73
+msgid "Active"
+msgstr "Работает"
+
+#: includes/wpfts_output.php:75
+msgid ""
+"The Search Index will be activated after the indexing process is complete."
+msgstr ""
+"Поисковый индекс будет активирован после завершения процесса индексирования."
+
+#: includes/wpfts_output.php:75
+msgid "Awaiting"
+msgstr "Ожидание"
+
+#: includes/wpfts_output.php:80
+msgid "In Index"
+msgstr "В индексе"
+
+#: includes/wpfts_output.php:80 includes/wpfts_output.php:92
+#: includes/wpfts_output.php:93
+msgid "records"
+msgstr ""
+
+#: includes/wpfts_output.php:91
+msgid "Processing post records"
+msgstr ""
+
+#: includes/wpfts_output.php:92
+msgid "Indexed"
+msgstr "В индексе"
+
+#: includes/wpfts_output.php:93
+msgid "Pending"
+msgstr "Ожидающих"
+
+#: includes/wpfts_output.php:95
+msgid "Indexing is in progress"
+msgstr "Идёт индексирование"
+
+#: includes/wpfts_output.php:96
+msgid "Est. time left: "
+msgstr "Ост. времени: "
+
+#: includes/wpfts_output.php:101
+msgid "post records done"
+msgstr ""
+
+#: includes/wpfts_output.php:114
+msgid "Processing word index"
+msgstr ""
+
+#: includes/wpfts_output.php:122
+msgid "Word index done"
+msgstr ""
+
+#: includes/wpfts_output.php:129
+msgid ""
+"Your site may run slower while indexing. It will go back to normal when the "
+"process is complete."
+msgstr ""
+"Сайт может работать медленнее в процессе индексирования. После завершения "
+"индексирования скорость работы сайта восстановится."
+
+#: includes/wpfts_output.php:132
+msgid "Index is OK"
+msgstr "Индекс в порядке"
+
+#: includes/wpfts_output.php:135
+msgid "Indexing is disabled"
+msgstr "Индексирование отключено"
+
+#: includes/wpfts_output.php:158
+msgid "Useful Information"
+msgstr "Информация"
+
+#: includes/wpfts_output.php:160
+#, php-format
+msgid "Current Version v%s"
+msgstr "Текущая версия v%s"
+
+#: includes/wpfts_output.php:161
+msgid "WPFTS Home"
+msgstr "WPFTS Домашняя страница"
+
+#: includes/wpfts_output.php:162
+msgid "WPFTS Documentation"
+msgstr "WPFTS Документация"
+
+#: includes/wpfts_output.php:164
+msgid "Get WPFTS Pro"
+msgstr "Получить WPFTS Pro"
+
+#: includes/wpfts_output.php:183
+msgid "Control Panel"
+msgstr "Панель управления"
+
+#: includes/wpfts_output.php:187
+msgid "Enable FullText Search"
+msgstr "Разрешить FullText Search"
+
+#: includes/wpfts_output.php:191 includes/wpfts_output.php:208
+#: includes/wpfts_output.php:265 includes/wpfts_output.php:335
+#: includes/wpfts_output.php:358 includes/wpfts_output.php:685
+#: includes/wpfts_output.php:830 includes/wpfts_output.php:847
+msgid "Enabled"
+msgstr "Включено"
+
+#: includes/wpfts_output.php:198
+msgid ""
+"If not enabled, the regular integrated \"not indexed\" WordPress search will "
+"be used"
+msgstr ""
+"Если не разрешено, то на сайте будет использоваться обычный \"не "
+"индексированный\" поиск WordPress"
+
+#: includes/wpfts_output.php:204
+msgid "Auto-index"
+msgstr "Автоиндексирование"
+
+#: includes/wpfts_output.php:215
+msgid ""
+"Normally, WP FullText Search will auto index any new post or post changes "
+"even if you disabled the previous option. Disabling this option will "
+"completely stop all plugin functions. However, you probably have to do a "
+"full index rebuild, if you activate the plugin again."
+msgstr ""
+"Обычно WP FullText Search автоматически индексирует любую новую публикацию "
+"или изменение в публикации, даже если вы отключили предыдущую опцию. "
+"Выключение же этой опции полностью остановит все функции плагина. Однако, "
+"после включения плагина, вероятно, вам потребуется полное пересоздание "
+"индекса."
+
+#: includes/wpfts_output.php:216
+msgid "<strong>WARNING</strong>: Disabling this option is NOT recommended!"
+msgstr ""
+"<strong>ПРЕДУПРЕЖДЕНИЕ</strong>: Отключение этой опции НЕ рекомендуется!"
+
+#: includes/wpfts_output.php:224
+msgid ""
+"This action will completely rebuild the search index completely, which could "
+"take some time. Are you sure?"
+msgstr ""
+"Это действие полностью пересоздаст поисковый индекс, что может занять "
+"продолжительное время. Вы уверены?"
+
+#: includes/wpfts_output.php:224
+msgid "Rebuild Index"
+msgstr "Перестроить индекс"
+
+#: includes/wpfts_output.php:225 includes/templates/admin_page.php:64
+msgid "Resetting"
+msgstr "Сбрасываем"
+
+#: includes/wpfts_output.php:231
+#, php-format
+msgid ""
+"Use this button when you need to completely rebuild search index database, "
+"for example, when you changed custom <b>wpfts_index_post</b> filter function."
+" Remember that this operation could take a long time. Please refer for <a "
+"href=\"%s\" target=\"_blank\">documentation</a> for more information."
+msgstr ""
+"Используйте эту кнопку, если вам нужно пересоздать поисковый индекс заново, "
+"например, если вы изменили обработчик хука <b>wpfts_index_post</b>. Помните, "
+"что эта операция может занять длительное время. Пожалуйста, обратитесь к <a "
+"href=\"%s\" target=\"_blank\">документации</a>, чтобы узнать больше."
+
+#: includes/wpfts_output.php:249
+msgid "STEP #1: Query Preprocessing"
+msgstr "Шаг #1: Подготовка запроса"
+
+#: includes/wpfts_output.php:252
+msgid ""
+"At the very first step, the plugin removes too short words, stop words and "
+"punctuation marks from the search phrase. After that, the phrase is broken "
+"into words."
+msgstr ""
+"На первом шаге плагин удаляет слишком короткие слова, стоп-слова и знаки "
+"препинания из поисковой фразы. После этого, фраза разбивается на отдельные "
+"слова."
+
+#: includes/wpfts_output.php:260
+msgid "Internal Query Filter"
+msgstr "Внутренний фильтр запроса"
+
+#: includes/wpfts_output.php:272
+msgid ""
+"Cleans up the query string before using it for search. Uncheck this only if "
+"you are using own text splitting algorithm."
+msgstr ""
+"Фильтрует поисковый запрос перед использованием его для поиска. Уберите "
+"галочку, если вы используете свой собственный алгоритм фильтрации и разбивки "
+"на слова."
+
+#: includes/wpfts_output.php:301
+msgid "STEP #2: Find Records"
+msgstr "Шаг #2: Поиск записей"
+
+#: includes/wpfts_output.php:304
+msgid ""
+"Then, the algorithm effectively scans the index to find those entries in "
+"which the words (or parts of them) mentioned in the query are found."
+msgstr ""
+"Затем, алгоритм эффективно сканирует индекс, чтобы найти элементы, где "
+"встречаются слова (или их части), указанные в поисковом запросе."
+
+#: includes/wpfts_output.php:311
+msgid "Default Search Logic"
+msgstr "Логика поиска по-умолчанию"
+
+#: includes/wpfts_output.php:324
+msgid ""
+"This option tells the search engine whether all query words should contain "
+"in the found post (AND) or any of these words (OR)."
+msgstr ""
+"Эта опция сообщает поисковому движку - должны ли результаты содержать "
+"обязательно все слова (AND) или некоторые из них (OR)."
+
+#: includes/wpfts_output.php:330
+msgid "Deeper Search"
+msgstr "Углублённый поиск"
+
+#: includes/wpfts_output.php:342
+msgid ""
+"Enables searching substrings in the middle of words. This is much slower "
+"than usual search, so use it with care. Keep it disabled if you have any "
+"issues with MySQL performance."
+msgstr ""
+"Включает поиск подстрок в середине слова. Это намного медленнее, чем обычный "
+"поиск, так что используйте с осторожностью. Отключите эту опцию, если "
+"испытываете какие-либо проблемы со скоростью поиска."
+
+#: includes/wpfts_output.php:349
+#, php-format
+msgid "Options below available in %s Pro version %s only"
+msgstr "Опции ниже доступны только в %s версии Pro %s"
+
+#: includes/wpfts_output.php:355
+msgid "Search in File Contents"
+msgstr "Поиск в содержимом файла"
+
+#: includes/wpfts_output.php:364
+msgid ""
+"When checked on, WPFTS will search attachments by contents and show them in "
+"search results like usual posts."
+msgstr ""
+"Если включено, WPFTS будет искать файлы по содержимому и отображать из в "
+"списке результатов поиска вместе с обычными публикациями."
+
+#: includes/wpfts_output.php:445
+msgid "Limit File Types"
+msgstr "Ограничение по типу файла"
+
+#: includes/wpfts_output.php:448
+msgid "Allow All"
+msgstr "Разрешить все"
+
+#: includes/wpfts_output.php:455
+msgid ""
+"Alternatively, you can allow to show attachments with these file types only"
+msgstr ""
+"Альтернативно, вы можете разрешить отображение файлов только с указанными "
+"типами."
+
+#: includes/wpfts_output.php:458
+msgid "Currently used file types (amount of files found)"
+msgstr "Используемые типы файлов (количество файлов)"
+
+#: includes/wpfts_output.php:468
+msgid "Show All File Types &gt;&gt;"
+msgstr "Показать все типы файлов &gt;&gt;"
+
+#: includes/wpfts_output.php:471
+msgid "Other File Formats (not used yet on this website)"
+msgstr "Другие форматы файлов (не используются на этом сайте)"
+
+#: includes/wpfts_output.php:508
+msgid "STEP #3: Calculate Relevance"
+msgstr "Шаг #3: Подсчёт релевантности"
+
+#: includes/wpfts_output.php:511
+msgid ""
+"The relevance formula is based on the classic <a href=\"https://en.wikipedia."
+"org/wiki/Tf-idf\" target=\"_blank\">TF-IDF</a> equation. You can justify the "
+"value by assigning some weights to specific clusters, post types or date "
+"ranges (*in development*) which will give you additional flexibility."
+msgstr ""
+"Формула вычисления релевантности основана на классическом выражении <a "
+"href=\"https://en.wikipedia.org/wiki/Tf-idf\" target=\"_blank\">TF-IDF</a>. "
+"Вы можете подстроить значение, присваивая различные веса кластерам, типам "
+"публикаций, периодам дат (*ещё в разработке*), что даёт дополнительную "
+"гибкость."
+
+#: includes/wpfts_output.php:519
+msgid "Cluster Weights"
+msgstr "Веса Кластеров"
+
+#: includes/wpfts_output.php:525
+msgid "Weight"
+msgstr "Вес"
+
+#: includes/wpfts_output.php:526
+msgid "Cluster Name"
+msgstr "Имя кластера"
+
+#: includes/wpfts_output.php:567
+msgid ""
+"\"Cluster\" is a part of post (either title, content or even specific part "
+"which you can define using <b>wpfts_index_post</b> filter). You can assign "
+"some relevance weight to each of them."
+msgstr ""
+"\"Кластер\" - это часть публикации (заголовок, текст или даже особая часть, "
+"которую вы можете задать с помощью фильтра <b>wpfts_index_post</b>). Вы "
+"можете назначить коэффициент (вес) релевантности каждому из них."
+
+#: includes/wpfts_output.php:590
+msgid "STEP #4: Sort Results"
+msgstr "Шаг #4: Сортировка"
+
+#: includes/wpfts_output.php:593
+msgid ""
+"To be useful, the results should be shown in the specified order. It's a "
+"good place to set it up."
+msgstr ""
+"Для максимальной наглядности, результаты должны быть отсортированы. "
+"Настроить это можно здесь."
+
+#: includes/wpfts_output.php:601
+msgid "Search Order By"
+msgstr "Сортировать по значению"
+
+#: includes/wpfts_output.php:607
+msgid "Relevance (WP default)"
+msgstr "Релевантность (по умолчанию)"
+
+#: includes/wpfts_output.php:608 includes/wpfts_output.php:949
+msgid "Post ID"
+msgstr "ID публикации (Post ID)"
+
+#: includes/wpfts_output.php:609
+msgid "Author"
+msgstr "Автор"
+
+#: includes/wpfts_output.php:610
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/wpfts_output.php:611
+msgid "Post Slug"
+msgstr "Ссылка публикации (Post Slug)"
+
+#: includes/wpfts_output.php:612
+msgid "Post Type"
+msgstr "Тип публикации (Post Type)"
+
+#: includes/wpfts_output.php:613
+msgid "Created Date"
+msgstr "Дата создания"
+
+#: includes/wpfts_output.php:614
+msgid "Modified Date"
+msgstr "Дата изменения"
+
+#: includes/wpfts_output.php:615
+msgid "Parent Post ID"
+msgstr "Родительский Post ID"
+
+#: includes/wpfts_output.php:616
+msgid "Random"
+msgstr "Случайно"
+
+#: includes/wpfts_output.php:617
+msgid "Comment Count"
+msgstr "Количество комментариев"
+
+#: includes/wpfts_output.php:626
+msgid "Search results will be ordered by selected field."
+msgstr "Результат поиска будет отсортирован по выбранному критерию."
+
+#: includes/wpfts_output.php:631
+msgid "Search Order"
+msgstr "Направление сортировки"
+
+#: includes/wpfts_output.php:647
+msgid "You can select the direction of sorting."
+msgstr "Вы можете выбрать направление сортировки."
+
+#: includes/wpfts_output.php:669
+msgid "STEP #5: Show Results"
+msgstr "Шаг #5: Отображение результатов"
+
+#: includes/wpfts_output.php:672
+#, php-format
+msgid ""
+"WPFTS can output search results in a Google-like way - showing only "
+"sentences which contains search words and highlighting them. Wordpress by "
+"default does not show any content for result items if the items are "
+"attachments. Smart Excerpts function can output attachment content too. <a "
+"href=\"%s\" target=\"_blank\">Read more</a>."
+msgstr ""
+"WPFTS может выводить результаты поиска как Google - показывая только "
+"предложения, где встречаются искомые слова и выделяя их. Wordpress по "
+"умолчанию не отображает цитаты, если документ является файлом. Функция Smart "
+"Excerpts может также создавать цитату из содержимого файла. <a href=\"%s\" "
+"target=\"_blank\">Узнайте больше</a>."
+
+#: includes/wpfts_output.php:680
+msgid "Enable Smart Excerpts"
+msgstr "Включить Smart Excerpts"
+
+#: includes/wpfts_output.php:692
+msgid "Replaces Wordpress excerpts by WPFTS Smart Excerpts in search results"
+msgstr ""
+"Заменяет цитаты Wordpress цитатами Smart Excerpts при выводе результатов "
+"поиска"
+
+#: includes/wpfts_output.php:697
+msgid "Optimal Length"
+msgstr "Оптимальная длина"
+
+#: includes/wpfts_output.php:709
+msgid ""
+"WPFTS will try to keep excerpt length between 90% and 110% of this value"
+msgstr "WPFTS будет создавать цитаты длиной от 90% до 110% от этого значения"
+
+#: includes/wpfts_output.php:715
+msgid "Include to excerpt:"
+msgstr "Включить в цитату:"
+
+#: includes/wpfts_output.php:721
+msgid "Smart Excerpt text"
+msgstr "Цитата Smart Excerpt"
+
+#: includes/wpfts_output.php:726
+msgid "Score/Relevance"
+msgstr "Очки релевантности"
+
+#: includes/wpfts_output.php:731
+msgid "\"Not Found\" words"
+msgstr "Список слов \"Не найдено\""
+
+#: includes/wpfts_output.php:736
+msgid "Attachments Only:"
+msgstr "Только для файлов:"
+
+#: includes/wpfts_output.php:738
+msgid "File Extension"
+msgstr "Расширение файла"
+
+#: includes/wpfts_output.php:740
+msgid "Filesize"
+msgstr "Размер файла"
+
+#: includes/wpfts_output.php:742
+msgid "Direct Download Link"
+msgstr "Прямая ссылка для скачивания"
+
+#: includes/wpfts_output.php:744
+msgid "Link Title to File Download"
+msgstr "Ссылка в заголовке ведёт на скачивание файла"
+
+#: includes/wpfts_output.php:750
+msgid "Demo Output:"
+msgstr "Макет вывода:"
+
+#: includes/wpfts_output.php:752
+msgid "Optimal Length is ignored here"
+msgstr "Оптимальная длина  игнорируется здесь"
+
+#: includes/wpfts_output.php:770
+msgid "Custom CSS Styling"
+msgstr "Настройка стилей CSS"
+
+#: includes/wpfts_output.php:773
+msgid "Preview Styles"
+msgstr "Предварительный просмотр"
+
+#: includes/wpfts_output.php:774
+msgid "Reset to Default"
+msgstr "Сбросить к начальным значениям"
+
+#: includes/wpfts_output.php:782
+msgid ""
+"This CSS snippet will be automatically minimized upon usage with a frontend."
+msgstr ""
+"Этот сниппет CSS будет автоматически минимизирован для использования на "
+"сайте."
+
+#: includes/wpfts_output.php:791
+msgid ""
+"Notice: this is a <b>beta version</b> of the Smart Excerpt function. In case "
+"it does not work for your theme/site, please do not hesistate to send us "
+"some information with screenshots and theme name <a href=\"https:"
+"//fulltextsearch.org/contact/\" target=\"_blank\">here</a>."
+msgstr ""
+"Примечание: это <b>бета-версия</b> функции Smart Excerpt. Если она не "
+"работает с вашей темой или на вашем сайте, пожалуйста, сообщите нам об этом. "
+"Пришлите пару скриншотов и имя темы через форму на <a href=\"https:"
+"//fulltextsearch.org/contact/\" target=\"_blank\">этой странице</a>."
+
+#: includes/wpfts_output.php:815 includes/templates/indexing-engine.php:51
+msgid "Indexing Defaults"
+msgstr "Настройки индексирования по умолчанию"
+
+#: includes/wpfts_output.php:818
+msgid ""
+"For maximum compatibility with the standard WordPress search, by default, we "
+"always index the title and the content of all posts, pages, and custom posts "
+"and put them in clusters \"post_title\" and \"post_content\", respectively. "
+"But this can be modified if required."
+msgstr ""
+"Для максимальной совместимости с встроенным поиском Wordpress, по умолчанию "
+"мы индексируем заголовок и текст всех публикаций и сохраняем их в кластерах "
+"\"post_title\" и \"post_content\" соответственно. Но вы можете это изменить, "
+"если необходимо."
+
+#: includes/wpfts_output.php:825
+msgid "Strip HTML Tags From Post Contents"
+msgstr "Удалить HTML тэги из текста публикаций"
+
+#: includes/wpfts_output.php:837
+msgid ""
+"Removes HTML tags and comments from the <code>post_content</code> while "
+"indexing (useful for Gutenberg-driven sites)."
+msgstr ""
+"Удаляет тэги HTML и комментарии из текста публикации (полезно при "
+"использовании Gutenberg на сайте)."
+
+#: includes/wpfts_output.php:844
+msgid "Include Attachments"
+msgstr "Включать аттачи"
+
+#: includes/wpfts_output.php:844
+msgid "(Available in Pro only)"
+msgstr "(Только в Pro версии)"
+
+#: includes/wpfts_output.php:853
+msgid ""
+"Allow for posts to be searchable by the content of their attached files. "
+"When enabled, this option will include attachments' index to their parent "
+"post indexes."
+msgstr ""
+"Разрешает поиск публикаций по содержимому файлов-приложений, которые "
+"загружены в публикацию. Когда разрешено, эта опция будет включать индекс "
+"содержимого файлов в индекс родительской публикации."
+
+#: includes/wpfts_output.php:888 includes/templates/indexing-engine.php:54
+msgid "File Extraction Rules"
+msgstr "Правила извлечения текста"
+
+#: includes/wpfts_output.php:890
+msgid "This option is available in Pro version only"
+msgstr "Эта опция доступна только в Pro версии"
+
+#: includes/wpfts_output.php:892
+#, php-format
+msgid ""
+"To search for files by their contents, the plugin places the text extracted "
+"from them into the search index. Extracting text is quite a resource-"
+"intensive operation, and the power of your server may not be enough for most "
+"file types. Therefore, we developed an external service (%s) that produces "
+"this work efficiently and quickly."
+msgstr ""
+"Чтобы искать файлы по содержимому, плагин помещает извлечённый из них текст "
+"в поисковый индекс. Извлечение текста - это очень ресурсозатратная операция, "
+"и мощности веб-сервера может быть недостаточно для большинства типов файлов. "
+"Поэтому мы разработали внешний сервис (%s), который выполняет эту задачу "
+"быстро и эффективно."
+
+#: includes/wpfts_output.php:893
+msgid ""
+"For a number of reasons, you can refuse to use this service, but in this "
+"case, the conversion quality and the number of supported file types will be "
+"significantly less."
+msgstr ""
+"По ряду причин вы можете отказаться от использования этого сервиса, но в "
+"этом случае качество извлечённого текста и количество поддерживаемых типов "
+"файлов может быть значительно ниже."
+
+#: includes/wpfts_output.php:899
+msgid "Extraction Engine"
+msgstr "Извлечение текста"
+
+#: includes/wpfts_output.php:904
+msgid "TextMill.io then Native PHP"
+msgstr "TextMill.io, а в случае неудачи Native PHP"
+
+#: includes/wpfts_output.php:905
+msgid "Native PHP only"
+msgstr "Только Native PHP"
+
+#: includes/wpfts_output.php:912
+msgid ""
+"<a href=\"https://textmill.io/\">TextMill.io</a> is an external processing "
+"service, which supports a wide range of formats. Native PHP means local "
+"processing of attachments. We recommend <a href=\"https://textmill.io/\">"
+"TextMill.io</a> at the moment."
+msgstr ""
+"<a href=\"https://textmill.io/\">TextMill.io</a> - это наш внешний сервис, "
+"который поддерживает большое количество форматов файлов. \"Native PHP\" "
+"означает обработку файлов на вашем сервере. Мы рекомендуем использовать <a "
+"href=\"https://textmill.io/\">TextMill.io</a>."
+
+#: includes/wpfts_output.php:913
+msgid ""
+"Note: Native PHP only supports medium-quality PDF parsing at the moment. "
+"Plain-text based formats (TXT, CSS, HTML, HTM etc) are always processing by "
+"Native PHP."
+msgstr ""
+"Примечание: Native PHP поддерживает извлечение текста из PDF на данный "
+"момент (и работает не всегда хорошо). Форматы файлов на основе чистого "
+"текста (TXT, CSS, HTML, HTM и проч.) всегда обрабатываются с помощью Native "
+"PHP."
+
+#: includes/wpfts_output.php:941
+msgid "Index Engine Tester"
+msgstr "Тест поискового движка"
+
+#: includes/wpfts_output.php:943
+msgid ""
+"Before the data from your posts (pages, meta-fields, etc.) gets into the "
+"Search Index, they go through a number of built-in WPFTS filters, including "
+"a custom hook <code>wpfts_index_post</code>. Enter the ID of any WordPress "
+"record to see what data will come to the Search Index."
+msgstr ""
+"Перед тем, как данные из ваших публикаций (постов, страниц, мета-полей и "
+"проч.) попадают в поисковый индекс, они проходят через несколько встроенных "
+"фильтров, включая хук <code>wpfts_index_post</code>. Укажите ID любой "
+"публикации, чтобы увидеть, какие данные из неё попадут в поисковый индекс."
+
+#: includes/wpfts_output.php:957
+msgid "Test Filter"
+msgstr "Тестировать"
+
+#: includes/wpfts_output.php:964
+msgid "Where do I get this Post ID?"
+msgstr "Где я могу узнать Post ID?"
+
+#: includes/wpfts_output.php:966
+msgid ""
+"Open any Edit Post page, check the URL and find <code>post=<b>&lt;number&gt;"
+"</b></code> part there. The <b>&lt;number&gt;</b> is an actual Post ID"
+msgstr ""
+"Откройте любую публикацию на редактирование, посмотрите URL страницы и "
+"найдите там <code>post=<b>&lt;число&gt;</b></code>. Это <b>&lt;число&gt;</b> "
+"и есть ID публикации (Post ID)"
+
+#: includes/wpfts_output.php:998 includes/wpfts_output.php:1012
+msgid "* (Any)"
+msgstr "* (Любой)"
+
+#: includes/wpfts_output.php:999
+msgid "publish (Published)"
+msgstr "publish (Опубликован)"
+
+#: includes/wpfts_output.php:1000
+msgid "future (Future)"
+msgstr "future (Запланирован)"
+
+#: includes/wpfts_output.php:1001
+msgid "draft (Draft)"
+msgstr "draft (Черновик)"
+
+#: includes/wpfts_output.php:1002
+msgid "pending (Pending)"
+msgstr "pending (Ожидает)"
+
+#: includes/wpfts_output.php:1003
+msgid "private (Private)"
+msgstr "private (Скрытый)"
+
+#: includes/wpfts_output.php:1004
+msgid "trash (Trash)"
+msgstr "trash (В корзине)"
+
+#: includes/wpfts_output.php:1005
+msgid "auto-draft (Auto-Draft)"
+msgstr "auto-draft (Автосохранённый)"
+
+#: includes/wpfts_output.php:1006
+msgid "inherit (Inherit)"
+msgstr "inherit (Дочерний)"
+
+#: includes/wpfts_output.php:1021
+msgid "Search Tester"
+msgstr "Тестер поиска"
+
+#: includes/wpfts_output.php:1024
+msgid ""
+"You can test search with any query here. Standard wordpress <b>WP_Query</b> "
+"object with WPFTS features will be used."
+msgstr ""
+"Вы можете протестировать любой запрос здесь. При поиске будет использован "
+"стандартный объект <b>WP_Query</b> с дополнительными функциями от WPFTS."
+
+#: includes/wpfts_output.php:1031 includes/templates/search-relevance.php:49
+msgid "Query"
+msgstr "Запрос"
+
+#: includes/wpfts_output.php:1039 includes/templates/sandbox-area.php:53
+msgid "Test Search"
+msgstr "Тестировать"
+
+#: includes/wpfts_output.php:1061
+msgid "Additional Options"
+msgstr "Дополнительные настройки"
+
+#: includes/wpfts_output.php:1065
+msgid "Disable WPFTS"
+msgstr "Отключить WPFTS"
+
+#: includes/wpfts_output.php:1068
+msgid "Disable SQL cache"
+msgstr "Отключить кэш MySQL"
+
+#: includes/wpfts_output.php:1076
+msgid "Post Type:"
+msgstr "Тип записи: "
+
+#: includes/wpfts_output.php:1082
+msgid "Post Status:"
+msgstr "Статус поста:"
+
+#: includes/wpfts_result_item.php:616
+msgid "Not found"
+msgstr "Не найдено"
+
+#: includes/wpfts_result_item.php:620
+msgid "Score"
+msgstr "Релевантность"
+
+#: includes/wpfts_result_item.php:627
+msgid "Download"
+msgstr "Скачать"
+
+#: includes/wpfts_result_item.php:630
+msgid "File Size"
+msgstr "Размер файла"
+
+#: includes/templates/admin_page.php:35
+msgid "WP FullText Search Options"
+msgstr "Опции WP FullText Search"
+
+#: includes/templates/admin_page.php:51
+#, php-format
+msgid ""
+"<h2>Important Notice Before You Start</h2>\n"
+"\t\t<p>Everything is ready to index the contents of your site. When creating "
+"a Search Index, the plugin will use its own tables in the database, no your "
+"data will be affected.</p>\n"
+"\t\t<p>The process may take a long time (it depends on the amount of data on "
+"the site) and the site may work a little slower. There is no reason to worry "
+"- this slowness will end with the end of the indexing process. To reduce the "
+"time to build the index, please <b>do not close</b> the plugin settings page."
+"</p>\n"
+"\t\t<p>If you didn’t install WPFTS Add-ons and didn’t set up your own <code>"
+"wpfts_index_post</code> hook, then this time only the Titles and the main "
+"Content of the publications will be included in the index. If you want other "
+"data to participate in the search (such as <b>post meta data</b>), now is "
+"the time to read the <a href=\"%s\" target=\"_blank\">WPFTS Documentation</a>"
+" and make the necessary changes.</p>\n"
+"\t\t<p>We wish you a pleasant work with the WP FullText Search plugin.</p>\n"
+"\t\t<p>We also thank you for your <a href=\"%s\" target=\"_blank\">comments "
+"and suggestions</a>.</p>\n"
+"\t\t<p><i>WPFTS plugin development team.</i></p>"
+msgstr ""
+"<h2>Важное уведомление перед началом работы</h2>\n"
+"\t\t<p>Всё готово для начала индексирования содержимого вашего сайта. Во "
+"время индексирования плагин будет использовать свои собственные таблицы БД, "
+"никакие ваши данные на сайте не будут затронуты.</p>\n"
+"\t\t<p>Процесс может занять продолжительное время (это зависит от количества "
+"данных на сайте) и во время него сайт может работать медленнее. Нет причины "
+"беспокоиться - как только индекс будет построен, скорость работы вернётся к "
+"обычной. Чтобы сократить время индексирования, <b>не закрывайте</b> страницу "
+"настроек плагина.</p>\n"
+"\t\t<p>Если вы ещё не устанавливали какие-либо дополнения к плагину и не "
+"создавали свой хук <code>wpfts_index_post</code>, в этот раз будут "
+"проиндексированы только заголовки и текст публикаций. Если вы хотите, чтобы "
+"и другие данные (такие как мета-данные) попали в поисковый индекс, самое "
+"время прочесть <a href=\"%s\" target=\"_blank\">документацию</a> и "
+"произвести необходимые настройки до запуска индексирования.</p>\n"
+"\t\t<p>Мы желаем вам успешной работы с плагином WP FullText Search.</p>\n"
+"\t\t<p>И также заранее благодарим за <a href=\"%s\" target=\"_blank\">"
+"комментарии и предложения</a>.</p>\n"
+"\t\t<p><i>Группа разработчиков плагина WPFTS.</i></p>"
+
+#: includes/templates/admin_page.php:64
+msgid "Start Indexing"
+msgstr "Запуск индексирования"
+
+#: includes/templates/indexing-engine.php:41
+msgid ""
+"Initially, the plugin collects data from the database of your website (posts,"
+" pages, custom type posts, file contents, taxonometry, meta fields etc) and "
+"places them in a special structure called the <b>Search Index</b>."
+msgstr ""
+"Изначально, плагин собирает данные из БД вашего сайта (публикации, страницы, "
+"пользовательские типы постов, таксонометрию, мета-поля и проч.) и помещает "
+"их в специальную структуру под названием <b>поисковый индекс</b>."
+
+#: includes/templates/indexing-engine.php:42
+msgid ""
+"On this page, you indicate what data the plugin should collect, how to "
+"convert it, and in which index sections (clusters) to place."
+msgstr ""
+"На этой странице вы определяете, какие данные плагин должен собирать, как их "
+"преобразовывать и какие части сохранять в поисковый индекс."
+
+#: includes/templates/indexing-engine.php:43
+msgid ""
+"Note: These changes <b>will not update</b> the current Search Index "
+"automatically, you need to start reindex manually."
+msgstr ""
+"Примечание: Эти изменения <b>не обновляются</b> в поисковом индексе "
+"автоматически, необходимо будет запустить пересоздание индекса вручную."
+
+#: includes/templates/sandbox-area.php:42
+msgid ""
+"Here you can test different parts of the WPFTS engine to find the reason of "
+"possible issue."
+msgstr ""
+"Здесь вы можете протестировать разные части движка WPFTS, чтобы найти "
+"причину проблемы."
+
+#: includes/templates/sandbox-area.php:50
+msgid "Test Indexing Engine"
+msgstr "Тестировать индексирующий движок"
+
+#: includes/templates/search-relevance.php:41
+#, php-format
+msgid ""
+"The search algorithm is a sequence of 5 simple steps. You can do some tweaks "
+"at every step. If you need deeper work, you can use hooks. Check out the <a "
+"href=\"%s\" target=\"_blank\">documentation</a>."
+msgstr ""
+"Алгоритм поиска - это последовательность из 5 простых шагов. Вы можете "
+"делать некоторые настройки на каждом шаге. Если нужна более глубокая "
+"настройка, вы можете использовать хуки. Обратитесь к <a href=\"%s\" "
+"target=\"_blank\">документации</a> за подробной информацией."
+
+#: includes/templates/search-relevance.php:42
+msgid ""
+"It is important to remember that site data is not used directly for search, "
+"instead, all actions are performed on the Search Index."
+msgstr ""
+"Важно помнить, что данные публикаций не используются для поиска <b>"
+"непосредственно</b>, вместо этого все действия производятся с поисковым "
+"индексом."
+
+#: includes/templates/search-relevance.php:52
+msgid "Filter"
+msgstr "Фильтр"
+
+#: includes/templates/search-relevance.php:58
+msgid "Sort Results"
+msgstr "Сортировка результатов"
+
+#: includes/templates/search-relevance.php:61
+msgid "Display"
+msgstr "Отображение"
+
+#. Base ID
+#: includes/widgets/wpfts_widget.class.php:40
+msgid "WPFTS :: Live Search"
+msgstr "WPFTS :: Live Search"
+
+#: includes/widgets/wpfts_widget.class.php:43
+msgid "The highly configurable widget for WPFTS search"
+msgstr "Гибкий в настройке виджет для поиска WPFTS."
+
+#: includes/widgets/wpfts_widget.class.php:85
+msgid "Search for:"
+msgstr "Найти:"
+
+#: includes/widgets/wpfts_widget.class.php:86
+msgid "Search &hellip;"
+msgstr "Поиск ..."
+
+#: includes/widgets/wpfts_widget.class.php:88
+msgid "Search"
+msgstr "Поиск"
+
+#. Name of the plugin
+msgid "WP Fulltext Search"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Implementing a true indexed full-text search over wordpress posts and metas "
+"without using any external indexing software."
+msgstr ""
+"Добавляет индексированный поиск, поиск по мета-тегам и другие функции без "
+"установки внешних индексирующих программ."
+
+#. Author of the plugin
+msgid "Epsiloncool"
+msgstr "Epsiloncool"
+
+#. Author URI of the plugin
+msgid "https://e-wm.org"
+msgstr ""

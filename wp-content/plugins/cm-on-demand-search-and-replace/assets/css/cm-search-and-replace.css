@@ -1,0 +1,155 @@
+.cminds_settings_description .button.cmodsar-cleanup-button{
+    color: #A00;
+}
+.cminds_settings_description .button.cmodsar-cleanup-button:hover{
+    color: #F00;
+}
+
+.custom_top_filter .left {}
+.custom_top_filter .right {float: right;}
+.cmodsar-custom-replacement-add {border: 1px solid #CCC;border-radius: 5px;background: #EEE;margin-top: 30px;padding-bottom: 12px;}
+.cmodsar-custom-replacement-add input.invalid{border: 1px solid red;}
+
+.custom_loading {background: url('images/ajax-loader.gif') no-repeat center center;background-color: #DDD;position: absolute;width: 100%;height: 100%;opacity: 0.5;display: none;}
+.custom_replacements_list tr:hover {background-color: #EEE;}
+.custom_replacements_list th {font-weight: bold;}
+
+.customSettingsTabs .block {border: 1px solid grey;border-radius: 13px;padding: 20px;margin-bottom: 5px;}
+.customSettingsTabs .block h3 {padding-top: 0px; margin-top: 0px;}
+
+#custom-exclude-box label.blocklabel,
+#custom-disable-box label.blocklabel{display: block}
+
+.floated-form-table{
+    clear: none;
+}
+
+.floated-form-table tr{
+    float: left;
+    width: 80%;
+    clear: none;
+}
+
+.floated-form-table tr.whole-line{
+    width: 99%;
+}
+
+.customSettingsTabs table th{
+    position: relative;
+    padding-right: 25px;
+}
+
+div.cmodsar_field_help{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('images/help.png');
+    cursor: pointer;
+    margin: 0 -20px 0 0;
+    float: right;
+}
+
+div.cmodsar_field_help:hover{
+    background-image: url('images/help_hover.png');
+}
+
+div.cmodsar_help{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('images/help.png');
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+div.cmodsar_help:hover{
+    background-image: url('images/help_hover.png');
+}
+
+.cm-showhide-handle{ cursor: pointer;}
+
+.server-info-table td:nth-child(3) {}
+.server-info-table span {color: green; font-weight: bold;}
+.server-info-table strong {color: red; font-weight: bold;}
+
+select#cmodsar_customID{
+    max-width: 350px;
+}
+
+div.cminds_call_to_action{
+    display: flex;
+}
+
+div.cminds_call_to_action .inner_box{
+    border: 1px solid #999;
+    padding: 0 0.5em 0.5em;
+    margin: 0 auto;
+    min-width: 290px;
+}
+
+div.cminds_call_to_action a{
+    text-decoration: none;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table{
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table div.cmodsar_field_help{
+    margin: 0 0 0 2px;
+    float: none;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table textarea{
+    width: 95%;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table th{
+    margin: 0;
+    padding: 10px;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table th.cmodsar_from_input,
+.cmodsar-custom-replacement-wrapper table.form-table th.cmodsar_to_input
+{
+    width: 20%;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table th.cmodsar_case_input,
+.cmodsar-custom-replacement-wrapper table.form-table th.cmodsar_pause_input
+{
+    width: 6%;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table th.cmodsar_options_input
+{
+    width: 10%;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table th.cmodsar_time_input
+{
+    min-width: 35%;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table tr.cmodsar_new_replacement_row {
+    border-bottom: 1px solid #CCC;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table tr.cmodsar_new_replacement_row .cmodsar_time_input table td {
+    margin: 5px;
+    padding: 5px;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table tr.cmodsar_new_replacement_row .cmodsar_time_input .cmodsar_place_disable_wrapper {
+    display: none;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table tr.cmodsar_new_replacement_row .cmodsar_time_input .cmodsar_place_disable_wrapper table td {
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+}
+
+.cmodsar-custom-replacement-wrapper table.form-table tr.cmodsar_new_replacement_row .cmodsar_time_input .cmodsar-custom-time-restriction-add-new,
+.cmodsar-custom-replacement-wrapper table.form-table tr.cmodsar_new_replacement_row .cmodsar_time_input .cmodsar-custom-place-restriction-add-new{
+    font-size: 10px;
+}

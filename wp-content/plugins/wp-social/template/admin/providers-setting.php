@@ -228,7 +228,7 @@ defined('ABSPATH') || exit;
                                             </div>
 
                                             <ul>
-                                                <li><?php echo esc_html('<a href="' . esc_url(get_site_url() . '/wp-json/wslu-social-login/type/' . $keyTypeAll) . '"> Login with ' . esc_html($valueTypeAll) . ' </a>'); ?></li>
+                                                <li><?php echo esc_html('<a rel="nofollow" href="' . esc_url(get_site_url() . '/wp-json/wslu-social-login/type/' . $keyTypeAll) . '"> '.esc_html__('Login with', 'wp-social').'' . esc_html($valueTypeAll) . ' </a>'); ?></li>
                                             </ul>
                                         </div>
                                     </div> <!-- ./End Popup Data -->

@@ -78,7 +78,7 @@ class Facebook_Counter extends Counter {
 				if(!empty($matches[1])) {
 
 					$number = strip_tags($matches[1]);
-					$result = intval($number);
+					$result = filter_var($number, FILTER_SANITIZE_NUMBER_INT);
 				}
 
 				$expiration_time = empty($global_cache_time) ? 43200: intval($global_cache_time);

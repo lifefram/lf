@@ -195,21 +195,16 @@ if (!class_exists('Wpmet\Libs\Rating')) {
 
                 add_action('admin_footer', [$this, 'scripts'], 9999);
 
-
                 if ($this->action_on_fire()) {
+
                     if (!$this->is_installation_date_exists()) {
                         $this->set_installation_date();
                     }
 
-                   
                     if (get_option($this->text_domain . '_never_show') == 'yes') {
                         
                         return;
                     }
-
-                
-                    // $this->display_message_box();
-
 
                     if (get_option($this->text_domain . '_ask_me_later') == 'yes') {
                       
@@ -222,14 +217,9 @@ if (!class_exists('Wpmet\Libs\Rating')) {
                     }
 
                     $this->display_message_box();
-
-                    
-                 
                 }
             }
         }
-
-       
 
         private function action_on_fire()
         {
@@ -337,27 +327,34 @@ if (!class_exists('Wpmet\Libs\Rating')) {
                     ->set_logo($this->plugin_logo, "max-height: 100px !important")
                     ->set_button([
                         'url' => $this->rating_url,
-                        'text' => 'Ok, you deserved it',
+                        'text' => esc_html__('Ok, you deserved it', 'wp-social'),
                         'class' => 'button-primary',
                         'id' => $this->text_domain . '_btn_deserved',
                     ])
                     ->set_button([
                         'url' => '#',
-                        'text' => 'I already did',
+                        'text' => esc_html__('I already did', 'wp-social'),
                         'class' => 'button-default',
                         'id' => $this->text_domain. '_btn_already_did',
                         'icon' => 'dashicons-before dashicons-smiley'
                     ])
                     ->set_button([
                         'url' => 'https://help.wpmet.com/',
-                        'text' => 'I need support',
+                        'text' => esc_html__('I need support', 'wp-social'),
                         'class' => 'button-default',
                         'id' => '#',
                         'icon' => 'dashicons-before dashicons-sos',
                     ])
                     ->set_button([
+                        'url'   => '#',
+                        'text'  => esc_html__('Never ask again', 'wp-social'),
+                        'class' => 'button-default',
+                        'id'    => $this->text_domain . '_btn_never_show',
+                        'icon'  => 'dashicons-before dashicons-welcome-comments',
+                    ])
+                    ->set_button([
                         'url' => '#',
-                        'text' => 'No, not good enough',
+                        'text' => esc_html__('No, not good enough', 'wp-social'),
                         'class' => 'button-default',
                         'id' => $this->text_domain .  $not_good_enough_btn_id ,
                         'icon' => 'dashicons-before dashicons-thumbs-down',

@@ -17,6 +17,9 @@
 	
 	//To get the selected category (country) from acadp category list
 	$country = wp_get_object_terms( $post->ID, 'acadp_categories' );
+	
+	//Mel: 16/10/22
+	$image_content_type = '';
 
 ?>
 
@@ -29,6 +32,10 @@
 			
 				for ( $i = 0; $i < count( $images ); $i++ ) {	
 					$image_attributes = wp_get_attachment_image_src( $images[ $i ], 'full' );
+					
+					//Mel: 15/10/22
+					$image_original_path = wp_get_original_image_path( $images[ $i ] );
+					$image_content_type = get_post_mime_type( $images[ $i ] );
 	
 				}
 				
@@ -398,42 +405,6 @@
 		//End
 
 	});
-	
-	//Mel: 29/12/21. The following is unused as it is a backup method to upload metadata separately from the image. Now we are uploading image and metadate at once into a folder in IPFS. If you with to enable the below, you need to uncomment them aand uncomment the two "...("acadp-upload-metadata-ipfs").style.display..."; lines
-/* 	document.getElementById("acadp-upload-metadata-ipfs").addEventListener("click", function(event) {
-		event.preventDefault()
-		
-		document.getElementById("loading2").innerHTML = '<div class="acadp-spinner"></div>';
-		
-		//To add the IPFS CID of the image to the JSON metadata
-		if ( imageCid != "" ) {
-			
-			var json = <?php echo $json; ?>;
-			
-			//Append JSON with IPFS CID of the image (key is imageInIpfs)
-			json.imageInIpfs = "ipfs://" + imageCid;
-			
-		} 
-		
-		jQuery.ajax({
-			type: 'POST',
-			url: 'https://api.nft.storage/upload',
-			beforeSend: function(xhr) {
-				xhr.setRequestHeader("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGM5RTM5RDM4RDA0NjI0MTIzMTA2MzgyMjUzMjE2M0EwODM1ZjA5MUIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYzNjcxNTg3OTMxOCwibmFtZSI6ImV0ZXJuaWFsc19oYWNrIn0.IxRDv78NEch7JRw49k_5Ww5wydnzKsYjDJk56iDeJG4")
-			},
-			contentType: "application/json",
-			cache: false,
-			data: JSON.stringify(json, null, 2), //save metadata as pretty print JSON
-			success: function(data) {
-			  console.log("Metadata IPFS CID: " + data.value.cid);
-			  document.getElementById("loading2").innerHTML = 'Success! <a href="https://ipfs.io/ipfs/' + data.value.cid + '">View on IPFS</a>';
-			},
-			error: function(data) {
-				console.log(data);
-				document.getElementById("loading2").innerHTML = 'Error! View console log.';
-		   } 
-		});
-	}); */
 
 	</script>
 

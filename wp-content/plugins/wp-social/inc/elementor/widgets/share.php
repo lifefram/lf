@@ -54,7 +54,7 @@ class Wps_Share extends Widget_Base {
 		return $provider;
 	}
      
-    protected function _register_controls() {
+    protected function register_controls() {
 
         // content of listing
 		$this->start_controls_section(

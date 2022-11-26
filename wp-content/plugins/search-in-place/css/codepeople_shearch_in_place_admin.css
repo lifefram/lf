@@ -1,0 +1,9 @@
+.search_in_place_blink_me {
+  animation: search_in_place_blinker 1s linear infinite;
+}
+
+@keyframes search_in_place_blinker {
+  50% {
+    opacity: 0;
+  }
+}

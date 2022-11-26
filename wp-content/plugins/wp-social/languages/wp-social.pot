@@ -1,14 +1,14 @@
-# Copyright (C) 2021 Wpmet
+# Copyright (C) 2022 Wpmet
 # This file is distributed under the GPL2+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Wp Social 1.8.2\n"
+"Project-Id-Version: Wp Social 1.9.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-social\n"
-"POT-Creation-Date: 2021-11-23 12:28:51+00:00\n"
+"POT-Creation-Date: 2022-09-14 05:31:08+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
@@ -96,22 +96,31 @@ msgid ""
 "Secret\" according to your Vkontakte App."
 msgstr ""
 
-#: app/providers.php:337 inc/counter.php:316
+#: app/providers.php:328
+msgid ""
+"To allow your visitors to log in with their LineApp account, first you must "
+"create a LineApp. The following guide will help you through the LineApp "
+"creation process. After you have created your LineApp, head over to "
+"\"Settings\" and configure the given \"App ID\" and \"App Secret\" "
+"according to your LineApp."
+msgstr ""
+
+#: app/providers.php:343 inc/counter.php:316
 msgid "Fans"
 msgstr ""
 
-#: app/providers.php:345 app/providers.php:359 app/providers.php:371
-#: app/providers.php:384 inc/counter.php:320 inc/counter.php:325
+#: app/providers.php:351 app/providers.php:365 app/providers.php:377
+#: app/providers.php:390 inc/counter.php:320 inc/counter.php:325
 #: inc/counter.php:329 inc/counter.php:333
 msgid "Followers"
 msgstr ""
 
-#: app/providers.php:396 app/providers.php:411 inc/counter.php:337
+#: app/providers.php:402 app/providers.php:417 inc/counter.php:337
 #: inc/counter.php:339
 msgid "Subscribers"
 msgstr ""
 
-#: app/providers.php:420 app/providers.php:425 inc/counter.php:340
+#: app/providers.php:426 app/providers.php:431 inc/counter.php:340
 #: inc/counter.php:341
 msgid "Count"
 msgstr ""
@@ -560,9 +569,9 @@ msgstr ""
 
 #: lib/onboard/views/onboard-steps/step-06.php:5
 #: template/admin/counter/counter-setting.php:66
-#: template/admin/counter/providers-counter.php:457
+#: template/admin/counter/providers-counter.php:449
 #: template/admin/counter/style-setting.php:119
-#: template/admin/global-setting.php:347
+#: template/admin/global-setting.php:348
 #: template/admin/providers-setting.php:244 template/admin/settings.php:71
 #: template/admin/share/share-providers.php:165
 #: template/admin/share/share-setting.php:51
@@ -733,8 +742,28 @@ msgid "Default Title"
 msgstr ""
 
 #: lib/provider/counter/counter.php:23
-#: template/admin/counter/providers-counter.php:418
+#: template/admin/counter/providers-counter.php:413
 msgid "No cache found"
+msgstr ""
+
+#: lib/rating/rating.php:330
+msgid "Ok, you deserved it"
+msgstr ""
+
+#: lib/rating/rating.php:336
+msgid "I already did"
+msgstr ""
+
+#: lib/rating/rating.php:343
+msgid "I need support"
+msgstr ""
+
+#: lib/rating/rating.php:350
+msgid "Never ask again"
+msgstr ""
+
+#: lib/rating/rating.php:357
+msgid "No, not good enough"
 msgstr ""
 
 #: template/admin/counter/counter-setting.php:10
@@ -771,7 +800,7 @@ msgid ""
 msgstr ""
 
 #: template/admin/counter/counter-setting.php:73
-#: template/admin/global-setting.php:354
+#: template/admin/global-setting.php:355
 #: template/admin/share/share-setting.php:132
 #: template/admin/share/share-setting.php:153
 msgid "Shortcode "
@@ -811,33 +840,33 @@ msgstr ""
 msgid "Label Name"
 msgstr ""
 
-#: template/admin/counter/providers-counter.php:418
+#: template/admin/counter/providers-counter.php:413
 msgid "ago"
 msgstr ""
 
-#: template/admin/counter/providers-counter.php:427
+#: template/admin/counter/providers-counter.php:421
 msgid "Clear"
 msgstr ""
 
-#: template/admin/counter/providers-counter.php:530
-#: template/admin/counter/providers-counter.php:539
-#: template/admin/counter/providers-counter.php:548
+#: template/admin/counter/providers-counter.php:522
+#: template/admin/counter/providers-counter.php:531
+#: template/admin/counter/providers-counter.php:540
 msgid "Go to APP Settings and Set Callback URL"
 msgstr ""
 
-#: template/admin/counter/providers-counter.php:531
-#: template/admin/counter/providers-counter.php:540
-#: template/admin/counter/providers-counter.php:549
+#: template/admin/counter/providers-counter.php:523
+#: template/admin/counter/providers-counter.php:532
+#: template/admin/counter/providers-counter.php:541
 msgid "App Settings "
 msgstr ""
 
-#: template/admin/counter/providers-counter.php:533
-#: template/admin/counter/providers-counter.php:542
-#: template/admin/counter/providers-counter.php:551
+#: template/admin/counter/providers-counter.php:525
+#: template/admin/counter/providers-counter.php:534
+#: template/admin/counter/providers-counter.php:543
 msgid "Add the following URL to the \"Valid OAuth redirect URIs\" field:"
 msgstr ""
 
-#: template/admin/counter/providers-counter.php:558
+#: template/admin/counter/providers-counter.php:550
 msgid "Generate Key"
 msgstr ""
 
@@ -1080,6 +1109,10 @@ msgstr ""
 msgid "Simple Link"
 msgstr ""
 
+#: template/admin/providers-setting.php:231
+msgid "Login with"
+msgstr ""
+
 #: template/admin/settings.php:14
 msgid "WP Syncing Setting"
 msgstr ""
@@ -1200,7 +1233,7 @@ msgstr ""
 msgid "Global Settings"
 msgstr ""
 
-#: template/login/login-btn-html.php:89
+#: template/login/login-btn-html.php:90
 msgid "Logout"
 msgstr ""
 

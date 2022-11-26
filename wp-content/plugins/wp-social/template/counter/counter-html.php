@@ -4,6 +4,8 @@ defined('ABSPATH') || exit;
 
 $enabled_providers = \WP_Social\App\Settings::get_enabled_provider_conf_counter();
 
+$show_core_provider = \WP_Social\App\Providers::get_core_providers_count();
+$show_core_provider = array_keys($show_core_provider);
 
 if(!empty($enabled_providers)) : ?>
 
@@ -15,9 +17,9 @@ if(!empty($enabled_providers)) : ?>
 			$factory = new \WP_Social\Lib\Provider\Counter_Factory();
 			$cache_time = \WP_Social\App\Settings::get_counter_cache_time();
 
-			foreach($enabled_providers as $key => $v_arr) {
+			foreach($show_core_provider as $key) {
 
-				if(!empty($v_arr['enable'])) {
+				if(!empty($enabled_providers[$key]['enable'])) {
 
 					// check if provider list is provided from widget
                     if(!in_array($key, $provider)) {

@@ -1,0 +1,24 @@
+{
+  "name": "site-search-360-wordpress",
+  "version": "1.0.6",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "node-sass": "^4.11.0",
+    "npm-watch": "^0.6.0",
+    "uglifycss": "0.0.29"
+  },
+  "scripts": {
+    "build": "node-sass assets/ss360_admin_styles.scss -o assets/ & autoprefixer-cli assets/ss360_admin_styles.css -o assets/ss360_admin_styles.css -b \"defaults\" & uglifycss assets/ss360_admin_styles.css --output assets/ss360_admin_styles.min.css",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "extensions": "scss",
+      "quiet": false,
+      "legacyWatch": true,
+      "delay": 1000,
+      "runOnChangeOnly": false
+    }
+  }
+}

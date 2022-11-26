@@ -1,0 +1,13 @@
+{
+    "name": "semknox/site-search-360",
+    "description": "Site Search 360 replaces your standard WordPress search by a fast and precise on-site search on all your posts and pages.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Semknox GmbH",
+            "email": "mail@sitesearch360.com"
+        }
+    ],
+    "license": "GPLv2",
+    "require": {}
+}

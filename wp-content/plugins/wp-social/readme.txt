@@ -2,8 +2,8 @@
 Contributors: Ataurr, wpmet, emranio, atiqsu, easin55474
 Tags: Social login, WordPress Social login and register, Social share,  Social counter, Social,  WooCommerce social login and register
 Requires at least: 4.6
-Tested up to: 5.8
-Stable tag: 1.8.2
+Tested up to: 6.0
+Stable tag: 1.9.0
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -162,6 +162,34 @@ Visit [wpmet](https://wpmet.com) to learn more about how to get the best of Word
 
 
 == Changelog ==
+
+Version 1.9.0 // 2022-08-31
+- Fixed: Facebook counter issue
+- Fixed: Counter providers ordering issue
+- Fixed: Social counter showing wrong text issue
+- Fixed: Login link visible issue on hover
+- Tweaked: Security improved
+- Compatibility: compatible with Wordpress 6.0
+
+Version 1.8.6 // 2022-04-19
+- Tweaked: Global Settings.
+- Tweaked: Minor issues reguarding no-follow attribute.
+- Tweaked: JS & CSS. 
+
+Version 1.8.5 // 2022-03-29
+- Added: Oxizen builder compatibility support.
+- Fixed: Some minor issues.
+- Tweaked: CSS and JS improved.
+
+Version 1.8.4 // 2022-01-22
+-Improved: Rating asking alert for better user experience.
+-Tweaked: CSS and JS improved.
+
+Version 1.8.3 // 2022-01-09
+-Fixed: Share widget responsive issue
+-Fixed: Mailchimp counter cached time issue
+-Fixed: Missing dependency issue
+-Tweaked: CSS and JS improved
 
 Version 1.8.2 // 2021-11-23
 - Fixed: onboard screen conflict with other wpmet plugin

@@ -123,10 +123,10 @@ if(!function_exists('xs_my_login_stylesheet')) {
 if(!function_exists('xs_my_global_stylesheet')) {
 
 	function xs_my_global_stylesheet() {
-		wp_enqueue_style('xs-front-style', WSLU_LOGIN_PLUGIN_URL . 'assets/css/frontend.css');
+		wp_enqueue_style('xs-front-style', WSLU_LOGIN_PLUGIN_URL . 'assets/css/frontend.css', [], WSLU_VERSION);
 
-		wp_enqueue_style('xs_login_font_login_css', WSLU_LOGIN_PLUGIN_URL . 'assets/css/font-icon.css');
-		wp_enqueue_script('xs_front_main_js', WSLU_LOGIN_PLUGIN_URL . 'assets/js/front-main.js', ['']);
+		wp_enqueue_style('xs_login_font_login_css', WSLU_LOGIN_PLUGIN_URL . 'assets/css/font-icon.css', [], WSLU_VERSION);
+		wp_enqueue_script('xs_front_main_js', WSLU_LOGIN_PLUGIN_URL . 'assets/js/front-main.js', ['jquery'],  WSLU_VERSION);
 
 		$data['rest_url'] = get_rest_url();
 		$data['nonce'] = wp_create_nonce('wp_rest');

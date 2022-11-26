@@ -1,0 +1,1663 @@
+# Copyright (C) 2022 John Godley
+# This file is distributed under the same license as the Search Regex plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Search Regex 3.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/search-regex\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-05T12:55:25+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+
+#. Plugin Name of the plugin
+#: src/page/home/index.js:30
+msgid "Search Regex"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://searchregex.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds search and replace functionality across posts, pages, comments, and meta-data, with full regular expression support"
+msgstr ""
+
+#. Author of the plugin
+msgid "John Godley"
+msgstr ""
+
+#: includes/search-regex-admin.php:84
+msgid "Settings"
+msgstr ""
+
+#: includes/search-regex-admin.php:301
+msgid "{{link}}Source Flags{{/link}} - additional options for the selected source. For example, include post {{guid}}GUID{{/guid}} in the search."
+msgstr ""
+
+#. translators: URL
+#: includes/search-regex-admin.php:309
+msgid "You can find full documentation about using Search Regex on the <a href=\"%s\" target=\"_blank\">searchregex.com</a> support site."
+msgstr ""
+
+#: includes/search-regex-admin.php:310
+msgid "The following concepts are used by Search Regex:"
+msgstr ""
+
+#: includes/search-regex-admin.php:312
+msgid "{{link}}Search Flags{{/link}} - additional qualifiers for your search, to enable case insensitivity, and to enable regular expression support."
+msgstr ""
+
+#: includes/search-regex-admin.php:313
+msgid "{{link}}Regular expression{{/link}} - a way of defining a pattern for text matching. Provides more advanced matches."
+msgstr ""
+
+#: includes/search-regex-admin.php:314
+msgid "{{link}}Source{{/link}} - the source of data you wish to search. For example, posts, pages, or comments."
+msgstr ""
+
+#: includes/search-regex-admin.php:318
+msgid "Search Regex Support"
+msgstr ""
+
+#. translators: 1: Expected WordPress version, 2: Actual WordPress version
+#: includes/search-regex-admin.php:417
+msgid "Search Regex requires WordPress v%1$1s, you are using v%2$2s - please update your WordPress"
+msgstr ""
+
+#: includes/search-regex-admin.php:420
+msgid "Unable to load Search Regex"
+msgstr ""
+
+#: includes/search-regex-admin.php:435
+msgid "Unable to load Search Regex ☹️"
+msgstr ""
+
+#: includes/search-regex-admin.php:436
+msgid "This may be caused by another plugin - look at your browser's error console for more details."
+msgstr ""
+
+#: includes/search-regex-admin.php:437
+#: src/page/home/crash-handler.js:26
+msgid "If you are using a page caching plugin or service (CloudFlare, OVH, etc) then you can also try clearing that cache."
+msgstr ""
+
+#: includes/search-regex-admin.php:438
+msgid "Also check if your browser is able to load <code>search-regex.js</code>:"
+msgstr ""
+
+#: includes/search-regex-admin.php:440
+msgid "Please note that Search Regex requires the WordPress REST API to be enabled. If you have disabled this then you won't be able to use Search Regex"
+msgstr ""
+
+#: includes/search-regex-admin.php:441
+msgid "Please see the <a href=\"https://searchregex.com/support/problems/\">list of common problems</a>."
+msgstr ""
+
+#: includes/search-regex-admin.php:442
+msgid "If you think Search Regex is at fault then create an issue."
+msgstr ""
+
+#: includes/search-regex-admin.php:443
+msgid "<code>SearchRegexi10n</code> is not defined. This usually means another plugin is blocking Search Regex from loading. Please disable all plugins and try again."
+msgstr ""
+
+#: includes/search-regex-admin.php:446
+msgid "Create Issue"
+msgstr ""
+
+#: includes/search-regex-admin.php:463
+msgid "Loading, please wait..."
+msgstr ""
+
+#: includes/search-regex-admin.php:467
+msgid "Please enable JavaScript"
+msgstr ""
+
+#: includes/source/class-manager.php:22
+#: includes/source/core/source-post.php:239
+msgid "Posts (core & custom)"
+msgstr ""
+
+#: includes/source/class-manager.php:28
+#: includes/source/core/source-comment.php:142
+msgid "Comments"
+msgstr ""
+
+#: includes/source/class-manager.php:34
+#: includes/source/core/source-user.php:121
+msgid "Users"
+msgstr ""
+
+#: includes/source/class-manager.php:40
+msgid "WordPress Options"
+msgstr ""
+
+#: includes/source/class-manager.php:58
+#: includes/source/core/source-post-meta.php:25
+#: includes/source/core/source-post.php:420
+msgid "Post Meta"
+msgstr ""
+
+#: includes/source/class-manager.php:64
+#: includes/source/core/source-comment-meta.php:23
+msgid "Comment Meta"
+msgstr ""
+
+#: includes/source/class-manager.php:70
+#: includes/source/core/source-user-meta.php:30
+msgid "User Meta"
+msgstr ""
+
+#: includes/source/class-manager.php:76
+#: includes/source/core/source-terms.php:108
+msgid "Terms"
+msgstr ""
+
+#: includes/source/class-manager.php:151
+msgid "Standard"
+msgstr ""
+
+#: includes/source/class-manager.php:158
+msgid "Advanced"
+msgstr ""
+
+#: includes/source/class-manager.php:165
+msgid "Plugins"
+msgstr ""
+
+#: includes/source/core/source-comment.php:148
+#: includes/source/core/source-options.php:105
+#: includes/source/core/source-post.php:245
+#: includes/source/core/source-terms.php:114
+#: includes/source/core/source-user.php:127
+#: includes/source/plugin/source-redirection.php:151
+#: includes/source/plugin/source-redirection.php:474
+msgid "ID"
+msgstr ""
+
+#: includes/source/core/source-comment.php:154
+msgid "Post ID"
+msgstr ""
+
+#: includes/source/core/source-comment.php:161
+#: includes/source/core/source-post.php:282
+msgid "Author"
+msgstr ""
+
+#: includes/source/core/source-comment.php:168
+#: includes/source/core/source-user.php:155
+#: src/page/home/database-error.js:38
+#: src/page/home/debug.js:37
+#: src/page/preset-management/index.js:38
+msgid "Email"
+msgstr ""
+
+#: includes/source/core/source-comment.php:175
+#: includes/source/core/source-user.php:161
+msgid "URL"
+msgstr ""
+
+#: includes/source/core/source-comment.php:181
+#: includes/source/core/source-post.php:274
+msgid "Content"
+msgstr ""
+
+#: includes/source/core/source-comment.php:188
+msgid "IP"
+msgstr ""
+
+#: includes/source/core/source-comment.php:193
+#: includes/source/core/source-post.php:289
+msgid "Date"
+msgstr ""
+
+#: includes/source/core/source-comment.php:199
+#: includes/source/core/source-post.php:295
+msgid "Date GMT"
+msgstr ""
+
+#: includes/source/core/source-comment.php:208
+msgid "Unapproved"
+msgstr ""
+
+#: includes/source/core/source-comment.php:212
+msgid "Approved"
+msgstr ""
+
+#: includes/source/core/source-comment.php:216
+msgid "Spam"
+msgstr ""
+
+#: includes/source/core/source-comment.php:219
+msgid "Approval Status"
+msgstr ""
+
+#: includes/source/core/source-comment.php:224
+msgid "User Agent"
+msgstr ""
+
+#: includes/source/core/source-comment.php:229
+msgid "Type"
+msgstr ""
+
+#: includes/source/core/source-comment.php:233
+msgid "Pingback"
+msgstr ""
+
+#: includes/source/core/source-comment.php:237
+msgid "Trackback"
+msgstr ""
+
+#: includes/source/core/source-comment.php:241
+msgid "Comment"
+msgstr ""
+
+#: includes/source/core/source-comment.php:248
+msgid "Parent Comment"
+msgstr ""
+
+#: includes/source/core/source-comment.php:254
+msgid "User ID"
+msgstr ""
+
+#: includes/source/core/source-comment.php:262
+msgid "Comment meta"
+msgstr ""
+
+#: includes/source/core/source-meta.php:112
+msgid "Owner ID"
+msgstr ""
+
+#: includes/source/core/source-meta.php:119
+#: src/component/schema/filter/types/keyvalue.js:30
+#: src/component/schema/modify/types/keyvalue.js:36
+#: src/component/schema/replace/types/keyvalue.js:32
+msgid "Meta Key"
+msgstr ""
+
+#: includes/source/core/source-meta.php:126
+#: src/component/schema/filter/types/keyvalue.js:56
+#: src/component/schema/modify/types/keyvalue.js:51
+#: src/component/schema/replace/types/keyvalue.js:60
+msgid "Meta Value"
+msgstr ""
+
+#: includes/source/core/source-options.php:99
+#: src/page/home/index.js:31
+#: src/page/home/index.js:47
+msgid "Options"
+msgstr ""
+
+#: includes/source/core/source-options.php:111
+#: includes/source/core/source-terms.php:121
+#: includes/source/plugin/source-redirection.php:480
+#: src/page/preset-management/index.js:76
+msgid "Name"
+msgstr ""
+
+#: includes/source/core/source-options.php:118
+msgid "Value"
+msgstr ""
+
+#: includes/source/core/source-options.php:129
+msgid "Is autoload"
+msgstr ""
+
+#: includes/source/core/source-options.php:133
+msgid "Is not autoload"
+msgstr ""
+
+#: includes/source/core/source-options.php:136
+msgid "Autoload"
+msgstr ""
+
+#: includes/source/core/source-post.php:251
+#: includes/source/plugin/source-redirection.php:214
+#: src/page/preset-management/preset-edit.js:193
+msgid "Title"
+msgstr ""
+
+#: includes/source/core/source-post.php:259
+#: includes/source/core/source-terms.php:128
+msgid "Slug"
+msgstr ""
+
+#: includes/source/core/source-post.php:268
+msgid "Post Type"
+msgstr ""
+
+#: includes/source/core/source-post.php:301
+msgid "Excerpt"
+msgstr ""
+
+#: includes/source/core/source-post.php:308
+msgid "Post Status"
+msgstr ""
+
+#: includes/source/core/source-post.php:316
+#: includes/source/core/source-post.php:332
+msgid "Open"
+msgstr ""
+
+#: includes/source/core/source-post.php:320
+#: includes/source/core/source-post.php:336
+msgid "Closed"
+msgstr ""
+
+#: includes/source/core/source-post.php:323
+msgid "Comment Status"
+msgstr ""
+
+#: includes/source/core/source-post.php:339
+msgid "Ping Status"
+msgstr ""
+
+#: includes/source/core/source-post.php:348
+msgid "Has password"
+msgstr ""
+
+#: includes/source/core/source-post.php:352
+msgid "Has no password"
+msgstr ""
+
+#: includes/source/core/source-post.php:355
+msgid "Password"
+msgstr ""
+
+#: includes/source/core/source-post.php:362
+msgid "Modified"
+msgstr ""
+
+#: includes/source/core/source-post.php:368
+msgid "Modified GMT"
+msgstr ""
+
+#: includes/source/core/source-post.php:374
+msgid "Parent"
+msgstr ""
+
+#: includes/source/core/source-post.php:382
+msgid "GUID"
+msgstr ""
+
+#: includes/source/core/source-post.php:389
+msgid "MIME"
+msgstr ""
+
+#: includes/source/core/source-post.php:396
+msgid "Comment Count"
+msgstr ""
+
+#: includes/source/core/source-post.php:402
+msgid "Post Category"
+msgstr ""
+
+#: includes/source/core/source-post.php:411
+msgid "Post Tag"
+msgstr ""
+
+#: includes/source/core/source-terms.php:135
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/source/core/source-user.php:134
+msgid "Login"
+msgstr ""
+
+#: includes/source/core/source-user.php:141
+msgid "Nicename"
+msgstr ""
+
+#: includes/source/core/source-user.php:148
+msgid "Display Name"
+msgstr ""
+
+#: includes/source/core/source-user.php:168
+msgid "Registered"
+msgstr ""
+
+#: includes/source/core/source-user.php:174
+msgid "User meta"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:145
+#: src/page/support/help.js:67
+msgid "Redirection"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:157
+msgid "Source URL"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:164
+msgid "Source URL (matching)"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:171
+msgid "Hit Count"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:176
+msgid "Last Access"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:181
+msgid "Group"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:188
+#: includes/source/plugin/source-redirection.php:506
+msgid "Status"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:192
+#: includes/source/plugin/source-redirection.php:510
+msgid "Enabled"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:196
+#: includes/source/plugin/source-redirection.php:514
+msgid "Disabled"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:203
+msgid "Position"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:208
+msgid "HTTP Code"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:232
+msgid "Target"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:347
+msgid "Not accessed"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:468
+msgid "Redirection Groups"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:487
+msgid "Module"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:491
+msgid "WordPress"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:495
+msgid "Apache"
+msgstr ""
+
+#: includes/source/plugin/source-redirection.php:499
+msgid "Nginx"
+msgstr ""
+
+#. translators: 1: server PHP version. 2: required PHP version.
+#: search-regex.php:37
+msgid "Disabled! Detected PHP %1$s, need PHP %2$s+"
+msgstr ""
+
+#: src/component/highlight-matches/replacement.js:71
+msgid "Click to replace match"
+msgstr ""
+
+#: src/component/presets/index.js:47
+msgid "Saving preset"
+msgstr ""
+
+#: src/component/presets/index.js:51
+msgid "No preset"
+msgstr ""
+
+#: src/component/presets/index.js:84
+msgid "Save search as new preset"
+msgstr ""
+
+#: src/component/presets/index.js:92
+msgid "Update current preset"
+msgstr ""
+
+#: src/component/presets/index.js:101
+msgid "Saving Preset"
+msgstr ""
+
+#: src/component/presets/index.js:102
+msgid "Enter a name for your preset"
+msgstr ""
+
+#: src/component/presets/index.js:110
+msgid "Enter preset name"
+msgstr ""
+
+#: src/component/presets/index.js:113
+#: src/page/preset-management/preset-edit.js:246
+msgid "Save"
+msgstr ""
+
+#: src/component/presets/index.js:121
+#: src/component/replace-form/index.js:86
+#: src/page/preset-management/index.js:113
+#: src/page/preset-management/preset-edit.js:251
+#: src/page/search-replace/search-actions.js:90
+msgid "Cancel"
+msgstr ""
+
+#: src/component/replace-form/index.js:80
+#: src/component/schema/modify/operation.js:38
+#: src/component/schema/modify/types/string.js:130
+#: src/page/preset-management/preset-entry.js:52
+#: src/page/search-replace/actions/index.js:184
+#: src/page/search-replace/actions/replace.js:34
+msgid "Replace"
+msgstr ""
+
+#. translators: number of rows deleted
+#: src/component/replace-progress/index.js:27
+msgid "%s row deleted."
+msgid_plural "%s rows deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: number of rows deleted
+#: src/component/replace-progress/index.js:31
+msgid "%s row."
+msgid_plural "%s rows."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/component/replace-progress/index.js:60
+msgid "Progress"
+msgstr ""
+
+#: src/component/replace-progress/index.js:75
+msgid "Finished!"
+msgstr ""
+
+#: src/component/replace-progress/index.js:107
+#: src/page/search-replace/search-results/index.js:152
+msgid "Your search resulted in too many requests. Please narrow your search terms."
+msgstr ""
+
+#: src/component/replace/index.js:46
+msgid "Matched values will be removed"
+msgstr ""
+
+#: src/component/replace/index.js:46
+msgid "Enter replacement value"
+msgstr ""
+
+#: src/component/replace/index.js:68
+msgid "Single"
+msgstr ""
+
+#: src/component/replace/index.js:69
+#: src/state/search/selector.js:38
+msgid "Multi"
+msgstr ""
+
+#: src/component/replace/index.js:70
+#: src/component/schema/modify/operation.js:55
+#: src/component/schema/modify/operation.js:68
+msgid "Remove"
+msgstr ""
+
+#: src/component/rest-api-status/api-result-pass.js:15
+msgid "Working!"
+msgstr ""
+
+#: src/component/rest-api-status/api-result-raw.js:27
+msgid "Show Full"
+msgstr ""
+
+#: src/component/rest-api-status/api-result-raw.js:32
+msgid "Hide"
+msgstr ""
+
+#: src/component/rest-api-status/api-result.js:29
+msgid "Switch to this API"
+msgstr ""
+
+#: src/component/rest-api-status/api-result.js:30
+msgid "Current API"
+msgstr ""
+
+#: src/component/rest-api-status/index.js:91
+msgid "Good"
+msgstr ""
+
+#: src/component/rest-api-status/index.js:93
+msgid "Working but some issues"
+msgstr ""
+
+#: src/component/rest-api-status/index.js:95
+msgid "Not working but fixable"
+msgstr ""
+
+#: src/component/rest-api-status/index.js:98
+msgid "Unavailable"
+msgstr ""
+
+#: src/component/rest-api-status/index.js:113
+msgid "There are some problems connecting to your REST API. It is not necessary to fix these problems and the plugin is able to work."
+msgstr ""
+
+#: src/component/rest-api-status/index.js:116
+msgid "Your REST API is not working and the plugin will not be able to continue until this is fixed."
+msgstr ""
+
+#: src/component/rest-api-status/index.js:118
+msgid "You are using a broken REST API route. Changing to a working API should fix the problem."
+msgstr ""
+
+#: src/component/rest-api-status/index.js:124
+msgid "Summary"
+msgstr ""
+
+#: src/component/rest-api-status/index.js:130
+msgid "Show Problems"
+msgstr ""
+
+#. translators: test percent
+#: src/component/rest-api-status/index.js:161
+msgid "Testing - %s%%"
+msgstr ""
+
+#: src/component/rest-api-status/index.js:169
+msgid "Check Again"
+msgstr ""
+
+#: src/component/result/actions.js:25
+#: src/page/preset-management/preset.js:98
+msgid "Edit"
+msgstr ""
+
+#: src/component/result/actions.js:26
+msgid "View"
+msgstr ""
+
+#: src/component/result/actions.js:47
+msgid "Delete database row"
+msgstr ""
+
+#: src/component/result/column-label.js:49
+msgid "This column contains special formatting. Modifying it could break the format."
+msgstr ""
+
+#: src/component/result/column-label.js:50
+msgid "Click to replace column"
+msgstr ""
+
+#: src/component/result/column/context-item.js:73
+msgid "Contains encoded data"
+msgstr ""
+
+#. translators: number of results to show
+#: src/component/result/column/index.js:96
+msgid "Show %s more"
+msgid_plural "Show %s more"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/component/result/column/restricted-matches.js:10
+msgid "Maximum number of matches exceeded and hidden from view. These will be included in any replacements."
+msgstr ""
+
+#: src/component/result/context-type/index.js:45
+#: src/component/result/context-type/index.js:74
+msgid "No value"
+msgstr ""
+
+#: src/component/result/context-type/index.js:59
+msgid "Empty value"
+msgstr ""
+
+#: src/component/result/result-title.js:22
+msgid "No title"
+msgstr ""
+
+#: src/component/schema/filter/index.js:113
+msgid "OR"
+msgstr ""
+
+#: src/component/schema/filter/index.js:120
+msgid "Add sub-filter (OR)"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:22
+#: src/component/schema/filter/logic.js:66
+msgid "Equals"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:26
+#: src/component/schema/filter/logic.js:70
+msgid "Not Equals"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:30
+msgid "Greater"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:34
+msgid "Less"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:38
+msgid "Range"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:50
+msgid "Has Owner"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:54
+msgid "No Owner"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:74
+msgid "Contains"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:78
+msgid "Not contains"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:82
+msgid "Begins"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:86
+msgid "End"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:98
+msgid "Includes any"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:102
+msgid "Excludes any"
+msgstr ""
+
+#: src/component/schema/filter/logic.js:114
+msgid "Any"
+msgstr ""
+
+#: src/component/schema/filter/types/date.js:44
+#: src/component/schema/filter/types/integer.js:54
+msgid "between {{first/}} and {{second/}}"
+msgstr ""
+
+#: src/component/schema/filter/types/member.js:38
+msgid "All"
+msgstr ""
+
+#: src/component/schema/modify/operation.js:17
+#: src/component/schema/modify/operation.js:34
+msgid "Set Value"
+msgstr ""
+
+#: src/component/schema/modify/operation.js:21
+msgid "Increment"
+msgstr ""
+
+#: src/component/schema/modify/operation.js:25
+msgid "Decrement"
+msgstr ""
+
+#: src/component/schema/modify/operation.js:47
+msgid "Replace With"
+msgstr ""
+
+#: src/component/schema/modify/operation.js:51
+#: src/component/schema/modify/operation.js:64
+#: src/component/schema/replace/types/keyvalue.js:47
+#: src/page/search-replace/actions/modify-columns.js:63
+#: src/page/search-replace/search-form/form.js:237
+msgid "Add"
+msgstr ""
+
+#: src/component/schema/modify/types/date.js:57
+msgid "Seconds"
+msgstr ""
+
+#: src/component/schema/modify/types/date.js:61
+msgid "Minutes"
+msgstr ""
+
+#: src/component/schema/modify/types/date.js:65
+msgid "Hours"
+msgstr ""
+
+#: src/component/schema/modify/types/date.js:69
+msgid "Days"
+msgstr ""
+
+#: src/component/schema/modify/types/date.js:73
+msgid "Weeks"
+msgstr ""
+
+#: src/component/schema/modify/types/date.js:77
+msgid "Months"
+msgstr ""
+
+#: src/component/schema/modify/types/date.js:81
+msgid "Year"
+msgstr ""
+
+#: src/component/schema/modify/types/keyvalue.js:38
+#: src/component/schema/modify/types/keyvalue.js:53
+#: src/component/schema/modify/types/string.js:124
+#: src/page/preset-management/index.js:77
+#: src/page/preset-management/preset-entry.js:37
+#: src/page/search-replace/search-actions.js:73
+#: src/page/search-replace/search-form/form.js:258
+msgid "Search"
+msgstr ""
+
+#. translators: text to replace
+#: src/component/schema/modify/types/string.js:118
+msgid "Replace \"%1s\""
+msgstr ""
+
+#: src/component/schema/replace/types/keyvalue.js:38
+msgid "New meta key"
+msgstr ""
+
+#: src/component/schema/replace/types/keyvalue.js:48
+#: src/page/preset-management/preset.js:102
+msgid "Delete"
+msgstr ""
+
+#: src/component/schema/replace/types/keyvalue.js:74
+#: src/component/schema/replace/types/keyvalue.js:87
+msgid "New meta value"
+msgstr ""
+
+#: src/component/schema/replace/types/string.js:97
+msgid "Enter replacement"
+msgstr ""
+
+#: src/component/schema/replace/types/string.js:117
+msgid "Apply to matches only"
+msgstr ""
+
+#: src/component/search-flags/index.js:36
+#: src/page/preset-management/index.js:78
+msgid "Flags"
+msgstr ""
+
+#: src/component/search/index.js:40
+msgid "Enter search phrase"
+msgstr ""
+
+#: src/component/search/index.js:52
+msgid "Optional global search phrase. Leave blank to use filters only."
+msgstr ""
+
+#: src/component/value-type/index.js:9
+msgid "Serialized PHP"
+msgstr ""
+
+#: src/component/value-type/index.js:13
+#: src/page/search-replace/actions/constants.js:11
+msgid "JSON"
+msgstr ""
+
+#: src/component/value-type/index.js:17
+msgid "Blocks"
+msgstr ""
+
+#: src/component/value-type/index.js:21
+msgid "HTML"
+msgstr ""
+
+#: src/page/home/cache-detect.js:19
+msgid "Cached Search Regex detected"
+msgstr ""
+
+#: src/page/home/cache-detect.js:22
+msgid "Please clear your browser cache and reload this page."
+msgstr ""
+
+#: src/page/home/cache-detect.js:24
+msgid "If you are using a caching system such as Cloudflare then please read this: "
+msgstr ""
+
+#: src/page/home/cache-detect.js:26
+msgid "clearing your cache."
+msgstr ""
+
+#: src/page/home/crash-handler.js:24
+msgid "Search Regex is not working. Try clearing your browser cache and reloading this page."
+msgstr ""
+
+#: src/page/home/crash-handler.js:34
+msgid "If that doesn't help, open your browser's error console and create a {{link}}new issue{{/link}} with the details."
+msgstr ""
+
+#: src/page/home/database-error.js:21
+msgid "Query Problem"
+msgstr ""
+
+#: src/page/home/database-error.js:23
+msgid "A problem occurred with your last query. This is likely caused by a combination of search filters that haven't been handled properly."
+msgstr ""
+
+#: src/page/home/database-error.js:32
+#: src/page/home/error-details.js:19
+msgid "What do I do next?"
+msgstr ""
+
+#: src/page/home/database-error.js:35
+#: src/page/home/debug.js:34
+#: src/page/preset-management/index.js:29
+msgid "Create An Issue"
+msgstr ""
+
+#: src/page/home/debug.js:18
+msgid "Please check the {{link}}support site{{/link}} before proceeding further."
+msgstr ""
+
+#: src/page/home/debug.js:26
+msgid "If that did not help then {{strong}}create an issue{{/strong}} or send it in an {{strong}}email{{/strong}}."
+msgstr ""
+
+#: src/page/home/debug.js:41
+msgid "Include these details in your report along with a description of what you were doing and a screenshot."
+msgstr ""
+
+#: src/page/home/error-details.js:24
+msgid "{{link}}Caching software{{/link}}, in particular Cloudflare, can cache the wrong thing. Try clearing all your caches."
+msgstr ""
+
+#: src/page/home/error-details.js:32
+msgid "{{link}}Please temporarily disable other plugins!{{/link}} This fixes so many problems."
+msgstr ""
+
+#: src/page/home/error-details.js:40
+msgid "If you are using WordPress 5.2 or newer then look at your {{link}}Site Health{{/link}} and resolve any issues."
+msgstr ""
+
+#: src/page/home/index.js:32
+#: src/page/home/index.js:51
+msgid "Support"
+msgstr ""
+
+#: src/page/home/index.js:33
+#: src/page/home/index.js:43
+msgid "Presets"
+msgstr ""
+
+#: src/page/home/index.js:39
+msgid "Search & Replace"
+msgstr ""
+
+#. translators: version installed
+#: src/page/home/update-notice.js:33
+msgid "Version %s installed! Please read the {{url}}release notes{{/url}} for details."
+msgstr ""
+
+#: src/page/home/update-notice.js:39
+msgid "OK"
+msgstr ""
+
+#: src/page/options/donation.js:82
+msgid "You've supported this plugin - thank you!"
+msgstr ""
+
+#: src/page/options/donation.js:83
+msgid "I'd like to support some more."
+msgstr ""
+
+#: src/page/options/donation.js:99
+msgid "Search Regex is free to use - life is wonderful and lovely! It has required a great deal of time and effort to develop and you can help support this development by {{strong}}making a small donation{{/strong}}."
+msgstr ""
+
+#: src/page/options/donation.js:103
+msgid "You get useful software and I get to carry on making it better."
+msgstr ""
+
+#: src/page/options/donation.js:125
+msgid "Support 💰"
+msgstr ""
+
+#: src/page/options/donation.js:137
+msgid "Plugin Support"
+msgstr ""
+
+#: src/page/options/options-form.js:19
+msgid "Default REST API"
+msgstr ""
+
+#: src/page/options/options-form.js:20
+msgid "Raw REST API"
+msgstr ""
+
+#: src/page/options/options-form.js:21
+msgid "Relative REST API"
+msgstr ""
+
+#: src/page/options/options-form.js:55
+msgid "I'm a nice person and I have helped support the author of this plugin"
+msgstr ""
+
+#: src/page/options/options-form.js:60
+msgid "Default Preset"
+msgstr ""
+
+#: src/page/options/options-form.js:63
+msgid "No default preset"
+msgstr ""
+
+#: src/page/options/options-form.js:70
+msgid "Set a preset to use by default when Search Regex is loaded."
+msgstr ""
+
+#: src/page/options/options-form.js:74
+msgid "REST API"
+msgstr ""
+
+#: src/page/options/options-form.js:83
+msgid "How Search Regex uses the REST API - don't change unless necessary"
+msgstr ""
+
+#: src/page/options/options-form.js:92
+msgid "Update"
+msgstr ""
+
+#: src/page/preset-management/index.js:89
+msgid "There are no presets"
+msgstr ""
+
+#: src/page/preset-management/index.js:96
+msgid "Download presets!"
+msgstr ""
+
+#: src/page/preset-management/index.js:102
+msgid "Export JSON"
+msgstr ""
+
+#: src/page/preset-management/index.js:107
+msgid "Import JSON"
+msgstr ""
+
+#: src/page/preset-management/index.js:111
+msgid "Add file"
+msgstr ""
+
+#: src/page/preset-management/index.js:112
+msgid "Upload"
+msgstr ""
+
+#: src/page/preset-management/index.js:119
+msgid "Import a JSON file"
+msgstr ""
+
+#: src/page/preset-management/index.js:120
+msgid "Click 'Add File' or drag and drop here."
+msgstr ""
+
+#: src/page/preset-management/index.js:125
+msgid "File selected"
+msgstr ""
+
+#: src/page/preset-management/index.js:133
+msgid "Importing"
+msgstr ""
+
+#: src/page/preset-management/index.js:145
+msgid "Uploaded %(total)d preset"
+msgid_plural "Uploaded %(total)d presets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/page/preset-management/index.js:151
+msgid "Done"
+msgstr ""
+
+#: src/page/preset-management/index.js:158
+msgid "Import preset from clipboard"
+msgstr ""
+
+#: src/page/preset-management/index.js:164
+msgid "Unable to import preset"
+msgstr ""
+
+#: src/page/preset-management/index.js:171
+msgid "Please check your JSON data is a valid preset. You may have copied it incorrectly, or pasted something that is not a preset."
+msgstr ""
+
+#: src/page/preset-management/index.js:178
+msgid "Paste preset JSON."
+msgstr ""
+
+#: src/page/preset-management/index.js:190
+msgid "Import"
+msgstr ""
+
+#: src/page/preset-management/phrase.js:69
+msgid "no phrase"
+msgstr ""
+
+#: src/page/preset-management/phrase.js:73
+msgid "remove phrase"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:56
+msgid "Global Search"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:60
+msgid "Global Replace"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:64
+msgid "Global Search Flags"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:68
+#: src/page/search-replace/actions/index.js:86
+#: src/page/search-replace/search-form/form.js:207
+#: src/page/search-replace/search-form/form.js:219
+#: src/page/search-replace/search-results/index.js:89
+msgid "Source"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:72
+msgid "Results per page"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:76
+#: src/page/preset-management/preset-entry.js:42
+#: src/page/search-replace/search-form/filters.js:51
+#: src/page/search-replace/search-form/form.js:227
+msgid "Filters"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:80
+#: src/page/preset-management/preset-entry.js:47
+#: src/page/search-replace/actions/index.js:73
+msgid "Action"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:84
+#: src/page/search-replace/search-form/form.js:328
+msgid "View Columns"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:135
+msgid "Edit preset"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:139
+msgid "Preset Name"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:145
+msgid "Give the preset a name"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:150
+msgid "Preset Description"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:156
+msgid "Describe the preset"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:169
+msgid "Advanced preset"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:173
+msgid "Locked Fields"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:180
+msgid "Fields"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:184
+msgid "Locking a field removes it from the search form and prevents changes."
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:188
+msgid "Tags"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:196
+msgid "Enter tag title shown to user"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:203
+msgid "Tag"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:206
+msgid "Enter tag which is used in the field"
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:226
+msgid "A tag creates a custom input field. Insert the tag anywhere in the search, replace, text filter, or text action and when the preset is used it will be replaced with a custom text field with the tag label."
+msgstr ""
+
+#: src/page/preset-management/preset-edit.js:232
+msgid "For example, create tag {{code}}URL{{/code}} and title {{code}}Image URL{{/code}}. Your search could be {{code}}<img src=\"URL\">{{/code}}. When the preset is used it will ask the user for the {{code}}Image URL{{/code}} instead of the full search phrase."
+msgstr ""
+
+#: src/page/preset-management/preset-flags.js:52
+msgid "Locked fields"
+msgstr ""
+
+#: src/page/preset-management/preset.js:65
+msgid "Are you sure you want to delete this preset?"
+msgstr ""
+
+#: src/page/preset-management/preset.js:107
+msgid "Copy to clipboard"
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:15
+msgid "CSV"
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:19
+msgid "SQL"
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:32
+msgid "No action"
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:34
+msgid "Just show matching results."
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:37
+msgid "Global Text Replace"
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:39
+msgid "Replace the global search values."
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:42
+msgid "Modify Matches"
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:44
+msgid "Perform changes to specific values of the matching results."
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:47
+#: src/page/search-replace/search-actions.js:50
+msgid "Export Matches"
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:49
+msgid "Export matching results to JSON, CSV, or SQL."
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:53
+#: src/page/search-replace/search-actions.js:46
+msgid "Delete Matches"
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:55
+msgid "Delete matching results."
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:58
+#: src/page/search-replace/search-actions.js:54
+msgid "Run Action"
+msgstr ""
+
+#: src/page/search-replace/actions/constants.js:60
+msgid "Run a WordPress action for each matching result."
+msgstr ""
+
+#: src/page/search-replace/actions/index.js:106
+msgid "Export Format"
+msgstr ""
+
+#: src/page/search-replace/actions/index.js:122
+msgid "WordPress Action"
+msgstr ""
+
+#: src/page/search-replace/actions/index.js:155
+msgid "Only include selected columns"
+msgstr ""
+
+#: src/page/search-replace/actions/modify-columns.js:53
+msgid "Column"
+msgstr ""
+
+#: src/page/search-replace/actions/replace.js:40
+#: src/page/search-replace/actions/replace.js:52
+msgid "Enter global replacement text"
+msgstr ""
+
+#: src/page/search-replace/index.js:34
+msgid "Please backup your data before making modifications."
+msgstr ""
+
+#: src/page/search-replace/index.js:37
+msgid "Search and replace information in your database."
+msgstr ""
+
+#. translators: %s: total number of rows searched
+#: src/page/search-replace/pagination/advanced-pagination.js:35
+msgid "%s database row in total"
+msgid_plural "%s database rows in total"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %searched: number of rows searched and matched %phrases: number of phrases matched
+#: src/page/search-replace/pagination/advanced-pagination.js:43
+msgid "matched rows = %(searched)s"
+msgstr ""
+
+#: src/page/search-replace/pagination/advanced-pagination.js:49
+#: src/page/search-replace/pagination/simple-pagination.js:43
+msgid "First page"
+msgstr ""
+
+#. translators: %current: current percent progress
+#: src/page/search-replace/pagination/advanced-pagination.js:54
+msgid "Progress %(current)s%%"
+msgstr ""
+
+#: src/page/search-replace/pagination/advanced-pagination.js:60
+#: src/page/search-replace/pagination/simple-pagination.js:67
+msgid "Next page"
+msgstr ""
+
+#: src/page/search-replace/pagination/index.js:23
+msgid "Your search conditions have changed. Please refresh to see the latest results."
+msgstr ""
+
+#. translators: matches=number of matched rows, total=total number of rows
+#: src/page/search-replace/pagination/simple-pagination.js:34
+msgid "Matched rows: %(matches)s out of %(total)s total."
+msgstr ""
+
+#: src/page/search-replace/pagination/simple-pagination.js:50
+msgid "Prev page"
+msgstr ""
+
+#. translators: current=current page, total=total number of pages
+#: src/page/search-replace/pagination/simple-pagination.js:60
+msgid "Page %(current)s of %(total)s"
+msgstr ""
+
+#: src/page/search-replace/pagination/simple-pagination.js:74
+msgid "Last page"
+msgstr ""
+
+#: src/page/search-replace/search-actions.js:57
+msgid "Replace All"
+msgstr ""
+
+#: src/page/search-replace/search-actions.js:73
+msgid "Refresh"
+msgstr ""
+
+#: src/page/search-replace/search-form/filters.js:96
+msgid "AND"
+msgstr ""
+
+#: src/page/search-replace/search-form/form.js:220
+msgid "Sources"
+msgstr ""
+
+#: src/page/search-replace/search-form/form.js:309
+msgid "Results"
+msgstr ""
+
+#: src/page/search-replace/search-form/index.js:45
+msgid "Preset"
+msgstr ""
+
+#: src/page/search-replace/search-results/empty-results.js:11
+msgid "No more matching results found."
+msgstr ""
+
+#: src/page/search-replace/search-results/index.js:90
+msgid "Row ID"
+msgstr ""
+
+#: src/page/search-replace/search-results/index.js:91
+msgid "Matched Content"
+msgstr ""
+
+#: src/page/support/help.js:12
+msgid "Need more help?"
+msgstr ""
+
+#: src/page/support/help.js:15
+msgid "Full documentation for Search Regex can be found at {{site}}https://searchregex.com{{/site}}."
+msgstr ""
+
+#: src/page/support/help.js:24
+msgid "If you want to report a bug please read the {{report}}Reporting Bugs{{/report}} guide."
+msgstr ""
+
+#: src/page/support/help.js:47
+msgid "Please note that any support is provide on as-time-is-available basis and is not guaranteed. I do not provide paid support."
+msgstr ""
+
+#: src/page/support/help.js:54
+msgid "If you want to submit information that you don't want in a public repository then send it directly via {{email}}email{{/email}} - include as much information as you can!"
+msgstr ""
+
+#: src/page/support/help.js:70
+msgid "Like this plugin? You might want to consider {{link}}Redirection{{/link}}, a plugin to manage redirects, from the same author."
+msgstr ""
+
+#: src/state/message/reducer.js:33
+msgid "Settings saved"
+msgstr ""
+
+#: src/state/message/reducer.js:34
+msgid "Row deleted"
+msgstr ""
+
+#: src/state/message/reducer.js:35
+msgid "Row replaced"
+msgstr ""
+
+#: src/state/message/reducer.js:36
+msgid "Row updated"
+msgstr ""
+
+#: src/state/message/reducer.js:37
+msgid "Preset saved"
+msgstr ""
+
+#: src/state/message/reducer.js:38
+msgid "Preset uploaded"
+msgstr ""
+
+#: src/state/search/selector.js:27
+msgid "Regular Expression"
+msgstr ""
+
+#: src/state/search/selector.js:28
+msgid "Regex"
+msgstr ""
+
+#: src/state/search/selector.js:32
+msgid "Ignore Case"
+msgstr ""
+
+#: src/state/search/selector.js:33
+msgid "Case"
+msgstr ""
+
+#: src/state/search/selector.js:37
+msgid "Multiline"
+msgstr ""
+
+#: src/state/search/selector.js:48
+msgid "25 per page"
+msgstr ""
+
+#: src/state/search/selector.js:52
+msgid "50 per page"
+msgstr ""
+
+#: src/state/search/selector.js:56
+msgid "100 per page"
+msgstr ""
+
+#: src/state/search/selector.js:60
+msgid "250 per page"
+msgstr ""
+
+#: src/state/search/selector.js:64
+msgid "500 per page"
+msgstr ""
+
+#: src/state/search/selector.js:68
+msgid "1000 per page"
+msgstr ""
+
+#: src/state/search/selector.js:72
+msgid "2000 per page"
+msgstr ""
+
+#: src/wp-plugin-components/error/debug/index.js:70
+msgid "Show debug"
+msgstr ""
+
+#: src/wp-plugin-components/error/debug/index.js:80
+msgid "Debug Information"
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:76
+msgid "WordPress did not return a response. This could mean an error occurred or that the request was blocked. Please check your server error_log."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:88
+msgid "Your REST API is probably being blocked by a security plugin. Please disable this, or configure it to allow REST API requests."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:94
+#: src/wp-plugin-components/error/decode-error/index.js:140
+#: src/wp-plugin-components/error/decode-error/index.js:185
+#: src/wp-plugin-components/error/decode-error/index.js:227
+msgid "Read this REST API guide for more information."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:105
+msgid "Your WordPress REST API is returning a 404 page. This is almost certainly an external plugin or server configuration issue."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:111
+msgid "You will will need to fix this on your site. Redirection is not causing the error."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:117
+msgid "Can you access your {{api}}REST API{{/api}} without it redirecting?."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:125
+msgid "Check your {{link}}Site Health{{/link}} and fix any issues."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:131
+msgid "Your server configuration is blocking access to the REST API."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:133
+msgid "A security plugin or firewall is blocking access. You will need to whitelist the REST API."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:148
+msgid "Your REST API is being redirected. Please remove the redirection for the API."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:154
+msgid "Your server has rejected the request for being too big. You will need to reconfigure it to continue."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:162
+msgid "An unknown error occurred."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:169
+msgid "Your REST API is showing a deprecated PHP error. Please fix this error."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:179
+msgid "This could be a security plugin, or your server is out of memory or has an external error. Please check your server error log"
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:193
+msgid "Your WordPress REST API has been disabled. You will need to enable it to continue."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:203
+msgid "WordPress returned an unexpected message. This could be a PHP error from another plugin, or data inserted by your theme."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:209
+msgid "Possible cause"
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:221
+msgid "Unable to make request due to browser security. This is typically because your WordPress and Site URL settings are inconsistent, or the request was blocked by your site CORS policy."
+msgstr ""
+
+#: src/wp-plugin-components/error/decode-error/index.js:239
+msgid "Your REST API appears to be cached and this will cause problems. Please exclude your REST API from your caching system."
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-api.js:18
+msgid "Bad data"
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-api.js:20
+msgid "There was a problem making a request to your site. This could indicate you provided data that did not match requirements, or that the plugin sent a bad request."
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-api.js:21
+msgid "Please review your data and try again."
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-default.js:17
+msgid "REST API 404"
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-default.js:20
+#: src/wp-plugin-components/error/display/error-fixed.js:18
+#: src/wp-plugin-components/error/display/error-known.js:25
+msgid "Something went wrong 🙁"
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-nonce.js:18
+msgid "You are using an old or cached session"
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-nonce.js:20
+msgid "This is usually fixed by doing one of the following:"
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-nonce.js:22
+msgid "Reload the page - your current session is old."
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-nonce.js:24
+msgid "Log out, clear your browser cache, and log in again - your browser has cached an old session."
+msgstr ""
+
+#: src/wp-plugin-components/error/display/error-nonce.js:29
+msgid "Your admin pages are being cached. Clear this cache and try again. There may be multiple caches involved."
+msgstr ""

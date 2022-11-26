@@ -272,7 +272,7 @@ class Providers {
 
 		$doc_arr['facebook'] = [
 			'getting_txt' => __('To allow your visitors to log in with their Facebook account, first you must create a Facebook App. The following guide will help you through the Facebook App creation process. After you have created your Facebook App, head over to "Settings" and configure the given "App ID" and "App Secret" according to your Facebook App.', 'wp-social'),
-			'doc_url'     => 'https://help.wpmet.com/docs/facebook-social-login/',
+			'doc_url'     => 'https://wpmet.com/doc/facebook-social-login-app/',
 			'local_ins'   => __('For local development environment you do not need to add the redirect URI.', 'wp-social'),
 		];
 
@@ -320,7 +320,13 @@ class Providers {
 
 		$doc_arr['vkontakte'] = [
 			'getting_txt' => __('To allow your visitors to log in with their Vkontakte account, first you must create a Vkontakte App. The following guide will help you through the Vkontakte App creation process. After you have created your Vkontakte App, head over to "Settings" and configure the given "App ID" and "App Secret" according to your Vkontakte App.', 'wp-social'),
-			'doc_url'     => $doc_url,
+			'doc_url'     => 'https://wpmet.com/doc/vkontakte-integration-for-wp-social/',
+			'local_ins'   => '',
+		];
+
+		$doc_arr['lineapp'] = [
+			'getting_txt' => __('To allow your visitors to log in with their LineApp account, first you must create a LineApp. The following guide will help you through the LineApp creation process. After you have created your LineApp, head over to "Settings" and configure the given "App ID" and "App Secret" according to your LineApp.', 'wp-social'),
+			'doc_url'     => 'https://wpmet.com/doc/wp-social-line-app-integration/',
 			'local_ins'   => '',
 		];
 

@@ -86,6 +86,7 @@ $className = 'xs-login xs-login--' . $currentStyle;
 			$correntUrlLogout = esc_url(xs_current_url_custom());
 			?>
             <div><a class="wslu-logout-button"
+                    rel="nofollow"
                     href="<?php echo wp_logout_url($correntUrlLogout); ?>"><?php echo esc_html__('Logout', 'wp-social'); ?></a>
             </div> <?php
 		} ?>

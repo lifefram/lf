@@ -99,6 +99,8 @@ if ( isset( $can_show_custom_fields ) && 1 == $can_show_custom_fields ) {
         while ( $acadp_query->have_posts() ) : 
             $acadp_query->the_post(); 
             $post_meta = get_post_meta( $post->ID ); 
+			
+			do_shortcode('[ajax_load_more id="2669031286" loading_style="purple" container_type="div" post_type="acadp_listings" posts_per_page="10" no_results_text="No more results."]');
             ?>
             <div <?php the_acadp_listing_entry_class( $post_meta, 'row' ); ?>>
                 <?php if ( $can_show_images ) : ?>

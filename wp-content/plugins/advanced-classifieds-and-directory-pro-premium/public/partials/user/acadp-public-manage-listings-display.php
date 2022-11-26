@@ -25,12 +25,12 @@
                 	<?php $search_query = isset( $_REQUEST['u'] ) ? $_REQUEST['u'] : ''; ?>
     				<input type="text" name="u" class="form-control" placeholder="<?php esc_attr_e( "Search by title", 'advanced-classifieds-and-directory-pro' ); ?>" value="<?php echo esc_attr( $search_query ); ?>" />
   				</div>
-                <button type="submit" class="btn btn-primary"><?php esc_html_e( "Search", 'advanced-classifieds-and-directory-pro' ); ?></button>
+                <button type="submit" class="btn btn-default"><?php esc_html_e( "Search", 'advanced-classifieds-and-directory-pro' ); ?></button>
                 <a href="<?php echo esc_url( acadp_get_manage_listings_page_link() ); ?>" class="btn btn-default"><?php esc_html_e( "Reset", 'advanced-classifieds-and-directory-pro' ); ?></a>
             </form>
         </div>
         <div class="pull-right">
-        	<a href="<?php echo esc_url( acadp_get_listing_form_page_link() ); ?>" class="btn btn-success"><?php esc_html_e( 'Add New Listing', 'advanced-classifieds-and-directory-pro' ); ?></a>
+        	<a href="<?php echo esc_url( acadp_get_listing_form_page_link() ); ?>" class="btn btn-primary"><?php esc_html_e( 'Add New Listing', 'advanced-classifieds-and-directory-pro' ); ?></a>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -56,9 +56,17 @@
                 </div>
 
 				<p>
-                	<small class="text-muted">
+                	<!--Mel: 23/09/22-->
+					<small>
+					<!--<small class="text-muted">-->
 						<?php printf( esc_html__( 'Posted %s ago', 'advanced-classifieds-and-directory-pro' ), human_time_diff( get_the_time( 'U' ), current_time( 'timestamp' ) ) ); ?>
                     </small>
+					<!--Mel: 23/09/22-->
+					<br>
+					<small>
+                		<?php _e( 'Status', 'advanced-classifieds-and-directory-pro' ); ?>: 
+                    	<?php echo esc_html( acadp_get_listing_status_i18n( $post->post_status ) ); ?>
+					</small>
                 </p>
 
 				<?php
@@ -69,7 +77,9 @@
 					foreach ( $categories as $category ) {						
 						$category_links[] = sprintf( '<a href="%s">%s</a>', esc_url( acadp_get_category_page_link( $category ) ), esc_html( $category->name ) );						
 					}
-					$info[] = sprintf( '<span class="glyphicon glyphicon-briefcase"></span>&nbsp;%s', implode( ', ', $category_links ) );
+					//Mel: 23/09/22
+					$info[] = sprintf( '<span class="glyphicon glyphicon-map-marker"></span>&nbsp;%s', implode( ', ', $category_links ) );
+					//$info[] = sprintf( '<span class="glyphicon glyphicon-briefcase"></span>&nbsp;%s', implode( ', ', $category_links ) );
 				}
 				
 				if ( $has_location && $locations = wp_get_object_terms( $post->ID, 'acadp_locations' ) ) {
@@ -91,23 +101,26 @@
 
 				echo '<p class=""><small>' . implode( ' / ', $info ) . '</small></p>';
 				?>
+
+                <!--Mel: 23/09/22
+				<p>
+                	<strong><?php //_e( 'Status', 'advanced-classifieds-and-directory-pro' ); ?></strong>: 
+                    <?php //echo //esc_html( acadp_get_listing_status_i18n( $post->post_status ) ); ?>
+                </p> -->
                 
-                <p>
-                	<strong><?php _e( 'Status', 'advanced-classifieds-and-directory-pro' ); ?></strong>: 
-                    <?php echo esc_html( acadp_get_listing_status_i18n( $post->post_status ) ); ?>
-                </p>
-                
-                <?php if ( ! empty( $post_meta['never_expires'] ) ) : ?>
+				<!--Mel: 23/09/22
+                <?php //if ( ! empty( $post_meta['never_expires'] ) ) : ?>
                 	<p>
-                		<strong><?php esc_html_e( 'Expires on', 'advanced-classifieds-and-directory-pro' ); ?></strong>: 
-                    	<?php esc_html_e( 'Never Expires', 'advanced-classifieds-and-directory-pro' ); ?>
+                		<strong><?php //esc_html_e( 'Expires on', 'advanced-classifieds-and-directory-pro' ); ?></strong>: 
+                    	<?php //esc_html_e( 'Never Expires', 'advanced-classifieds-and-directory-pro' ); ?>
                 	</p>                
-                <?php elseif ( ! empty( $post_meta['expiry_date'] ) ) : ?>
+                <?php //elseif ( ! empty( $post_meta['expiry_date'] ) ) : ?>
                 	<p>
-                		<strong><?php esc_html_e( 'Expires on', 'advanced-classifieds-and-directory-pro' ); ?></strong>: 
-                    	<?php echo date_i18n( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ), strtotime( $post_meta['expiry_date'][0] ) ); ?>
+                		<strong><?php //esc_html_e( 'Expires on', 'advanced-classifieds-and-directory-pro' ); ?></strong>: 
+                    	<?php //echo date_i18n( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ), strtotime( $post_meta['expiry_date'][0] ) ); ?>
                 	</p>
-                <?php endif; ?>
+                <?php //endif; ?>
+				Mel: End -->
              </div>
             
             <div class="col-md-3 text-right">
@@ -141,7 +154,7 @@
                         </a>
                     <?php endif; ?>
                        
-               		<a href="<?php echo esc_url( acadp_get_listing_delete_page_link( $post->ID ) ); ?>" class="btn btn-danger btn-sm" onclick="return confirm( '<?php esc_attr_e( 'Are you sure you want to delete this listing?', 'advanced-classifieds-and-directory-pro' ); ?>' );">
+               		<a href="<?php echo esc_url( acadp_get_listing_delete_page_link( $post->ID ) ); ?>" class="btn btn-default" onclick="return confirm( '<?php esc_attr_e( 'Are you sure you want to delete this listing?', 'advanced-classifieds-and-directory-pro' ); ?>' );">
 						<?php esc_html_e( 'Delete', 'advanced-classifieds-and-directory-pro' ); ?>
                 	</a>
                 </div>

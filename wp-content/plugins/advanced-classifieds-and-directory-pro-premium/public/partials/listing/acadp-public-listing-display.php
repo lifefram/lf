@@ -132,7 +132,7 @@
                 //$meta[] = sprintf( '<span class="glyphicon glyphicon-zoom-in"></span>&nbsp;<a href="https://explorer.testnet.aurora.dev/tx/%s">%s</a>', $post_meta['tx_hash'][0], esc_html__( 'View on Block Explorer', 'advanced-classifieds-and-directory-pro' ) );
 				
 				//Check if the bio is stored in IPFS
-				if ( $post_meta['ipfs_cid'][0] ) {
+				if ( !empty($post_meta['ipfs_cid'][0]) ) {
 					$meta[] = sprintf( '<span class="glyphicon glyphicon-file"></span>&nbsp;<a href="https://ipfs.io/ipfs/%s">%s</a>', $post_meta['ipfs_cid'][0], esc_html__( 'View on IPFS', 'advanced-classifieds-and-directory-pro' ) );
 
 				}

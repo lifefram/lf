@@ -124,7 +124,7 @@ defined('ABSPATH') || exit;
 				$setLabel = (isset($counter_provider[$k]['label']) && strlen($counter_provider[$k]['label']) > 2) ? $counter_provider[$k]['label'] : $name;
 
 				$defaultText = isset($v['data']['text']) ? $v['data']['text'] : '';
-				$belowText = (isset($counter_social_items[$k]['data']['text'])) ? $counter_social_items[$k]['data']['text'] : $defaultText;
+				$belowText = (isset($counter_provider[$k]['data']['text'])) ? $counter_provider[$k]['data']['text'] : $defaultText;
 				$belowValue = (isset($counter_provider[$k]['data']['value']) && $counter_provider[$k]['data']['value'] > 0) ? $counter_provider[$k]['data']['value'] : 0;
 
 				$filedData = isset($filed[$k]) ? $filed[$k] : '';
@@ -408,15 +408,9 @@ defined('ABSPATH') || exit;
 													$username = empty($counter_provider[$provider]['id']) ? '' : sanitize_key($counter_provider[$provider]['id']);
 												}
 
-												if($obj->need_to_call_legacy_function()) {
+												$time = get_option('_xs_social_' . $k . '_last_cached', 0);
 
-													$ago = $obj->get_cache_time_verbose();
-
-												} else {
-
-													$time = get_option('_xs_social_' . $k . '_last_cached', 0);
-													$ago = empty($time) ? esc_html__('No cache found', 'wp-social') : human_time_diff($time, time()) . ' ' . esc_html__('ago', 'wp-social');
-												}
+												$ago = empty($time) ? esc_html__('No cache found', 'wp-social') : human_time_diff($time, time()) . ' ' . esc_html__('ago', 'wp-social');
 
 												?>
 
@@ -427,9 +421,7 @@ defined('ABSPATH') || exit;
 														<?php echo esc_html__('Clear', 'wp-social') ?>
                                                     </button>
 
-                                                    <span
-                                                            class="wslu-catch-clear--text"
-                                                            id="<?php echo $k ?>_cache_msg">
+                                                    <span class="wslu-catch-clear--text" id="<?php echo $k ?>_cache_msg">
                                                         <?php echo 'Cached : ' . $ago; ?>
                                                     </span>
                                                 </div>

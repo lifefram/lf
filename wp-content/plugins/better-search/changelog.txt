@@ -1,0 +1,273 @@
+This file holds the archive of changelog entries
+
+= 2.5.3 =
+
+Release post: [https://webberzone.com/blog/better-search-v2-5-0/](https://webberzone.com/blog/better-search-v2-5-0/)
+
+* Bug fixes:
+	* Security fix
+	* Variable fix for LIMIT clause
+
+= 2.5.2 =
+
+* Bug fixes:
+    * Password protected posts will no longer show the excerpt but a default message
+
+= 2.5.1 =
+
+* Bug fixes:
+	* Custom CSS box would not save
+
+= 2.5.0 =
+
+* Features:
+    * New section under Better Search &raquo; Tools to export and import settings. Best option if you'd like the same configuration across multiple WordPress sites
+
+* Enhancements:
+	* If thumbnails are enabled on search results page with seamless mode off, the plugin will search for multiple option in addition to the post thumbnail
+	* Admin scripts are no longer loaded into the head - but using a separate JavaScript file
+	* Implemented CodeMirror to format custom styles box
+	* Replaced jscolor with WordPress color picker
+	* New filters to modify the style, class, title
+
+* Bug fixes:
+	* Fixed notices in PHP 7.4 when viewing popular searches listings
+	* Link to Better Search plugin page was not nofollow
+
+= 2.4.0 =
+
+Release post: [https://webberzone.com/blog/better-search-v2-4-0/](https://webberzone.com/blog/better-search-v2-4-0/)
+
+* Features:
+	* New interface in the admin area to view popular searches. You can also delete the search results from this page
+	* New setting *Number format count* under General to turn on/off the number formating of the search count
+	* New setting *Exclude Categories* under Search to exclude posts that belong to certain categories
+	* New setting *Stop query on banned words filter* under Search to stop searching if the search query contains any word from the banned list i.e. "Filter these words" setting. If you have seamless mode off, Better Search will display an error message. With seamless mode on, this will give a Nothing found message. You can customize it by editing your theme
+	* New setting *Filter whole words only* to only filter the full words from the banned list. When activated, partial words will no longer be blocked. You will need to update your banned words list to record more words that you would like filtered
+
+* Bug fixes:
+	* Options with checkboxes that haven't been saved in the database should display correctly
+	* Fixed `bsearch_read_options is deprecated` message on activation
+
+= 2.3.0 =
+
+Release post: [https://webberzone.com/blog/better-search-v2-3-0/](https://webberzone.com/blog/better-search-v2-3-0/)
+
+* Features:
+	* New option to disable aggressive searching when no results are found
+
+* Enhancements:
+	* HTML markup for the search results page when seamless mode is OFF has been rewritten with several new classes. [View example markup](https://gist.github.com/ajaydsouza/5f88766b9ea6cad3b032533383733813)
+
+* Bug fixes:
+	* WHERE clause will be the same with Seamless mode ON or OFF
+	* The plugin will only force BOOLEAN mode if no results are found and this wasn't already enabled
+
+For previous changelog entries, please refer to the separate changelog.txt file
+
+= 2.2.4 =
+
+* Features:
+	* Searches are now tracked using Query Variables
+
+= 2.2.3 =
+
+* Bug fix:
+	* Fixed security issue. Reported by [Ryan Dewhurst](https://wpvulndb.com/vulnerabilities/9236)
+	* WHERE clause is not replaced in seamless mode
+
+= 2.2.2 =
+
+* Bug fixes:
+	* Phrase searches and searches with double quotes should now work properly
+	* Specified one instance of a missing table prefix to avoid conflicts
+
+= 2.2.1 =
+
+* Bug fixes:
+	* Fixed "Fatal error: Can't use function return value in write context"
+	* Specified table prefix to avoid conflicts
+	* Fixed code in Tools page for dropping index
+
+= 2.2.0 =
+
+* Features:
+	* New option to exclude password protected posts from the results
+	* New option to exclude post/page or custom post type IDs from the results
+
+* Enhancements:
+	* Admin interface now uses the Settings API - Please double check your settings. You can delete the old settings using the Tools sub-menu
+	* New shortcode `bsearch_form` to display the Better Search custom search form
+	* Use `template_include` instead of `template_redirect`
+	* Seamless mode now uses Better Search queries directly instead of passing post IDs
+
+* Deprecated:
+	* $bsearch_url, bsearch_default_options(), bsearch_read_options(), bsearch_clause_prepare()
+
+= 2.1.1 =
+
+* Bug fixes:
+	* Sanitisation doesn't strip out + and -
+	* Highlight works properly when using quotations, plus or minus
+
+= 2.1.0 =
+* Features:
+	* Cache enable/disable option + Clear cache button. Replaces "Delete transients"
+	* Search form widget. Find it under Appearances > Widgets or in the Customizer
+	* Heatmap search widget: Display the popular searches heatmap using `[bsearch_heatmap]`
+
+* Enhancements:
+	* Query filters now work for the LIKE search as well
+	* New filter to override the censor character (currently a space) e.g. usage at https://gist.github.com/ajaydsouza/f23f35704431485c6922
+	* Banned terms will now filter the main search query and will no longer display the search term even in seamless mode
+
+* Bug fixes:
+	* Highlighting now works when the search term has double or single quotes
+
+= 2.0.1 =
+* Bug fixes:
+	* Bug where highlighting search terms broke HTML in links
+
+= 2.0.0 =
+* Features:
+	* Network Activate and Deactivate the plugin on WordPress Multisite
+	* Option to highlight search results. If missing, add: <code>.bsearch_highlight { background:#ffc; }</code> under Custom Styles
+	* Fully filterable search query
+	* Recreate Index button in the settings page
+	* Delete transients button in the settings page
+
+* Enhancements:
+	* Better Search will now try BOOLEAN MODE and non-FULLTEXT modes in case FULLTEXT search doesn't return any results
+	* Deprecated always dynamic heatmap option that bypassed cache
+	* Reorganised admin interface
+	* Seamless mode is now the default mode
+	* Better Search uses transients to catch results when not using seamless mode
+	* Search form uses `class` instead of `id`
+
+* Bug fixes:
+	* Seamless mode would overwrite all queries, even those outside the loop
+	* WordPress widget settings
+
+= 1.3.6 =
+* Bug fixes:
+	* Fixes missing wick files in Settings page 404 error
+
+= 1.3.5 =
+* Bug fixes:
+	* Seamless mode interfered with the Media search in the Admin
+	* Potential Reflective XSS vulnerability
+
+= 1.3.4 =
+* Features:
+	* Option to add `noindex,nofollow` meta tag to the header
+
+* Enhancements:
+	* Tracking script now set to bypass <a href="https://support.cloudflare.com/hc/en-us/articles/200168056-What-does-Rocket-Loader-do-">Rocket Loader</a>
+
+* Bug fixes:
+	* Class of header row on search results page. You can now add your custom styles to `bsearch_nav_row1` and `bsearch_nav_row2`
+	* Widget search heatmap colours were not loaded properly
+
+= 1.3.3 =
+* Features:
+	* Responsive admin interface
+	* Seamless integration mode. With this enabled, you can benefit from relevant search results displayed how your theme intended it to be!
+	* Option to turn off tracking searches of Admins and Editors
+
+* Enhancements:
+	* Modified `get_bsearch_heatmap` to accept an array of parameters. If you're using this function, please note the modified usage in the FAQ
+	* Reformatted code to follow WordPress PHP Standards
+
+* Bug fixes:
+	* Widget initialisation
+
+= 1.3.2 =
+* Features:
+	* Profanity filter. Courtesy <a href="http://banbuilder.com/">Banbuilders</a>
+	* Option to turn of the search results tracking. Ideal if you don't care about the popular search terms on your blog
+	* Option to include the thumbnails in the search results
+
+* Enhancements:
+	* Search results now have better pagination. This is especially good when you have lots of search results - Thanks to J Norton for this feature
+	* Plugin should now return results even if the search word is less than 4 characters
+
+* Bug fixes:
+	* Bug fixes - Thanks to Rich for some of the fixes
+
+= 1.3.1 =
+
+* Bug fixes:
+	* PHP Notices
+
+= 1.3 =
+* Features:
+	* New option to activate BOOLEAN mode of mySQL FULLTEXT searching. <a href="https://dev.mysql.com/doc/refman/5.0/en/fulltext-boolean.html" target="_blank">Check the mySQL docs for further information on this</a>
+	* Custom post type support. Now choose what visitors are allowed to search
+	* Links in the search heatmap are no-follow by default. You can turn this off in the Settings page
+	* Option to make make heatmap links to open in a new window
+	* Option to turn off the display of the heatmap on the results page
+	* New CSS classes for heatmaps on the search results page - `heatmap_daily` and `heatmap_overall`
+
+* Enhancements:
+	* Revamp of admin interface of the plugin
+
+* Bug fixes:
+	* Possible cross-site request forgery issue in the Settings page
+
+= 1.2.1 =
+* Bug fixes:
+	* "Missing argument" error for heatmaps
+
+= 1.2 =
+* Features:
+	* Updates for better search template compatibility. New template included in this release
+	* New template file based on Twenty Eleven WordPress theme
+
+* Enhancements:
+	* Relevance score is now displayed as a percentage
+	* Default search colours for the heatmap are grey and black instead of blue and red
+	* Plugin will not add a link to <a href="https://webberzone.com/plugins/better-search/">Better Search homepage</a> by default
+	* New WordPress widget to display the popular searches in your sidebar
+
+* Bug fixes:
+	* Daily search terms were not being cleared
+
+= 1.1.7 =
+* Enhancements:
+	* Two new fulltext indexes added... the first step to better control on search results
+
+= 1.1.6 =
+* Bug fixes:
+	* Bug fixed in display of daily search heatmap
+
+= 1.1.5 =
+* Bug fixes:
+	* Fixed a bug
+
+= 1.1.4 =
+* Bug fixes:
+* Fixed a bug
+
+= 1.1.3 =
+* Bug fixes:
+	* Critical Fix: Possible security hole
+
+= 1.1.2 =
+* Bug fixes:
+	* Searches not tracked when not using template
+
+= 1.1.1 =
+* Bug fixes:
+	* Certain search terms didn't work
+
+= 1.1 =
+* Enhancements:
+	* Plugin now allows use of template file. Create a file `better-search-template.php` in your themes folder.
+	* Pages are also included in the results. You can turn it off in options
+	* Drafts are no longer included in results
+	* WordPress Title rewritten
+	* Added support for localization.
+
+= 1.0 =
+* Release
+
