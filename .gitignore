@@ -50,5 +50,5 @@ wp-config.php
 # Debugging
 phpinfo.php
 
-# Backup
+# Backup files
 *.php-*
