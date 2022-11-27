@@ -819,6 +819,17 @@ function save_publisher( $post ) {
 }
 add_action(  'pending_to_publish',  'save_publisher', 10, 1 );
 
+//To know who's the one updated a bio
+function save_updater( $post_id, $post, $update ) {
+	
+	if ( $post->post_type == 'acadp_listings' ) {
+		// Set current user ID as a post meta. This meta key is also set if someone creates a new bio
+		update_post_meta( $post_id, '_updater_id', get_current_user_id() );
+	}
+
+}
+add_action(  'save_post',  'save_updater', 10, 3 );
+
 //Mel: 04/10/22
 //To formally add custom query variables to main $wp_query object. So that wp can read the query string.
 //Src: https://wordpress.org/support/topic/how-and-why-does-wp-rewrite-certain-url-query-parameter/
