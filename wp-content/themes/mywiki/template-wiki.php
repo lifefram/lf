@@ -27,7 +27,7 @@ get_header(); ?>
        ?>
 		<!--Mel: 07/12/21-->
 		<br />
-		<center><a href="../advanced-search"><?php esc_html_e('Advanced Search','mywiki'); ?></a></center>
+		<center><a href="../advanced-search-ajax"><?php esc_html_e('Advanced Search','mywiki'); ?></a></center>
 
 	   <div class="content-according"></div><div class="content-according"></div><div class="page-catheader"></div>
       <?php $mywiki_category_selected = get_theme_mod('mywiki_category_list',array());
